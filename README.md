@@ -1,5 +1,5 @@
-# ZRaup_Portfolio
-Data_Analyst_Portfolio
+## ZRaup_Portfolio
+Data Analyst Portfolio
 
 # [Project 1: Analyzing Exoplanet Data](githuplink)
 
