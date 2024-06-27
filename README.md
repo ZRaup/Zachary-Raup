@@ -17,12 +17,14 @@ This is part of an astrophysics research project that I presented at the 241 AAS
 
 
 ## Key Components
+### MCMC Algorithm: 
+This is used to sample from the posterior distribution of your model parameters (like Radius of Planet, Impact Parameter, Time of Mid-Transit) given your data. It's great for exploring parameter space and understanding the uncertainties in your measurements.
 
-MCMC Algorithm: This is used to sample from the posterior distribution of your model parameters (like Radius of Planet, Impact Parameter, Time of Mid-Transit) given your data. It's great for exploring parameter space and understanding the uncertainties in your measurements.
+### Log Likelihood Function: 
+This function quantifies how well your model (presumably the exoplanet transit model) fits the observed photometry data. The MCMC algorithm uses this to evaluate the likelihood of different parameter values.
 
-Log Likelihood Function: This function quantifies how well your model (presumably the exoplanet transit model) fits the observed photometry data. The MCMC algorithm uses this to evaluate the likelihood of different parameter values.
-
-Exoplanet Transit Model: You've mentioned creating a model of an exoplanet transit. This model likely uses physics-based equations to predict how the brightness of the star changes as the exoplanet transits in front of it.
+### Exoplanet Transit Model: 
+You've mentioned creating a model of an exoplanet transit. This model likely uses physics-based equations to predict how the brightness of the star changes as the exoplanet transits in front of it.
 
 Data Source: Photometry data from the CR Chambliss Astronomical Observatory. This data is crucial for fitting your model and validating your results.
 
