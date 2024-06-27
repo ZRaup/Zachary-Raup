@@ -9,7 +9,7 @@ Below is a select list of completed data and coding projects that I have complet
 
 # [Project 1: Using MCMC in Python to Determine Parameter Values of an Exoplanet](TOI4153.ipynb)
 
-#### Key Components
+### Key Components
 ##### MCMC Algorithm: 
 This is used to sample from the posterior distribution of your model parameters (like Radius of Planet, Impact Parameter, Time of Mid-Transit) given your data. It's great for exploring parameter space and understanding the uncertainties in your measurements.
 
