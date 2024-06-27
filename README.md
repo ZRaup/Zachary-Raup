@@ -1,4 +1,5 @@
 ## ZRaup_Portfolio
+<a href = "www.linkedin.com/in/zachary-raup-6280a3265"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 Data Analyst Portfolio
 
 # [Project 1: Using MCMC in Python to Determine Parameter Values of an Exoplanet](TOI4153.ipynb)
