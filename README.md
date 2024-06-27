@@ -26,9 +26,11 @@ This function quantifies how well your model (presumably the exoplanet transit m
 ### Exoplanet Transit Model: 
 You've mentioned creating a model of an exoplanet transit. This model likely uses physics-based equations to predict how the brightness of the star changes as the exoplanet transits in front of it.
 
-Data Source: Photometry data from the CR Chambliss Astronomical Observatory. This data is crucial for fitting your model and validating your results.
+#### Data Source: 
+Photometry data from the CR Chambliss Astronomical Observatory. This data is crucial for fitting your model and validating your results.
 
-Visualization: You mentioned plotting a light curve of the exoplanet transit based on the photometry data. Visualizing your results helps in understanding the quality of your fit and in communicating your findings.
+##### Visualization: 
+You mentioned plotting a light curve of the exoplanet transit based on the photometry data. Visualizing your results helps in understanding the quality of your fit and in communicating your findings.
 
 
 
