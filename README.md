@@ -1,7 +1,7 @@
 ## ZRaup_Portfolio
 Data Analyst Portfolio
 
-# [Project 1: Analyzing Exoplanet Data](TOI4153.ipynb)
+# [Project 1: Modeling Exoplanet Data](TOI4153.ipynb)
 
 This is part of an astrophysics research project I worked on while at the Kutztown University
   - Data was taken from the 0.61 m telescope at the CR Chambliss Astronomical Observatory in Kutztown, Pa.
