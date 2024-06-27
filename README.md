@@ -1,7 +1,7 @@
 ## ZRaup_Portfolio
 Data Analyst Portfolio
 
-# [Project 1: Using MCMC in Python to Determine Parameter Values of an Exoplanet](TOI4153.ipynb, lightkurve.png)
+# [Project 1: Using MCMC in Python to Determine Parameter Values of an Exoplanet](TOI4153.ipynb)(lightkurve.png)
 
 This is part of an astrophysics research project that I presented at the 241 AAS meeting
   - Utilizes a Log likelyhood funtion and Monte Carlo Monte Carlo (MCMC) algorythm to understand the probability distribution of important exoplanet parameter values
