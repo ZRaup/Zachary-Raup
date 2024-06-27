@@ -1,11 +1,11 @@
-# Hello, this is the Porfolio Page for Zachary Raup
+# Hello, this is the Data Analyst Porfolio Page for Zachary Raup
 
 LinkedIn Profile:
 
 <a href = "https://www.linkedin.com/in/zachary-raup-6280a3265"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 
-Data Analyst Portfolio
+Below is a select list of completed data and coding projects that I have completed
 
 # [Project 1: Using MCMC in Python to Determine Parameter Values of an Exoplanet](TOI4153.ipynb)
 
