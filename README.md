@@ -29,4 +29,4 @@ Photometry data from the CR Chambliss Astronomical Observatory. This data is cru
 Python package matplotlib. mentioned plotting a light curve of the exoplanet transit based on the photometry data. Visualizing your results helps in understanding the quality of your fit and in communicating your findings.
 
 
-![](lightkurve.png)   ![](cornerplot.png)
+ ![](cornerplot.png)  
