@@ -1,6 +1,8 @@
 # Data Analyst Porfolio for Zachary Raup
 [Zachary's CV:](CV_Raup_Z.pdf)
+
 Zachary's LinkedIn Profile:
+
 <a href = "https://www.linkedin.com/in/zachary-raup-6280a3265"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 
