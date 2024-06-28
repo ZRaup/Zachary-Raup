@@ -28,5 +28,9 @@ Photometry data from the CR Chambliss Astronomical Observatory. This data is cru
 ##### Visualization: 
 Python package matplotlib. mentioned plotting a light curve of the exoplanet transit based on the photometry data. Visualizing your results helps in understanding the quality of your fit and in communicating your findings.
 
+###### Light curve of TOI 5143 data (CRCAO) and model (batman)
+ ![](lightkurve.png)
 
+###### Light curve of TOI 5143 data (CRCAO) and model (batman)
  ![](cornerplot.png)  
+
