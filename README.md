@@ -8,7 +8,7 @@ Zachary's LinkedIn Profile:
 
 Below is a select list of completed data and coding projects that I have completed
 
-# [Project 1: Using MCMC in Python to Determine Parameter Values of an Exoplanet](TOI4153.ipynb)
+## [Project 1: Using MCMC in Python to Determine Parameter Values of an Exoplanet](TOI4153.ipynb)
 
 ### Key Components
 ##### MCMC Algorithm: 
