@@ -1,4 +1,4 @@
-# Data Analyst Porfolio for Zachary Raup
+# Data Science Porfolio for Zachary Raup
 [Zachary's CV:](CV_Raup_Z.pdf)
 
 Zachary's LinkedIn Profile:
@@ -9,9 +9,9 @@ Zachary's LinkedIn Profile:
 
 Below is a select list of completed data and coding projects that I have completed
 
-## [Project 1: Using MCMC in Python to Determine Parameter Values of an Exoplanet](TOI4153.ipynb)
+### [Project 1: Using MCMC in Python to Determine Parameter Values of an Exoplanet](TOI4153.ipynb)
 
-### Key Components
+#### Key Components
 ##### MCMC Algorithm: 
 This is used to sample from the posterior distribution of your model parameters (like Radius of Planet, Impact Parameter, Time of Mid-Transit) given your data. It's great for exploring parameter space and understanding the uncertainties in your measurements.
 
