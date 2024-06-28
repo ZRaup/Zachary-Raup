@@ -7,7 +7,8 @@
 ### About Me
 sjakjns jsnka
 
-Below is a select list of data and coding projects that I have completed
+
+Below is a select list of data and coding projects that I have completed:
 
 ## [Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet](TOI4153.ipynb)
 
