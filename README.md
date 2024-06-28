@@ -10,7 +10,7 @@ sjakjns jsnka
 
 Below is a select list of data and coding projects that I have completed:
 
-## [Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet](TOI4153_port.ipynb)
+## [Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet](TOI4153_por.ipynb)
 
 #### Key Components
 ##### Exoplanet Transit Model: 
