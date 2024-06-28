@@ -1,3 +1,5 @@
+ ![](port_5x4s.png)  
+
 # Zachary Raup
 
 [Link to CV:](CV_Raup_Z.pdf)
