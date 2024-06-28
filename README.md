@@ -13,7 +13,7 @@ Professionally, I have developed robust capabilities in Python for data analysis
 
 I am dedicated to applying my expertise in Python, SQL, and data visualization tools to solve challenging problems and contribute meaningfully to data-driven projects. I thrive in collaborative environments and am committed to continuous learning and professional growth in the dynamic field of data science.
 
-&nbsp;  
+&nbsp;  [add an empty line]: # 
 
 Below is a select list of data and coding projects that I have completed:
 
@@ -34,6 +34,23 @@ Below is a select list of data and coding projects that I have completed:
 
 ### Presentation: 
 ##### Presented at the 241st AAS (American Astronomical Society) meeting.
+
+
+Exoplanet Transit Modeling:
+Using the Python package batman, I developed a model to simulate the transit of an exoplanet across a star. This model employs physics-based equations to predict how the brightness of the star changes as the exoplanet passes in front of it, known as the transit.
+
+Log Likelihood Function:
+The log likelihood function quantifies how well the exoplanet transit model fits observed photometry data collected from the CR Chambliss Astronomical Observatory. This function is crucial for assessing the statistical likelihood of different parameter values within the model.
+
+MCMC Algorithm:
+To infer the parameters of the exoplanet system, such as the radius of the planet, impact parameter, and time of mid-transit, I utilized the Python package emcee. This package implements the Markov Chain Monte Carlo (MCMC) algorithm, which samples from the posterior distribution of model parameters given the photometry data. MCMC is particularly useful for exploring parameter space and quantifying uncertainties in measurements.
+
+Data Source:
+The photometry data used in this analysis was sourced from the CR Chambliss Astronomical Observatory. These observational data points are essential for refining the exoplanet transit model and validating its accuracy against real-world observations.
+
+Visualization:
+For visualizing the results of the exoplanet transit model, I utilized the Python package 'matplotlib' to create light curves, histograms, and a corner plot to visualize of the parameter values, and parameter space in. These plots visually represent how the brightness of the star changes over time during the exoplanet transit. Visualizations are instrumental in evaluating the quality of the model fit and effectively communicating the findings of the study.
+
 
 
 #### Image 1:
