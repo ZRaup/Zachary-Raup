@@ -1,5 +1,4 @@
-# Zachary Raup
-![](port_5x4.png)
+# ![](port_5x4.jpg) Zachary Raup
 [Zachary's CV:](CV_Raup_Z.pdf)
 
 Zachary's LinkedIn Profile:
