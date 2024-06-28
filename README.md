@@ -10,27 +10,30 @@ sjakjns jsnka
 
 Below is a select list of data and coding projects that I have completed:
 
-## [Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet](TOI4153_por.ipynb)
+## [Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet](TOI4153_port.ipynb)
 
-#### Key Components
-##### Exoplanet Transit Model: 
-Python package, batman,You've mentioned creating a model of an exoplanet transit. This model likely uses physics-based equations to predict how the brightness of the star changes as the exoplanet transits in front of it.
+### Objective: 
+##### Using MCMC (Markov Chain Monte Carlo) to determine probability distributions of exoplanet parameters (Radius of Planet, Impact Parameter, Time of Mid-Transit) based on photometry data.
 
-##### Log Likelihood Function: 
-This function quantifies how well your model (presumably the exoplanet transit model) fits the observed photometry data. The MCMC algorithm uses this to evaluate the likelihood of different parameter values.
+### Methodology:
+##### - Develops a log likelihood function and applies MCMC algorithm to explore parameter space and quantify uncertainties.
+##### - Constructs an exoplanet transit model using known parameters of TOI-4153.
 
-##### MCMC Algorithm: 
-The python package, emcee, is used to sample from the posterior distribution of your model parameters (like Radius of Planet, Impact Parameter, Time of Mid-Transit) given your data. It's great for exploring parameter space and understanding the uncertainties in your measurements.
+### Data Source: 
+##### Utilizes photometry data obtained from the 0.61 m telescope at the CR Chambliss Astronomical Observatory in Kutztown, PA.
 
-##### Data Source: 
-Photometry data from the CR Chambliss Astronomical Observatory. This data is crucial for fitting your model and validating your results.
+### Visualization: 
+##### Includes plotting of light curves, histograms, and cornerplots in matplotlib to visualize and analyze the exoplanet transit based on the photometry data.
 
-##### Visualization: 
-Python package matplotlib. mentioned plotting a light curve of the exoplanet transit based on the photometry data. Visualizing your results helps in understanding the quality of your fit and in communicating your findings.
+### Presentation: 
+##### Presented at the 241st AAS (American Astronomical Society) meeting.
 
-###### Light curve of TOI 5143 data (CRCAO) and model (batman)
+
+#### Image 1:
+##### Light curve of TOI 5143 data (CRCAO) and model (batman)
  ![](lightkurve.png)
 
-###### Light curve of TOI 5143 data (CRCAO) and model (batman)
+#### Image 2:
+###### Corner plot of parameter space and histogram for the parameters of Planet Radius (Rp), Impact Parameter (b), and Mid-Transit Time (t0)
  ![](cornerplot.png)  
 
