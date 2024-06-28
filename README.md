@@ -1,4 +1,4 @@
- ![](port_5x4sss.png)  
+ ![](port_5x4ss.png)  
 
 # Zachary Raup
 
