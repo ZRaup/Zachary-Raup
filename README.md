@@ -1,4 +1,4 @@
- ![](port_circ.png)
+ ![](port_cir.png)
 # Zachary Raup
 
 [Link to CV:](CV_Raup_Z.pdf)
@@ -21,54 +21,8 @@ Below is a select list of data and coding projects that I have completed:
 ##### Project Overview
 ###### This research project focuses on modeling the transit of exoplanets across stars using the Python package 'batman'. The objective was to accurately predict changes in stellar brightness during these transits, validated against photometry data from the CR Chambliss Astronomical Observatory. Methodologically, a physics-based model was developed and evaluated using a log likelihood function to fit observational data. The Markov Chain Monte Carlo (MCMC) algorithm, facilitated by 'emcee', enabled exploration of parameter uncertainties such as planet radius and transit timing. Visualizations created with matplotlib included light curves, histograms of parameter distributions, and a corner plot illustrating parameter correlations. Presenting findings at the 241st AAS meeting highlighted contributions to understanding exoplanet transit dynamics, crucial for advancing knowledge of planetary systems beyond our solar system.
 
-
-
-### Objective: 
-##### This research project aims to model the transit of an exoplanet across a star using the Python package 'batman'. The objective is to predict changes in the star's brightness during these transits and assess the accuracy of the model against observed photometry data from the CR Chambliss Astronomical Observatory.
-
-### Methodology:
-##### The methodology involves developing a physics-based model using 'batman' to simulate exoplanet transits. A log likelihood function is employed to quantify the model's fit to observational data, utilizing photometry data collected from the observatory. The Markov Chain Monte Carlo (MCMC) algorithm, implemented via 'emcee', is utilized to sample from the posterior distribution of model parameters. This approach allows exploration of parameter space and estimation of uncertainties associated with key parameters such as planet radius, impact parameter, and time of mid-transit.
-
-### Data: 
-##### The primary data source for this study is photometry data obtained from the CR Chambliss Astronomical Observatory. These observational data points are crucial for refining the exoplanet transit model and validating its accuracy against real-world observations.
-
-### Visualization: 
-##### Visualization of the research findings is achieved through the use of the Python package matplotlib. This includes generating light curves that illustrate how the star's brightness changes over time during exoplanet transits. Additionally, histograms are used to visualize the probability distributions of model parameters, providing insights into uncertainties and likelihoods associated with each parameter estimation. A corner plot is employed to depict correlations and interactions between different model parameters, offering a comprehensive view of the model's complexity and relationships.
-
-### Presentation: 
-##### The presentation of research findings involves clear and informative visualizations that effectively communicate the quality of the model fit and the implications of the study's results. These visual aids not only highlight quantitative insights into parameter uncertainties but also validate the model against observational data from the CR Chambliss Astronomical Observatory. Additionally, I had the opportunity to present this research project at the 241st AAS (American Astronomical Society) meeting. The goal is to provide a robust analysis of exoplanet transit dynamics, contributing to our understanding of planetary systems beyond our solar system.
-
-Key Components
-Exoplanet Transit Modeling:
-Using the Python package 'batman', I developed a model to simulate the transit of an exoplanet across a star. This model employs physics-based equations to predict how the brightness of the star changes as the exoplanet passes in front of it, known as the transit.
-
-Log Likelihood Function:
-The log likelihood function quantifies how well the exoplanet transit model fits observed photometry data collected from the CR Chambliss Astronomical Observatory. This function is crucial for assessing the statistical likelihood of different parameter values within the model.
-
-MCMC Algorithm:
-I utilized the Python package 'emcee' to implement the Markov Chain Monte Carlo (MCMC) algorithm, which samples from the posterior distribution of model parameters given the photometry data. MCMC is particularly useful for exploring parameter space and quantifying uncertainties in measurements.
-
-Data Source:
-I collected the photometry data used in this analysis from the CR Chambliss Astronomical Observatory on Auguest 22202, 2202, using a blue and infrared filter. These observational data points are essential for refining the exoplanet transit model and validating its accuracy against real-world observations.
-
-Visualization:
-To visualize the results of the exoplanet transit model, I utilized the Python package matplotlib to generate several types of plots:
-
-- Light Curves: These plots illustrate how the brightness of the star changes over time during the exoplanet transit, providing a direct representation of the modeled data against observed photometry.
-
-- Parameter Probability Distributions: Histograms were employed to display the probability distributions of each model parameter (such as planet radius, impact parameter, and time of mid-transit). These distributions offer insights into the uncertainties and likelihoods associated with each parameter estimation.
-
-- Corner Plot: A corner plot was used to visualize the correlations and parameter space relationships between different model parameters. This type of plot aids in understanding how changes in one parameter affect others, offering a comprehensive view of the model's complexity.
-
-These visualizations play a crucial role in assessing the quality of the model fit and effectively communicating the findings of the study. They provide both quantitative insights into parameter uncertainties and qualitative validation against observational data from the CR Chambliss Astronomical Observatory.
-
-
-
 #### Image 1:
 ##### Light curve of TOI 5143 data (CRCAO) and model (batman)
  ![](lightkurve.png)
 
-#### Image 2:
-###### Corner plot of parameter space and histogram for the parameters of Planet Radius (Rp), Impact Parameter (b), and Mid-Transit Time (t0)
- ![](cornerplot.png)  
 
