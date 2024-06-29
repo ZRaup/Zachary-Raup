@@ -13,8 +13,8 @@ Professionally, I have developed robust capabilities in Python for data analysis
 I am dedicated to applying my expertise in Python, SQL, and data visualization tools to solve challenging problems and contribute meaningfully to data-driven projects. I thrive in collaborative environments and am committed to continuous learning and professional growth in the dynamic field of data science.
 
 &nbsp;  
-
-####### Below is a select list of data and coding projects that I have completed:
+---
+###### Below is a select list of data and coding projects that I have completed:
 
 ## [Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.ipynb)
 
