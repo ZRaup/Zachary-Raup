@@ -17,7 +17,7 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 
 Below is a select list of data and coding projects that I have completed:
 
-## [Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet](TOI4153_port.ipynb)
+## [Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.ipynb)
 
 ### Objective: 
 ##### This research project aims to model the transit of an exoplanet across a star using the Python package 'batman'. The objective is to predict changes in the star's brightness during these transits and assess the accuracy of the model against observed photometry data from the CR Chambliss Astronomical Observatory.
@@ -34,7 +34,7 @@ Below is a select list of data and coding projects that I have completed:
 ### Presentation: 
 ##### The presentation of research findings involves clear and informative visualizations that effectively communicate the quality of the model fit and the implications of the study's results. These visual aids not only highlight quantitative insights into parameter uncertainties but also validate the model against observational data from the CR Chambliss Astronomical Observatory. Additionally, I had the opportunity to present this research project at the 241st AAS (American Astronomical Society) meeting. The goal is to provide a robust analysis of exoplanet transit dynamics, contributing to our understanding of planetary systems beyond our solar system.
 
-
+Key Components
 Exoplanet Transit Modeling:
 Using the Python package 'batman', I developed a model to simulate the transit of an exoplanet across a star. This model employs physics-based equations to predict how the brightness of the star changes as the exoplanet passes in front of it, known as the transit.
 
