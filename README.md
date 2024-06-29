@@ -1,7 +1,8 @@
 ![](port_circ181.png)
 # Zachary Raup
-
+---
 [Link to CV:](CV_Raup_Z.pdf)
+
 <a href = "https://www.linkedin.com/in/zachary-raup-6280a3265"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 ### About Me
@@ -24,4 +25,4 @@ Below is a select list of data and coding projects that I have completed:
 ##### Light curve of TOI 5143 data (CRCAO) and model (batman)
  ![](lightkurve.png)
 
-
+---
