@@ -20,36 +20,43 @@ Below is a select list of data and coding projects that I have completed:
 ## [Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet](TOI4153_port.ipynb)
 
 ### Objective: 
-##### Using MCMC (Markov Chain Monte Carlo) to determine probability distributions of exoplanet parameters (Radius of Planet, Impact Parameter, Time of Mid-Transit) based on photometry data.
+##### This research project aims to model the transit of an exoplanet across a star using the Python package 'batman'. The objective is to predict changes in the star's brightness during these transits and assess the accuracy of the model against observed photometry data from the CR Chambliss Astronomical Observatory.
 
 ### Methodology:
-##### - Develops a log likelihood function and applies MCMC algorithm to explore parameter space and quantify uncertainties.
-##### - Constructs an exoplanet transit model using known parameters of TOI-4153.
+##### The methodology involves developing a physics-based model using 'batman' to simulate exoplanet transits. A log likelihood function is employed to quantify the model's fit to observational data, utilizing photometry data collected from the observatory. The Markov Chain Monte Carlo (MCMC) algorithm, implemented via 'emcee', is utilized to sample from the posterior distribution of model parameters. This approach allows exploration of parameter space and estimation of uncertainties associated with key parameters such as planet radius, impact parameter, and time of mid-transit.
 
-### Data Source: 
-##### Utilizes photometry data obtained from the 0.61 m telescope at the CR Chambliss Astronomical Observatory in Kutztown, PA.
+### Data: 
+##### The primary data source for this study is photometry data obtained from the CR Chambliss Astronomical Observatory. These observational data points are crucial for refining the exoplanet transit model and validating its accuracy against real-world observations.
 
 ### Visualization: 
-##### Includes plotting of light curves, histograms, and cornerplots in matplotlib to visualize and analyze the exoplanet transit based on the photometry data.
+##### Visualization of the research findings is achieved through the use of the Python package matplotlib. This includes generating light curves that illustrate how the star's brightness changes over time during exoplanet transits. Additionally, histograms are used to visualize the probability distributions of model parameters, providing insights into uncertainties and likelihoods associated with each parameter estimation. A corner plot is employed to depict correlations and interactions between different model parameters, offering a comprehensive view of the model's complexity and relationships.
 
 ### Presentation: 
-##### Presented at the 241st AAS (American Astronomical Society) meeting.
+##### The presentation of research findings involves clear and informative visualizations that effectively communicate the quality of the model fit and the implications of the study's results. These visual aids not only highlight quantitative insights into parameter uncertainties but also validate the model against observational data from the CR Chambliss Astronomical Observatory. Additionally, I had the opportunity to present this research project at the 241st AAS (American Astronomical Society) meeting. The goal is to provide a robust analysis of exoplanet transit dynamics, contributing to our understanding of planetary systems beyond our solar system.
 
 
 Exoplanet Transit Modeling:
-Using the Python package batman, I developed a model to simulate the transit of an exoplanet across a star. This model employs physics-based equations to predict how the brightness of the star changes as the exoplanet passes in front of it, known as the transit.
+Using the Python package 'batman', I developed a model to simulate the transit of an exoplanet across a star. This model employs physics-based equations to predict how the brightness of the star changes as the exoplanet passes in front of it, known as the transit.
 
 Log Likelihood Function:
 The log likelihood function quantifies how well the exoplanet transit model fits observed photometry data collected from the CR Chambliss Astronomical Observatory. This function is crucial for assessing the statistical likelihood of different parameter values within the model.
 
 MCMC Algorithm:
-To infer the parameters of the exoplanet system, such as the radius of the planet, impact parameter, and time of mid-transit, I utilized the Python package emcee. This package implements the Markov Chain Monte Carlo (MCMC) algorithm, which samples from the posterior distribution of model parameters given the photometry data. MCMC is particularly useful for exploring parameter space and quantifying uncertainties in measurements.
+I utilized the Python package 'emcee' to implement the Markov Chain Monte Carlo (MCMC) algorithm, which samples from the posterior distribution of model parameters given the photometry data. MCMC is particularly useful for exploring parameter space and quantifying uncertainties in measurements.
 
 Data Source:
-The photometry data used in this analysis was sourced from the CR Chambliss Astronomical Observatory. These observational data points are essential for refining the exoplanet transit model and validating its accuracy against real-world observations.
+I collected the photometry data used in this analysis from the CR Chambliss Astronomical Observatory on Auguest 22202, 2202, using a blue and infrared filter. These observational data points are essential for refining the exoplanet transit model and validating its accuracy against real-world observations.
 
 Visualization:
-For visualizing the results of the exoplanet transit model, I utilized the Python package 'matplotlib' to create light curves, histograms, and a corner plot to visualize of the parameter values, and parameter space in. These plots visually represent how the brightness of the star changes over time during the exoplanet transit. Visualizations are instrumental in evaluating the quality of the model fit and effectively communicating the findings of the study.
+To visualize the results of the exoplanet transit model, I utilized the Python package matplotlib to generate several types of plots:
+
+- Light Curves: These plots illustrate how the brightness of the star changes over time during the exoplanet transit, providing a direct representation of the modeled data against observed photometry.
+
+- Parameter Probability Distributions: Histograms were employed to display the probability distributions of each model parameter (such as planet radius, impact parameter, and time of mid-transit). These distributions offer insights into the uncertainties and likelihoods associated with each parameter estimation.
+
+- Corner Plot: A corner plot was used to visualize the correlations and parameter space relationships between different model parameters. This type of plot aids in understanding how changes in one parameter affect others, offering a comprehensive view of the model's complexity.
+
+These visualizations play a crucial role in assessing the quality of the model fit and effectively communicating the findings of the study. They provide both quantitative insights into parameter uncertainties and qualitative validation against observational data from the CR Chambliss Astronomical Observatory.
 
 
 
