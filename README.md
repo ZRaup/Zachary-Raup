@@ -1,9 +1,7 @@
 ![](port_circ181.png)
 # Zachary Raup
 
-[Link to CV:](CV_Raup_Z.pdf)
-
-<a href = "https://www.linkedin.com/in/zachary-raup-6280a3265"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+[Link to CV:](CV_Raup_Z.pdf)    <a href = "https://www.linkedin.com/in/zachary-raup-6280a3265"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 ### About Me
 Welcome to my data science portfolio. I graduated Summa Cum Laude from Kutztown University with a bachelor's degree in Physics, driven by an insatiable curiosity and a passion for data-driven exploration. Throughout my academic journey, I specialized in data analysis and modeling, particularly in the realms of exoplanets and binary stars. This experience not only deepened my understanding of complex datasets but also honed my skills in extracting meaningful insights.
