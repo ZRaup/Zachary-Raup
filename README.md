@@ -24,7 +24,7 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 ###### Skills Applied: Python (pandas, matplotlib, numpy, emcee, & batman) & Excel  
 
 #### Image 1: TOI-4153 modeled lightcurve
-##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP]() database.
+##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739) database.
  ![](lightkurve.png)
 
 ---
