@@ -1,6 +1,7 @@
 # Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet
 ###### By: Zachary Raup
 
+ ![](lightkurve.png)
 
 ### Objective:
 This research project aims to model the transit of an exoplanet across a star using the Python package 'batman'. The objective is to predict changes in the star's brightness or flux during these transits and assess the accuracy of the model against observed photometry data from the CR Chambliss Astronomical Observatory (CRCAO).   
