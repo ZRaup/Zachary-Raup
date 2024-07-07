@@ -60,7 +60,7 @@ TOI-4153 is a yellowish-white F-type star with a temperature of 6411K, as listed
 
 ##### Image 1: CRCAO Photomtry Data Image
 The CRCAO data image from September 16, 2022, was taken with an infrared filter and processed and reduced using AstroImageJ. The green aperture is around the target star, TOI-4153, while the comparison stars are marked with a red aperture.
-![I_field.png]
+![](I_field.png)  
 
 
 
