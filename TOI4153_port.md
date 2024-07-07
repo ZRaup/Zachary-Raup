@@ -59,7 +59,7 @@ These visualizations play a crucial role in assessing the quality of the model f
 TOI-4153 is a yellowish-white F-type star with a temperature of 6411K, as listed in the [ExoFOP database](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739). The star has a radius of 1.7 times that of the Sun and a mass of 1.3 times that of the Sun. TOI-4153 hosts one known exoplanet, designated TOI-4153.01, which orbits the star with a period of 4.6 days. 
 
 ##### Image 1: CRCAO Photomtry Data Image
-The CRCAO data image from September 16, 2022, was taken with an infrared filter and processed and reduced using AstroImageJ. The green aperture is around the target star, TOI-4153, while the comparison stars are marked with a red aperture.
+The CRCAO data image from September 16, 2022, was taken with an infrared filter and processed and reduced using AstroImageJ. The green aperture is around the target star, TOI-4153, while the comparison stars are marked with a red aperture. (T5 was a variable star and was not used in the comparison analysis.)
 ![](I_field.png)  
 
 
