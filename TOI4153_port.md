@@ -208,23 +208,23 @@ r = sampler.get_chain(flat=True, discard= 2000)          # Discard initial steps
 #### Visualizing Results:
 
 ##### Image 2: TOI-4153 lightcurve
-Binned CRCAO photometry data of the TOI-4153.01 transit in both blue and infrared filters. The model was created using the 'batman' transit modeler. See Table 1 for the parameters of the model.
+Binned CRCAO photometry data of the TOI-4153.01 transit in both blue and infrared filters. The model was created using the 'batman' transit modeler. See Table 1 for the parameters of the model.  
 ![](lightkurve.png)
 
 ##### Image 3: Histogram of Posterior Distribution for Planet Radius
-This histogram represents the posterior distribution of the radius of TOI-4153.01, as derived using the MCMC algorithm implemented with 'emcee'. The median radius is estimated to be 16.65 Earth Radii, closely aligning with the prior value of 16.66 Earth Radii from ExoFOP. The distribution indicates a strong convergence on the planet's radius, based on the CRCAO data and the 'batman' model.
+This histogram represents the posterior distribution of the radius of TOI-4153.01, as derived using the MCMC algorithm implemented with 'emcee'. The median radius is estimated to be 16.65 Earth Radii, closely aligning with the prior value of 16.66 Earth Radii from ExoFOP. The distribution indicates a strong convergence on the planet's radius, based on the CRCAO data and the 'batman' model.  
 ![](hist.png)
 
 ##### Image 4: Posterior Probability Corner Plot
-This corner plot displays the posterior probability distributions for the free parameters: planet radius, mid-transit time, and impact parameter. The plots illustrate the marginal distributions for each parameter along with the joint distributions between pairs of parameters, highlighting correlations and uncertainties derived from the MCMC analysis.
+This corner plot displays the posterior probability distributions for the free parameters: planet radius, mid-transit time, and impact parameter. The plots illustrate the marginal distributions for each parameter along with the joint distributions between pairs of parameters, highlighting correlations and uncertainties derived from the MCMC analysis.  
 ![](cornerplot.png)
 
 ##### Table 1: Parameter Table
-This data table presents the parameters used for the 'batman' lightcurve model. The free parameters include median values approximated from the 'emcee' distribution, while fixed values are sourced from the [ExoFOP database](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739). Included among the free parameters are inclination and semi-major axis values, calculated from other free parameters.
+This data table presents the parameters used for the 'batman' lightcurve model. The free parameters include median values approximated from the 'emcee' distribution, while fixed values are sourced from the [ExoFOP database](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739). Included among the free parameters are inclination and semi-major axis values, calculated from other free parameters.  
 ![](table.png)
 
 ##### Table 2: Planet Radius Comparison
-This table compares the modeled radius of three TOIs using CRCAO data and the batman model, AstroImageJ model, and the predicted radius before data collection from the TESS Transit Finder (TTF).
+This table compares the modeled radius of three TOIs using CRCAO data and the batman model, AstroImageJ model, and the predicted radius before data collection from the TESS Transit Finder (TTF).  
 ![](table1.png)
 
 
