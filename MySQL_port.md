@@ -1,18 +1,15 @@
-## Insights into Dog Behavior: Analyzing Dognition Data with MySQL
+# Insights into Dog Behavior: Analyzing Dognition Data with MySQL
 ###### By: Zachary Raup
 
-```python
 
-```
-
-#### Goal of Project:
-These MySQL queries aim to analyze trends and relationships within the Dognition database. They were developed as part of the ‘Managing Big Data with MySQL’ course at Duke University, focusing on honing skills in data cleaning, sorting, and advanced analysis techniques using SQL in the context of large datasets.
+### Goal of Project:
+The goal of this project is to utilize MySQL queries to perform in-depth analysis of trends and relationships embedded within the Dognition database. Developed as a fundamental component of the ‘Managing Big Data with MySQL’ course at Duke University, the project focuses on refining and applying skills in data cleaning, sorting, and employing advanced analytical techniques using SQL. By exploring large datasets such as the Dognition database, the project aims to uncover meaningful insights into canine behavior patterns and preferences, leveraging robust data management practices to extract actionable intelligence for further research and practical applications in understanding and enhancing dog-human interactions.
 
 ```python
 
 ```
 
-#### About the Data Set: Dognition
+### About the Data Set: Dognition
 
 Dognition is a company that offers interactive tests designed for users to engage with their dogs. These tests are intended to create a personalized profile of the dog's personality based on collected data and information about the dog's background. The company uses this data to provide insights into various aspects of a dog's behavior and preferences.
 
