@@ -1,18 +1,24 @@
 ## Understanding the Dognition database with MySQL
 ###### By: Zachary Raup
 
-The following are MySQL Queries that are meant to understand trends and test relationships within the Dognition database. This project was a part of the 'Managing Big Data with MySQL' course from Duke University. These queries were meant to practice and devlope data cleaning, sorting, and analysis skills using SQL and large database.
+```python
 
+```
+
+#### Goal of Project:
+These MySQL queries aim to analyze trends and relationships within the Dognition database. They were developed as part of the ‘Managing Big Data with MySQL’ course at Duke University, focusing on honing skills in data cleaning, sorting, and advanced analysis techniques using SQL in the context of large datasets.
 
 ```python
 
 ```
 
-#### About the Data: Dognition
+#### About the Data Set: Dognition
 
-Dognition is a company that gives users tests to complete with their dog to develope a personality profile for the dog. The personality profile is based on data recieved from the tests and information about the dogs background. The profile shows what type of interests and activites your dog might excel in or find enjoyable. 
+Dognition is a company that offers interactive tests designed for users to engage with their dogs. These tests are intended to create a personalized profile of the dog's personality based on collected data and information about the dog's background. The company uses this data to provide insights into various aspects of a dog's behavior and preferences.
 
-The Dognition data is made up of 6 tables, 30+ columns, and a 100,000+ rows. Data inclues information about users (location, date of birth, etc.), dogs (breed, age, size, etc.), test and test results information.
+The Dognition dataset encompasses a comprehensive range of information across six tables, featuring over 30 columns and exceeding 100,000 rows of data. This dataset includes details about users, such as their demographics and geographical information. It also captures specific attributes related to dogs, such as breed, age, and size. Additionally, the dataset covers extensive information about the tests conducted and the corresponding results, offering a rich source of information for analyzing behavioral patterns and preferences in dogs.
+
+By leveraging this dataset, Dognition aims to enhance understanding of canine behavior, helping dog owners discover activities and interests that their dogs may excel in or enjoy. This data-driven approach not only supports personalized recommendations but also contributes to broader insights into pet behavior and psychology.
 
 [Link to Dognition Website](https://www.dognition.com/)
 
@@ -24,7 +30,7 @@ The Dognition data is made up of 6 tables, 30+ columns, and a 100,000+ rows. Dat
 
 ##### This query provides a count of the number of tests, distinct users completed on each weekday of each year in the Dognition data set. 
 
-##### Cleaning the data: 
+#### Cleaning the data: 
 Only users in the United States were to be shown but without hawaii or alaska. I excluded all dog_guids and user_guids with a value of "1" in their exclude columns to remove the companies example testing inputs that do not represent user data. The output is sorted by year in ascending order, and then by the total number of tests completed in descending order. I joined two tables (dogs and users) to focus on the distinct users that were represented in both tables. 
 
 
