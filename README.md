@@ -27,7 +27,7 @@ This research project focuses on modeling the transit of exoplanets across stars
 ##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739) database.
  ![](lightkurve.png)    
 
-### [Project 2: Understanding Personalities of Dogs with MySQL](MySQL_port.md)
+### [Project 2: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)
 #### Project Overview
 The primary objective of this project is to leverage MySQL queries for in-depth analysis of trends and relationships embedded within the extensive Dognition dataset. As a component of the ‘Managing Big Data with MySQL’ course at Duke University, the project emphasizes refining skills in data cleaning, sorting, and implementing sophisticated analytical methodologies using SQL. By focusing on these aspects, the queries aim to uncover actionable insights from the dataset, enhancing understanding of behavioral patterns and preferences in dogs based on the collected data. This approach not only facilitates practical application of database management techniques but also fosters proficiency in handling and interpreting large-scale datasets effectively.
 ###### Skills Applied: MySQL, Relational Databases, SQL Queries, and Big Data  
