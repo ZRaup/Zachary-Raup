@@ -1,4 +1,4 @@
-## Understanding the Dognition database with MySQL
+## Insights into Dog Behavior: Analyzing Dognition Data with MySQL
 ###### By: Zachary Raup
 
 ```python
