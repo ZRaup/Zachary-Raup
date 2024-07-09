@@ -111,7 +111,21 @@ LIMIT 5;
 
 ##### Actionable Insights:
 
+Based on the query provided, here are some actionable insights that could be derived:
 
+Peak Test Completion Days: Identify which days of the week see the highest number of tests completed. This insight could be useful for scheduling follow-ups or promotions on days when user engagement is typically higher.
+
+Yearly Trends: Analyze how the number of tests completed varies across different years. Detecting trends such as increasing or decreasing test participation over time could inform strategic decisions related to resource allocation or marketing efforts.
+
+Regional Variations: Understand if there are regional differences within the contiguous United States in terms of test completion rates. This insight could be used to tailor marketing campaigns or outreach efforts to specific regions where engagement may be lower.
+
+User Engagement Patterns: Gain insights into how users engage with the Dognition platform throughout the week. For example, if tests are more frequently completed on weekends (Saturday and Sunday), this information could guide decisions on when to deploy new features or updates to maximize user interaction.
+
+Impact of Exclusions: Evaluate the impact of excluding certain entries (marked with "1" in their exclude columns) on the overall test completion metrics. This analysis could highlight the effectiveness of filtering out non-user testing inputs and ensure data accuracy in subsequent analyses.
+
+Longitudinal Analysis: Track changes in test completion patterns over time. For instance, observing if there's a steady increase or decrease in the number of tests completed across years could prompt adjustments in marketing strategies or product offerings to sustain or boost user engagement.
+
+These insights can help Dognition optimize its platform and services, enhance user experience, and strategically plan future initiatives based on observed behavioral patterns and trends in test completion data.
 
 ```python
 
