@@ -248,6 +248,6 @@ This study underscores the effectiveness of combining observational data with so
 ```
 
 
-[Zachary's Portfolio](README.md)
+[Zachary's Portfolio](README.md)  
 [Project 2: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)
 
