@@ -16,7 +16,8 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 ---
 ##### Below is a select list of data and coding projects that I have completed:  
 &nbsp;  
-## [Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)
+## [Project 1:  
+## Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
 
 #### Project Overview
 This research project focuses on modeling the transit of exoplanets across stars using the Python package 'batman'. The objective was to accurately predict changes in stellar brightness during these transits, validated against photometry data from the CR Chambliss Astronomical Observatory (CRCAO). Methodologically, a physics-based model was developed and evaluated using a log likelihood function to fit observational data. The Markov Chain Monte Carlo (MCMC) algorithm, facilitated by 'emcee', enabled exploration of parameter uncertainties such as planet radius and transit timing. Visualizations created with matplotlib included light curves, histograms of parameter distributions, and a corner plot illustrating parameter correlations. Presenting findings at the 241st AAS meeting highlighted contributions to understanding exoplanet transit dynamics, crucial for advancing knowledge of planetary systems beyond our solar system.
@@ -27,7 +28,9 @@ This research project focuses on modeling the transit of exoplanets across stars
 ##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739) database.
  ![](lightkurve.png)    
 
-### [Project 2: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)
+## [Project 2:  
+## Insights into Dog Behavior Analyzing Dognition Data with MySQL](MySQL_port.md)  
+
 #### Project Overview
 The primary objective of this project is to leverage MySQL queries for in-depth analysis of trends and relationships embedded within the extensive Dognition dataset. As a component of the ‘Managing Big Data with MySQL’ course at Duke University, the project emphasizes refining skills in data cleaning, sorting, and implementing sophisticated analytical methodologies using SQL. By focusing on these aspects, the queries aim to uncover actionable insights from the dataset, enhancing understanding of behavioral patterns and preferences in dogs based on the collected data. This approach not only facilitates practical application of database management techniques but also fosters proficiency in handling and interpreting large-scale datasets effectively.
 ###### Skills Applied: MySQL, Relational Databases, SQL Queries, and Big Data  
