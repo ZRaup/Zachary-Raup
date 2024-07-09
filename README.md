@@ -35,6 +35,9 @@ This research project focuses on modeling the transit of exoplanets across stars
 The primary objective of this project is to leverage MySQL queries for in-depth analysis of trends and relationships embedded within the extensive Dognition dataset. As a component of the ‘Managing Big Data with MySQL’ course at Duke University, the project emphasizes refining skills in data cleaning, sorting, and implementing sophisticated analytical methodologies using SQL. By focusing on these aspects, the queries aim to uncover actionable insights from the dataset, enhancing understanding of behavioral patterns and preferences in dogs based on the collected data. This approach not only facilitates practical application of database management techniques but also fosters proficiency in handling and interpreting large-scale datasets effectively.
 ###### Skills Applied: MySQL, Relational Databases, SQL Queries, and Big Data  
 
+#### Image 2: States with the most Dognition Users
+##### MySQL query that 
+
 ![](state_users.png)
 
 ---
