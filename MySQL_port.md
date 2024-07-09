@@ -251,6 +251,9 @@ GROUP BY breed_type;
 
 ```
 
+### Actionable Insights from SQL Queries
+
+
 
 ```python
 
