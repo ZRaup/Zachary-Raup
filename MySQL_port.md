@@ -25,7 +25,7 @@ By leveraging this dataset, Dognition aims to enhance understanding of canine be
 ```
 
 
-### MySQL Queries to Analyze the Data:
+### Writing Queries to Analyze the Data:
 
 
 
