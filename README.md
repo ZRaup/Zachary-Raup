@@ -36,7 +36,7 @@ The primary objective of this project is to leverage MySQL queries for in-depth 
 ###### Skills Applied: MySQL, Relational Databases, SQL Queries, and Big Data  
 
 #### Image 2: States with the most Dognition Users
-##### MySQL query that 
+##### This is one of the MySQL queries used to analyze trends in the Dognition dataset. This query outputs a table listing the top 5 states with the highest number of Dognition users.
 
 ![](state_users.png)
 
