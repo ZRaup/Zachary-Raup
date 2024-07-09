@@ -232,11 +232,11 @@ Utilizing these insights from the top 5 states with the highest number of Dognit
 #### 3. Write a query that calculates the average amount of time it took each dog breed_type to complete all of the tests in the exam_answers table. Exclude negative durations from the calculation, and include a column that calculates the standard deviation of durations for each breed_type group:
 
 
-#### Geographic User Participation Trends
+#### Test Completion Time Trends
 
-##### Cleaning and Analyzing Data: Number of Distinct Users by State
+##### Cleaning and Analyzing Data: Average Test Complettion Time per Breed Type
 
-This query calculates the number of distinct users who have completed tests with their dogs, segmented by state within the Dognition dataset. The dataset is filtered to include only users located in the contiguous United States (excluding Hawaii and Alaska) and excludes entries marked with "1" in their exclude columns to remove non-user inputs. The results are sorted by the total number of distinct users in descending order. The query joins the 'dogs' and 'users' tables to combine data from the complete_tests table (c) with a refined subset of dog and user data (dogs_cleaned). This ensures the analysis focuses exclusively on tests associated with dogs owned by users who meet the specified geographical and exclusion criteria.
+This query calculates the average test completion time by each breed type in the Dognition dataset. Standard deviation. Excluding the all of the negative durations. The results are sorted by the different breed types. The query joins the 'dogs' and 'exam_answers' tables to combine data. 
 
 
 ```sql
@@ -290,6 +290,8 @@ GROUP BY breed_type;
 #### Actionable Insights:
 
 The SQL query identifies the top 5 states with the highest number of Dognition users. This analysis uncovers several key insights that can be used to enhance user engagement and improve test participation strategies::
+
+std larger
 
 ###### Peak User States:
 
