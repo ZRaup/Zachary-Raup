@@ -117,7 +117,7 @@ LIMIT 5;
 
 
 
-#### Actionable Insights:
+##### Actionable Insights:
 Based on the SQL query results that analyze test completion trends within the Dognition dataset, several key insights emerge that can be used to optimize user engagement and test participation strategies:
 
 ###### Peak Test Completion Days:
@@ -199,7 +199,7 @@ LIMIT 5;
 
 
 
-#### Actionable Insights:
+##### Actionable Insights:
 
 The SQL query identifies the top 5 states with the highest number of Dognition users. This analysis uncovers several key insights that can be used to enhance user engagement and improve test participation strategies::
 
@@ -286,7 +286,7 @@ GROUP BY breed_type;
 
 
 
-#### Actionable Insights:
+##### Actionable Insights:
 
 Based on the SQL query results analyzing the average duration and standard deviation of exam completion times for different breed types within the Dognition dataset, several key insights emerge that can inform user engagement and test optimization strategies:
 
