@@ -29,11 +29,11 @@ By leveraging this dataset, Dognition aims to enhance understanding of canine be
 
 
 
-##### 1. Number of Tests Completed per Weekday
+#### 1. # of Tests Completed per Day of the Week
 
 This query provides a count of the number of tests, distinct users completed on each weekday of each year in the Dognition data set. 
 
-#### Cleaning the data: 
+##### Cleaning the data: 
 Only users in the United States were to be shown but without hawaii or alaska. I excluded all dog_guids and user_guids with a value of "1" in their exclude columns to remove the companies example testing inputs that do not represent user data. The output is sorted by year in ascending order, and then by the total number of tests completed in descending order. I joined two tables (dogs and users) to focus on the distinct users that were represented in both tables. 
 
 
