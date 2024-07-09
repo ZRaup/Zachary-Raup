@@ -11,9 +11,11 @@ Welcome to my data science portfolio. I graduated Summa Cum Laude from Kutztown 
 Professionally, I have developed robust capabilities in Python for data analysis, leveraging techniques such as exploratory data analysis, data cleaning, and statistical modeling. I am proficient in SQL querying, adept at managing and extracting insights from large datasets to support data-driven decision-making. Additionally, I possess advanced skills in data visualization using Tableau and Power BI, creating insightful visualizations that effectively communicate findings and support strategic initiatives.
 
 I am dedicated to applying my expertise in Python, SQL, and data visualization tools to solve challenging problems and contribute meaningfully to data-driven projects. I thrive in collaborative environments and am committed to continuous learning and professional growth in the dynamic field of data science.
----
+
 &nbsp;  
----
+
+---  
+
 ##### Below is a select list of data and coding projects that I have completed:  
 &nbsp;  
 ### [Project 1:](TOI4153_port.md)    
@@ -28,7 +30,7 @@ This research project focuses on modeling the transit of exoplanets across stars
 ##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739) database.
  ![](lightkurve.png)  
 
- ---  
+ &nbsp;   
    
 
 ### [Project 2:](MySQL_port.md)   
