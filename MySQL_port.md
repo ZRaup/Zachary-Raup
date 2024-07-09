@@ -289,24 +289,28 @@ GROUP BY breed_type;
 
 #### Actionable Insights:
 
-The SQL query identifies the top 5 states with the highest number of Dognition users. This analysis uncovers several key insights that can be used to enhance user engagement and improve test participation strategies::
+Based on the SQL query results analyzing the average duration and standard deviation of exam completion times for different breed types within the Dognition dataset, several key insights emerge that can inform user engagement and test optimization strategies:
 
 std larger
 
-###### Peak User States:
+###### Longest Test Completion Time:
 
-    California (CA) has the highest number of distinct users, with 1,363 unique users engaging in test activities.New York (NY) follows with 628 users, Texas (TX) with 536 users, Florida (FL) with 502 users, and North Carolina (NC) with 467 users. The high participation rates in states like California, New York, and Texas suggest that these regions have a significant user base interested in Dognition activities.
+    Pure breed dogs have the longest average exam duration of 12,300 minutes and the highest variability in completion times. Cross breed dogs also have a high average exam duration and significant variability.
 
-    Recommendation: Focus marketing and engagement efforts on these top states to further capitalize on the existing user base. Consider organizing state-specific events or promotions to increase engagement in these high-participation areas. Tailor content and communication strategies to the preferences and interests of users in these states. Implement localized advertising and partnerships with regional organizations to strengthen community ties and drive further participation.
+    Recommendation: Investigate potential factors contributing to longer and more variable completion times for pure breed and cross breed dogs. Consider offering tailored guidance or support to owners of pure breed dogs to streamline the testing process. Provide specific tips or resources to help these users complete exams more efficiently.
 
 
-###### Underrepresented Regions:
+###### High Variability Between Times:
 
-    The query results provide a clear picture of regional engagement, allowing for targeted geographical analysis. This can be useful for identifying potential markets for expansion and understanding regional behavior patterns.
+    The query results show high variability with each breed type having a high standard devieation.
 
-    Recommendation: Use these insights to identify underrepresented regions that may benefit from increased outreach efforts. Develop strategies to engage users in states with lower participation rates by addressing potential barriers and promoting the benefits of the Dognition program.
+    Recommendation: Investigate the data further and determine what is causing the high variability times. Is this a good measure to use to deterime the pace at which different dog breeds complete the test.
 
-Utilizing these insights from the top 5 states with the highest number of Dognition users, Dognition can enhance user engagement strategies to improve user experience and drive higher participation rates in these key regions. Regular analysis of participation trends in these states allows for targeted marketing efforts, timely reminders, and region-specific initiatives, ultimately fostering a more active and engaged community of users in these high-participation areas.
+By leveraging these insights, Dognition can refine its user engagement strategies to enhance the testing experience across different breed types. Regular analysis of exam duration trends allows for targeted support and resources, helping to reduce variability and improve the overall efficiency of the testing process. This approach will ultimately lead to higher user satisfaction and increased participation rates in Dognition's testing activities.
+
+
+
+
 
 
 ```python
