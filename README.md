@@ -37,7 +37,7 @@ The goal of this project is to utilize MySQL queries to perform analysis of tren
 ###### Skills Applied: MySQL, Relational Databases, SQL Queries, and Big Data  
 
 #### Image 2: States with the most Dognition Users
-##### This is one of the MySQL queries used to analyze trends in the Dognition dataset. This query outputs a table listing the top 5 states with the highest number of Dognition users.
+##### This MySQL query is used to analyze geographical user trends in the Dognition dataset. This query outputs a table listing the top 5 states with the highest number of Dognition users.
 
 ![](state_users.png)
 
