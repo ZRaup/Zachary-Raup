@@ -28,13 +28,10 @@ By leveraging this dataset, Dognition aims to enhance understanding of canine be
 ### Writing Queries to Analyze the Data:
 
 
+#### Analyzing Test Completion Trends
 
-#### 1. # of Tests Completed per Day of the Week
-
-This query provides a count of the number of tests, distinct users completed with their dogs on each weekday of each year in the Dognition data set. 
-
-##### Cleaning the data: 
-Only users in the United States were to be shown but without hawaii or alaska. I excluded all dog_guids and user_guids with a value of "1" in their exclude columns to remove the companies example testing inputs that do not represent user data. The output is sorted by year in ascending order, and then by the total number of tests completed in descending order. I joined two tables (dogs and users) to focus on the distinct users that were represented in both tables. 
+##### Cleaning and Analyzing Data: Number of Tests Completed per Day of the Week
+This query calculates the count of tests completed by distinct users with their dogs on each weekday across years in the Dognition dataset. Data is filtered to include only users in the contiguous United States (excluding Hawaii and Alaska) and excludes entries marked with "1" in their exclude columns to remove non-user testing inputs. Results are sorted first by year in ascending order and then by the total number of tests completed in descending order. The query leverages a join between the 'dogs' and 'users' tables to to combine data from the complete_tests table (c) with a filtered subset of dog and user data (dogs_cleaned), ensuring that only tests associated with dogs owned by users in the contiguous United States (excluding Hawaii and Alaska) and not marked for exclusion are included in the analysis. 
 
 
 
