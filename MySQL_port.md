@@ -3,7 +3,7 @@
 
 
 ### Goal of Project:
-The primary objective of this project is to leverage MySQL queries for in-depth analysis of trends and relationships embedded within the extensive Dognition dataset. As a component of the ‘Managing Big Data with MySQL’ course at Duke University, the project emphasizes refining skills in data cleaning, sorting, and implementing sophisticated analytical methodologies using SQL. By focusing on these aspects, the queries aim to uncover actionable insights from the dataset, enhancing understanding of behavioral patterns and preferences in dogs based on the collected data. This approach not only facilitates practical application of database management techniques but also fosters proficiency in handling and interpreting large-scale datasets effectively.
+The primary objective of this project is to utilize MySQL queries to conduct a comprehensive analysis of trends and correlations within the vast Dognition dataset. As part of the ‘Managing Big Data with MySQL’ course at Duke University, the project highlights improving skills in data cleaning, organizing, and applying advanced analytical techniques using SQL. By concentrating on these areas, the queries seek to reveal actionable insights from the dataset, deepening the understanding of dogs' behavioral patterns and preferences based on the collected data. This approach not only enables the practical use of database management techniques but also develops expertise in managing and interpreting large-scale datasets efficiently.
 
 
 
