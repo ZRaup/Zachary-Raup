@@ -224,12 +224,6 @@ Utilizing these insights from the top 5 states with the highest number of Dognit
 ```
 
 
-```python
-
-```
-
-
-
 
 #### Test Completion Times Trends
 
