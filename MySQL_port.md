@@ -229,14 +229,13 @@ Utilizing these insights from the top 5 states with the highest number of Dognit
 ```
 
 
-#### 3. Write a query that calculates the average amount of time it took each dog breed_type to complete all of the tests in the exam_answers table. Exclude negative durations from the calculation, and include a column that calculates the standard deviation of durations for each breed_type group:
 
 
 #### Test Completion Time Trends
 
 ##### Cleaning and Analyzing Data: Average Test Complettion Time per Breed Type
 
-This query calculates the average test completion time by each breed type in the Dognition dataset. Standard deviation. Excluding the all of the negative durations. The results are sorted by the different breed types. The query joins the 'dogs' and 'exam_answers' tables to combine data. 
+This query calculates the average amount of time it took each dog breed_type to complete all of the tests and the standard deviation in the exam_answers table in the Dognition dataset. Standard deviation. Excluding the all of the negative durations. The results are sorted by the different breed types. The query joins the 'dogs' and 'exam_answers' tables to combine data. 
 
 
 ```sql
@@ -291,7 +290,6 @@ GROUP BY breed_type;
 
 Based on the SQL query results analyzing the average duration and standard deviation of exam completion times for different breed types within the Dognition dataset, several key insights emerge that can inform user engagement and test optimization strategies:
 
-std larger
 
 ###### Longest Test Completion Time:
 
@@ -300,7 +298,7 @@ std larger
     Recommendation: Investigate potential factors contributing to longer and more variable completion times for pure breed and cross breed dogs. Consider offering tailored guidance or support to owners of pure breed dogs to streamline the testing process. Provide specific tips or resources to help these users complete exams more efficiently.
 
 
-###### High Variability Between Times:
+###### High Variability Between Completion Times:
 
     The query results show high variability with each breed type having a high standard devieation.
 
