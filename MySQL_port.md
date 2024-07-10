@@ -6,13 +6,11 @@
 The primary objective of this project is to utilize MySQL queries to conduct a comprehensive analysis of trends and correlations within the vast Dognition dataset. As part of the ‘Managing Big Data with MySQL’ course at Duke University, the project highlights improving skills in data cleaning, organizing, and applying advanced analytical techniques using SQL. By concentrating on these areas, the queries seek to reveal actionable insights from the dataset, deepening the understanding of dogs' behavioral patterns and preferences based on the collected data. This approach not only enables the practical use of database management techniques but also develops expertise in managing and interpreting large-scale datasets efficiently.
 
 
-
 ```python
 
 ```
 
-
-### About the Data Set: Dognition
+#### About the Data Set: Dognition
 
 Dognition is a company that offers interactive tests designed for users to engage with their dogs. These tests are intended to create a personalized profile of the dog's personality based on collected data and information about the dog's background. The company uses this data to provide insights into various aspects of a dog's behavior and preferences.
 
