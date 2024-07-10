@@ -60,7 +60,8 @@ TOI-4153 is a yellowish-white F-type star with a temperature of 6411K, as listed
 
 ##### Image 1: CRCAO Photomtry Data Image
 The CRCAO data image from September 16, 2022, was taken with an infrared filter and processed and reduced using AstroImageJ. The green aperture is around the target star, TOI-4153, while the comparison stars are marked with a red aperture.
-![](I_field.png)  
+<img src="I_field.png" width="500" />
+
 
 
 
@@ -209,23 +210,24 @@ r = sampler.get_chain(flat=True, discard= 2000)          # Discard initial steps
 
 ##### Image 2: TOI-4153 lightcurve
 Binned CRCAO photometry data of the TOI-4153.01 transit in both blue and infrared filters. The model was created using the 'batman' transit modeler. See Table 1 for the parameters of the model.
-![](lightkurve.png)
+<img src="lightcurve.png" width="500" />  
 
 ##### Image 3: Histogram of Posterior Distribution for Planet Radius
 This histogram represents the posterior distribution of the radius of TOI-4153.01, as derived using the MCMC algorithm implemented with 'emcee'. The median radius is estimated to be 16.65 Earth Radii, closely aligning with the prior value of 16.66 Earth Radii from ExoFOP. The distribution indicates a strong convergence on the planet's radius, based on the CRCAO data and the 'batman' model.
-![](hist.png)
+<img src="hist.png" width="500" />  
 
 ##### Image 4: Posterior Probability Corner Plot
 This corner plot displays the posterior probability distributions for the free parameters: planet radius, mid-transit time, and impact parameter. The plots illustrate the marginal distributions for each parameter along with the joint distributions between pairs of parameters, highlighting correlations and uncertainties derived from the MCMC analysis.
-![](cornerplot.png)
+<img src="cornerplot.png" width="500" />  
 
 ##### Table 1: Parameter Table
 This data table presents the parameters used for the 'batman' lightcurve model. The free parameters include median values approximated from the 'emcee' distribution, while fixed values are sourced from the [ExoFOP database](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739). Included among the free parameters are inclination and semi-major axis values, calculated from other free parameters.
-![](table.png)
+<img src="table.png" width="500" />  
 
 ##### Table 2: Planet Radius Comparison
 This table compares the modeled radius of three TOIs using CRCAO data and the batman model, AstroImageJ model, and the predicted radius before data collection from the TESS Transit Finder (TTF).
-![](table1.png)
+<img src="table1.png" width="700" />  
+
 
 
 ```python
