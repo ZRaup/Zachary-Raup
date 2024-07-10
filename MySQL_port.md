@@ -229,7 +229,7 @@ Utilizing these insights from the top 5 states with the highest number of Dognit
 
 ##### Cleaning and Analyzing Data: Average Test Complettion Time per Breed Type
 
-This query calculates the average time it took for each dog breed type to complete all tests, along with the standard deviation, in the exam_answers table within the Dognition dataset. The analysis excludes any negative durations. The results are sorted by breed type and utilize a join between the 'dogs' and 'exam_answers' tables to combine the necessary data.
+This query calculates the average time taken for each dog breed type to complete all tests, along with the standard deviation, using the exam_answers table within the Dognition dataset. Negative durations are excluded from the analysis. The results are categorized by breed type and leverage a join between the 'dogs' and 'exam_answers' tables to aggregate the required data.
 
 
 ```sql
