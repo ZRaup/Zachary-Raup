@@ -1,6 +1,5 @@
-![](port_circ181.png)
 ![](self158.png)
-![](self172.png)
+
 # Zachary Raup
 ---
 [Link to CV:](CV_Raup_Z.pdf)
@@ -30,6 +29,9 @@ This research project focuses on modeling the transit of exoplanets across stars
 
 #### Image 1: TOI-4153 modeled lightcurve
 ##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739) database.
+
+ <img src="lightkurve.png" width="200" />
+ 
  ![](lightkurve.png)  
 
  &nbsp;   
