@@ -201,7 +201,7 @@ LIMIT 5;
 
 ##### Actionable Insights:
 
-The SQL query identifies the top 5 states with the highest number of Dognition users. This analysis uncovers several key insights that can be used to enhance user engagement and improve test participation strategies::
+The SQL query identifies the top 5 states with the highest number of Dognition users. This analysis uncovers several key insights that can be used to enhance user engagement and improve test participation strategies:
 
 ###### Peak User States:
 
