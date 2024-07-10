@@ -16,7 +16,7 @@ Dognition is a company that offers interactive tests designed for users to engag
 
 The Dognition dataset encompasses a comprehensive range of information across six tables, featuring over 30 columns and exceeding 100,000 rows of data. This dataset includes details about users, such as their demographics and geographical information. It also captures specific attributes related to dogs, such as breed, age, and size. Additionally, the dataset covers information about the tests conducted and the corresponding results, offering a rich source of information for analyzing behavioral patterns and preferences in dogs.
 
-By leveraging this dataset, Dognition aims to enhance understanding of canine behavior, helping dog owners discover activities and interests that their dogs may excel in or enjoy. This data-driven approach not only supports personalized recommendations but also contributes to broader insights into pet behavior and psychology.
+By leveraging this dataset, Dognition aims to enhance knowledge of canine behavior, helping dog owners discover activities and interests that their dogs may excel in or enjoy. This data-driven approach not only supports personalized recommendations but also contributes to broader comprehension into pet behavior and psychology.
 
 ###### * data set was not cleaned beforehand but was changed to protect personal information
 
@@ -122,7 +122,7 @@ Based on the SQL query results that analyze test completion trends within the Do
 
     Sundays and Saturdays have the highest test completion rates, with 5,860 and 4,674 tests completed respectively in the year 2013. This indicates that users are more likely to engage in test activities during weekends.
 
-    Recommendation: Increase marketing efforts and user engagement initiatives on weekends to leverage the higher user activity. Consider launching weekend-specific challenges or promotions to boost participation.
+    Recommendation: Increase marketing efforts and user engagement initiatives on weekends to draw in higher user activity. Consider launching weekend-specific challenges or promotions to boost participation.
 
 ###### Weekday Trends:
 
@@ -130,7 +130,7 @@ Based on the SQL query results that analyze test completion trends within the Do
     
     Recommendation: Schedule mid-week reminders or activities to maintain user engagement throughout the week. Introduce mid-week incentives or thematic content to sustain interest and participation.
 
-By leveraging these insights, Dognition can optimize user engagement strategies to enhance user experience and drive higher participation rates in their testing activities. The regular analysis of test completion trends allows for targeted marketing efforts and timely reminders, ultimately fostering a more active and engaged community of users.
+By capitalizing on these observations, Dognition can optimize user engagement strategies to enhance user experience and drive higher participation rates in their testing activities. The regular analysis of test completion trends allows for targeted marketing efforts and timely reminders, ultimately fostering a more active and engaged community of users.
 
 
 ```python
@@ -212,9 +212,9 @@ The SQL query identifies the top 5 states with the highest number of Dognition u
 
     The query results provide a clear picture of regional engagement, allowing for targeted geographical analysis. This can be useful for identifying potential markets for expansion and understanding regional behavior patterns.
 
-    Recommendation: Use these insights to identify underrepresented regions that may benefit from increased outreach efforts. Develop strategies to engage users in states with lower participation rates by addressing potential barriers and promoting the benefits of the Dognition program.
+    Recommendation: Use this awareness  to identify underrepresented regions that may benefit from increased outreach efforts. Develop strategies to engage users in states with lower participation rates by addressing potential barriers and promoting the benefits of the Dognition program.
 
-Utilizing these insights from the top 5 states with the highest number of Dognition users, Dognition can enhance user engagement strategies to improve user experience and drive higher participation rates in these key regions. Regular analysis of participation trends in these states allows for targeted marketing efforts, timely reminders, and region-specific initiatives, ultimately fostering a more active and engaged community of users in these high-participation areas.
+Utilizing these findings from the top 5 states with the highest number of Dognition users, Dognition can enhance user engagement strategies to improve user experience and drive higher participation rates in these key regions. Regular analysis of participation trends in these states allows for targeted marketing efforts, timely reminders, and region-specific initiatives, ultimately fostering a more active and engaged community of users in these high-participation areas.
 
 
 ```python
