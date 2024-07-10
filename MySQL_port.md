@@ -27,13 +27,13 @@ By leveraging this dataset, Dognition aims to enhance understanding of canine be
 
 ```
 
-### Writing Queries to Analyze the Data:
+## Writing Queries to Analyze the Data:
 
 
 
-#### Test Completion Trends
+### Test Completion Trends
 
-##### Cleaning and Analyzing Data: Number of Tests Completed per Day of the Week
+#### Cleaning and Analyzing Data: Number of Tests Completed per Day of the Week
 This query calculates the count of tests completed by distinct users with their dogs on each weekday across multiple years within the Dognition dataset. The dataset is filtered to include only users located in the contiguous United States (excluding Hawaii and Alaska) and excludes entries marked with "1" in their exclude columns to eliminate non-user testing inputs. The results are sorted first by year in ascending order and then by the total number of tests completed in descending order. The query utilizes a join function between the 'dogs' and 'users' tables to combine data from the complete_tests table (c) with a refined subset of dog and user data (dogs_cleaned). This ensures that the analysis focuses exclusively on tests associated with dogs owned by users meeting the specified geographical and exclusion criteria.
 
 
@@ -115,7 +115,7 @@ LIMIT 5;
 
 
 
-##### Actionable Insights:
+#### Actionable Insights:
 Based on the SQL query results that analyze test completion trends within the Dognition dataset, several key insights emerge that can be used to optimize user engagement and test participation strategies:
 
 ###### Peak Test Completion Days:
@@ -137,9 +137,9 @@ By leveraging these insights, Dognition can optimize user engagement strategies 
 
 ```
 
-#### Geographic User Participation Trends
+### Geographic User Participation Trends
 
-##### Cleaning and Analyzing Data: Number of Distinct Users by State
+#### Cleaning and Analyzing Data: Number of Distinct Users by State
 
 This query calculates the number of distinct users who have completed tests with their dogs, segmented by state within the Dognition dataset. The dataset is filtered to include only users located in the contiguous United States (excluding Hawaii and Alaska) and excludes entries marked with "1" in their exclude columns to remove non-user inputs. The results are sorted by the total number of distinct users in descending order. The query joins the 'dogs' and 'users' tables to combine data from the complete_tests table (c) with a refined subset of dog and user data (dogs_cleaned). This ensures the analysis focuses exclusively on tests associated with dogs owned by users who meet the specified geographical and exclusion criteria.
 
@@ -197,7 +197,7 @@ LIMIT 5;
 
 
 
-##### Actionable Insights:
+#### Actionable Insights:
 
 The SQL query identifies the top 5 states with the highest number of Dognition users. This analysis uncovers several key insights that can be used to enhance user engagement and improve test participation strategies:
 
@@ -223,9 +223,9 @@ Utilizing these insights from the top 5 states with the highest number of Dognit
 
 
 
-#### Test Completion Duration Trends
+### Test Completion Duration Trends
 
-##### Cleaning and Analyzing Data: Average Test Complettion Time per Breed Type
+#### Cleaning and Analyzing Data: Average Test Complettion Time per Breed Type
 
 This query calculates the average time taken for each dog breed type to complete all tests, along with the standard deviation, using the exam_answers table within the Dognition dataset. Negative durations are excluded from the analysis. The results are categorized by breed type and leverage a join between the 'dogs' and 'exam_answers' tables to aggregate the required data.
 
@@ -278,7 +278,7 @@ GROUP BY breed_type;
 
 
 
-##### Actionable Insights:
+#### Actionable Insights:
 
 Based on the SQL query results analyzing the average duration and standard deviation of exam completion times for different breed types within the Dognition dataset, several key insights emerge that can inform user engagement and test optimization strategies:
 
