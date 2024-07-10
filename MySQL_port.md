@@ -225,7 +225,7 @@ Utilizing these insights from the top 5 states with the highest number of Dognit
 
 
 
-#### Test Completion Times Trends
+#### Test Completion Duration Trends
 
 ##### Cleaning and Analyzing Data: Average Test Complettion Time per Breed Type
 
