@@ -116,7 +116,7 @@ LIMIT 5;
 
 
 #### Actionable Insights:
-Based on the SQL query results that analyze test completion trends within the Dognition dataset, several key insights emerge that can be used to optimize test participation strategies and grow user engagement:
+Based on the SQL query results that analyze test completion trends within the Dognition dataset, a few notable findings emerge that can be used to optimize test participation strategies and grow user engagement:
 
 ###### Peak Test Completion Days:
 
@@ -280,23 +280,23 @@ GROUP BY breed_type;
 
 #### Actionable Insights:
 
-The SQL query results, which analyze the average duration and standard deviation of exam completion times for different breed types within the Dognition dataset, reveal several important findings that can inform user engagement and test optimization strategies.
+The SQL query analyzes the average duration and standard deviation of exam completion times for different breed types within the Dognition dataset and reveals important findings that can inform user engagement and test optimization.
 
 
 ###### Longest Test Completion Time:
 
     Pure breed dogs have the longest average exam duration of 12,311 minutes and the highest variability in completion times. Cross breed dogs exhibit the second highest average exam duration and significant variability.
 
-    Recommendation: Investigate potential factors contributing to longer and more variable completion times for pure breed and cross breed dogs. Consider offering tailored guidance or support to owners of these breed types to streamline the testing process. Providing specific tips or resources could help these users complete exams more efficiently.
+    Recommendation: Investigate potential factors contributing to longer and more variable completion times for pure breed and cross breed dogs. Consider offering tailored guidance or support to owners of these breed types to streamline the testing process. Providing specific tips or resources that could help these users complete exams more efficiently.
 
 
 ###### High Variability Between Completion Times:
 
     The query results show high variability, with each breed type exhibiting a high standard deviation in completion times.
 
-    Recommendation: Further investigate the causes of high variability in test completion times. Determine whether this measure accurately reflects the pace at which different dog breeds complete the tests. Understanding the underlying reasons for this variability can inform the development of more effective engagement and support strategies.
+    Recommendation: Further investigate the causes of high variability in test completion times. Determine whether this measure accurately reflects the pace at which different dog breeds complete the tests. Look for outliers within the data to understand the underlying reasons for this variability which can inform the development of more effective engagement and support strategies.
 
-Dognition can refine its user engagement strategies to enhance the testing experience across different breed types. Regular analysis of exam duration trends allows for targeted support and resources, helping to reduce variability and improve the overall efficiency of the testing process. This approach will ultimately lead to higher user satisfaction and increased participation rates in Dognition's testing activities.
+Dognition can refine its test optimization strategies to enhance the testing experience across different breed types. Regular analysis of exam duration trends allows for targeted support and resources, helping to reduce variability and improve the overall efficiency of the testing process. This approach will ultimately lead to higher user satisfaction and increased participation rates in Dognition's testing activities.
 
 
 
