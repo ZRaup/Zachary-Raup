@@ -16,7 +16,7 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 
 ---  
 
-##### Below is a select list of data and coding projects that I have completed:  
+##### Below is a select list of data and coding projects that I have completed.  
 &nbsp;  
 ### [Project 1:](TOI4153_port.md)    
 ## [Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
