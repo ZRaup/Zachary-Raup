@@ -30,7 +30,7 @@ This research project focuses on modeling the transit of exoplanets across stars
 #### Image 1: TOI-4153 modeled lightcurve
 ##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739) database.
 
- <img src="lightkurve.png" width="450" />
+ <img src="lightkurve.png" width="481" />
  
 
  &nbsp;   
@@ -46,7 +46,7 @@ The goal of this project is to utilize MySQL queries to perform analysis of tren
 
 #### Image 2: Top States by Number of Dognition Users
 ##### This MySQL query analyzes geographical user trends within the Dognition dataset, resulting in a table that lists the top 5 states with the highest number of Dognition users.
-
+ <img src="state_users.png" width="525" />
 ![](state_users.png)
 
 ---
