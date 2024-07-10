@@ -46,7 +46,7 @@ The goal of this project is to utilize MySQL queries to perform analysis of tren
 
 #### Image 2: Top States by Number of Dognition Users
 ##### This MySQL query analyzes geographical user trends within the Dognition dataset, resulting in a table that lists the top 5 states with the highest number of Dognition users.
- <img src="state_users.png" width="575" />
+ <img src="state_users.png" width="655" />
 
 ---
 ---  
