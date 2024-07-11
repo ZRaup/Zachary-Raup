@@ -299,17 +299,10 @@ The SQL query analyzes the average duration and standard deviation of exam compl
 Dognition can refine its test optimization strategies to enhance the testing experience across different breed types. Regular analysis of exam duration trends allows for targeted support and resources, helping to reduce variability and improve the overall efficiency of the testing process. This approach will ultimately lead to higher user satisfaction and increased participation rates in Dognition's testing activities.
 
 
-
-
-
-
-```python
+---
 
 ```
-
-
-```python
-
+---
 ```
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
