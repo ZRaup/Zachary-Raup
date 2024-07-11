@@ -16,7 +16,7 @@
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Project 2: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)
+[Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)
 [Project 2: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)
 
 
