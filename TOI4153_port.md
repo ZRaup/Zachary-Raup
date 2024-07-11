@@ -258,14 +258,8 @@ Through the application of the MCMC algorithm implemented in the 'emcee' Python 
 This study underscores the effectiveness of combining observational data with sophisticated modeling techniques to derive precise estimates of exoplanet characteristics, contributing to broader efforts in exoplanetary science and our understanding of planetary systems beyond our solar system.
 
 
-```python
-
-```
-
-
-```python
-
-```
+---
+---
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
