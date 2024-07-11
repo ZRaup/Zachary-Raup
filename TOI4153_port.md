@@ -1,6 +1,6 @@
 # Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet
 ###### By: Zachary Raup
-
+---
 
 ### Objective:
 The objective of this research project is to model the transit of an exoplanet across its host star using photometry data collected from the CR Chambliss Astronomical Observatory (CRCAO). The goal is to accurately estimate the radius of the transiting exoplanet. To achieve this, a log-likelihood function and the Markov Chain Monte Carlo (MCMC) algorithm were implemented to estimate various parameter values, including the exoplanet's radius. These parameters were then used to build a comprehensive model of the planetary star system based on the observational data. The model aims to analyze changes in the star's brightness (flux) during transits and assess its accuracy by comparing it against the observed photometry data from CRCAO.  
