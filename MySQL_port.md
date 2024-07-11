@@ -1,6 +1,6 @@
 # Insights into Dog Behavior: Analyzing Dognition Data with MySQL
 ###### By: Zachary Raup
-
+---
 
 ### Goal of Project:
 The primary objective of this project is to utilize MySQL queries to conduct a comprehensive analysis of trends and correlations within the vast Dognition dataset. As part of the ‘Managing Big Data with MySQL’ course at Duke University, the project highlights improving skills in data cleaning, organizing, and applying advanced analytical techniques using SQL. By concentrating on these areas, the queries seek to reveal actionable insights from the dataset, deepening the understanding of dogs' behavioral patterns and preferences based on the collected data. This approach not only enables the practical use of database management techniques but also develops expertise in managing and interpreting large-scale datasets efficiently.
