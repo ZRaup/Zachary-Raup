@@ -1,5 +1,7 @@
 ## Analyzing Hourly Musuem Room Visitors
 ###### By: Zachary Raup
+---
+### Goal of Project:
 
 <img src="anim.png" width="700" />
 
