@@ -1,6 +1,5 @@
 # Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau
 ###### By: Zachary Raup
-
 ---
 ### About the Project:
 
