@@ -305,6 +305,6 @@ Dognition can refine its test optimization strategies to enhance the testing exp
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)
-[Project 3: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)
+[Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+[Project 3: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 
