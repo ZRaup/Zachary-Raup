@@ -1,5 +1,9 @@
 # Analyzing Hourly Musuem Room Visitors
 ###### By: Zachary Raup
+
+Animating Muesuem Paths based on Crowdability per Hour in Tableau
+
+Animating Muesuem Paths and Hourly Visitors per Room in Tableau
 ---
 ### Goal of Project:
 
