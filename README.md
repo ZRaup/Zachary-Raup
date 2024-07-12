@@ -50,3 +50,11 @@ The goal of this project is to utilize MySQL queries to perform analysis of tren
 
 ---
 ---  
+
+
+
+###### Portfolio Links
+[Zachary's Portfolio](README.md)  
+[Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+[Project 2: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)
+[Project 3: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)
