@@ -38,6 +38,10 @@ Key Insight:
 a great resouce for visualizing visitor traffic befavour
 
 
+---
+---
+===
+
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
 [Project 1: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
