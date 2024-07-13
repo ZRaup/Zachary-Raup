@@ -15,7 +15,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 ##### Image 1: Crowded Cafe at 11 pm
 This screenshot captures the occupancy of a cafe at 11 am, displaying a total of 3,164 visitors. The visualization highlights the distribution of visitors along path A within a museum, where the size of the line correlates with the average number of people per room. Notably, the line is denser at the beginning of the museum's path and gradually diminishes towards its end, indicating a higher influx of visitors entering the museum than exiting.  
 
-Key Insight: The variation in line thickness suggests a dynamic flow of visitors, with greater congestion observed near the museum's entrance and cafe section during the first hours of operation. To optimize visitor experience, the museum could consider implementing staggered entry times, designated entry points, or additional signage to distribute visitor flow more evenly throughout the day.
+Key Insight: The variation in line thickness suggests a dynamic flow of visitors, with greater congestion observed near the museum's entrance and cafe section during the first hours of operation. To optimize visitor experience, the museum could consider implementing staggered entry times, designated entry points, or additional signage to distribute visitor flow more evenly throughout the day.  
 <img src="11.png" width="500" />
 
 ##### Image 2:  3pm
