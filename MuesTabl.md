@@ -13,17 +13,17 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 ###### Below are screenshots from the animation, which can be used to extract valuable insights.
 
 ##### Image 1: Crowded Cafe at 11 pm
-Ths screenshot shows the number of peaple in the cafe at 11 am
+Ths screenshot shows 3,164 visitors in the cafe at 11 am. Notice the size of the line in path A tends to be longer towards the begining of the muesue and gets smaller towards the end of the visitors path.
 Key Insight: 
 <img src="11.png" width="500" />
 
 ##### Image 2:  3pm
-this is the coursjajs at 3 mp
+Both Path A and Path E at 3pm shows a high concentration of the visitors in the middle of the muesuem and also a high number of visitors located at the exit.  
 Key Insight:
 <img src="15.png" width="500" />
 
 ##### Image 3:  6pm
-this is the coursjajs at 3 mp
+At 6pm the animation shows visitors working their way towards the exit of the musuem with less visitors on the paths than previous hours. The highest concentration of visitors is close to the exit and middle area of the musuem.  
 Key Insight:
 <img src="18.png" width="500" />
 
