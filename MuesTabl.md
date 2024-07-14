@@ -56,7 +56,7 @@ a great resouce for visualizing visitor traffic befavour
 
 # Home Page Section
 
-[Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)
+[Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 Project Overview:
 
 This projec is apart of the 'Data Visualiztion in Tableau' course on Data Camp. 
