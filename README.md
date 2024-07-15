@@ -59,8 +59,8 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 ###### Skills Applied: Tableau, Data Visualization
 
-#### Image 3: Musuem visitors
-##### Screenshots of muesuem cisiotrs
+#### Image 3: Common Musuem Visitor Paths
+##### The following three screenshots highlight two popular paths that museum visitors walk at 11 AM, 3 PM, and 6 PM. These images illustrate how the average number of people in each area changes throughout the day, providing insights into visitor flow and behavior
 
 <img src="anim.png" width="700" />
 
