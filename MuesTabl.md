@@ -10,23 +10,26 @@ The interactive animation allows users to hover over each room in the museum and
 The project was undertaken as part of the 'Data Visualization in Tableau' course, where I applied advanced data visualization techniques to transform cleaned museum data into a meaningful and engaging interactive experience. By leveraging Tableau's powerful features, I was able to create a comprehensive and user-friendly tool that highlights key patterns and trends in museum visitor behavior. This project not only demonstrates my proficiency in using Tableau for data visualization but also underscores the practical application of these skills in real-world scenarios.
 
 
-###### Below are screenshots from the animation, which can be used to extract valuable insights.
+##### Below are screenshots from the animation, which can be used to extract valuable insights.
 
-##### Image 1: Crowded Cafe at 11 pm
+#### Image 1: Crowded Cafe at 11 pm
 This screenshot captures the occupancy of a cafe at 11 am, displaying a total of 3,164 visitors. The visualization highlights the distribution of visitors along path A within a museum, where the size of the line correlates with the average number of people per room. Notably, the line is denser at the beginning of the museum's path and gradually diminishes towards its end, indicating a higher influx of visitors entering the museum than exiting.  
 
 <img src="11.png" width="500" />  
 
-##### Image 2:  3pm
+#### Image 2:  3pm
 
 Both Path A and Path E exhibit a significant concentration of visitors in the middle of the muesuem at 3 pm. Along Path E, the Marc Lennox expo registers an average of over 2,000 visitors at this time. Additionally, there is a notable gathering of visitors near the museum's exit.  
 
 <img src="15.png" width="500" />  
 
-##### Image 3:  6pm
+#### Image 3:  6pm
 At 6pm the animation shows a lower number of average of people in the mueusuem than previous hours. The highest concentration of visitors is close to the exit and middle area of the musuem.  
 
 <img src="18.png" width="500" />  
+
+### Key Insights
+The variation in line thickness suggests a dynamic flow of visitors, with greater congestion observed near the museum's entrance and cafe section during the opening hours of operation. To optimize visitor experience, the museum could consider implementing staggered entry times, designated entry points, or additional signage to distribute visitor flow more evenly throughout the day.  
 
 
 ### Conclusion
