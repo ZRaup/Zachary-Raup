@@ -33,19 +33,19 @@ At 6 PM, the animation reveals a lower average number of people in the museum co
 ### Key Insights
 
 ##### Peak Visitor Hours:
-The visualization clearly shows that the museum experiences peak visitor hours around midday, specifically at 11 AM. For instance, the Museum Cafe sees an average of 3,164 visitors per hour, indicating a high influx of visitors during this time.  
-
-This trend can help the museum plan for staffing and resource allocation, ensuring that there are enough staff members and amenities available during the busiest times.
+  The visualization clearly shows that the museum experiences peak visitor hours around midday, specifically at 11 AM. For instance, the Museum Cafe sees an average of 3,164 visitors per hour, indicating a high influx of visitors during this time.  
+  
+  This trend can help the museum plan for staffing and resource allocation, ensuring that there are enough staff members and amenities available during the busiest times.
 
 ##### Highly Visited Exhibits and Areas:
-The Marc Lennox expo, as observed at 3 PM, attracts a significant number of visitors, with an average of over 2,000 visitors along Path E. This concentration suggests that the exhibit is a major draw for museum-goers.  
-
-Highlighting popular exhibits can inform marketing strategies, special events, and promotional efforts to further capitalize on these attractions.
+  The Marc Lennox expo, as observed at 3 PM, attracts a significant number of visitors, with an average of over 2,000 visitors along Path E. This concentration suggests that the exhibit is a major draw for museum-goers.  
+  
+  Highlighting popular exhibits can inform marketing strategies, special events, and promotional efforts to further capitalize on these attractions.
 
 ##### Evening Visitor Trends:
-The data indicates a noticeable decline in visitor numbers by 6 PM, with the highest concentration of visitors located near the museum's exit and central area.  
-
-This suggests that visitors are wrapping up their tours and preparing to leave as closing time approaches. This insight can help the museum plan end-of-day activities, announcements, and services to ensure a smooth transition towards closing time.  
+  The data indicates a noticeable decline in visitor numbers by 6 PM, with the highest concentration of visitors located near the museum's exit and central area.  
+  
+  This suggests that visitors are wrapping up their tours and preparing to leave as closing time approaches. This insight can help the museum plan end-of-day activities, announcements, and services to ensure a smooth transition towards closing time.  
   
 
 By leveraging these insights, the museum can optimize operational strategies, enhance visitor experiences, and drive increased engagement through targeted improvements and strategic planning based on real visitor behavior data.
