@@ -42,11 +42,29 @@ This research project focuses on modeling the transit of exoplanets across stars
 #### Project Overview
 The goal of this project is to utilize MySQL queries to perform analysis of trends and relationships embedded within the Dognition database. Developed as a fundamental component of the ‘Managing Big Data with MySQL’ course from Duke University, the project focuses on refining and applying skills in data cleaning, sorting, and employing advanced analytical techniques using SQL. By exploring large datasets such as the Dognition database, the project aims to uncover meaningful insights into canine behavior patterns and preferences, leveraging robust data management practices to extract actionable intelligence for further research and practical applications in understanding and enhancing dog-human interactions.
 
-###### Skills Applied: MySQL, Writing Queries, Relational Databases, and Big Data  
+###### Skills Applied: MySQL, Writing Queries, Data Cleaning, and Big Data  
 
 #### Image 2: Top States by Number of Dognition Users
 ##### This MySQL query analyzes geographical user trends within the Dognition dataset, resulting in a table that lists the top 5 states with the highest number of Dognition users.
+
  <img src="state_users.png" width="720" />
+
+ &nbsp;   
+
+### [Project 3:](MuesTabl.md)  
+## [Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
+
+#### Project Overview
+The project was undertaken as part of the 'Data Visualization in Tableau' course in Data Camp, where I applied advanced data visualization techniques to transform raw museum data into a meaningful and engaging interactive animation. By leveraging Tableau's powerful features, I was able to create a comprehensive and user-friendly tool that highlights key patterns and trends in museum visitor behavior by the hour. This project not only demonstrates my proficiency in using Tableau for data visualization but also underscores the practical application of these skills in real-world scenarios.
+
+###### Skills Applied: Tableau, Data Visualization
+
+#### Image 3: Musuem visitors
+##### Screenshots of muesuem cisiotrs
+
+<img src="anim.png" width="700" />
+
+ &nbsp;   
 
 ---
 ---  
