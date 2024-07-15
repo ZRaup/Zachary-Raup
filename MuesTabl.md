@@ -13,28 +13,28 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 ##### Below are screenshots from the animation, which can be used to extract valuable insights.
 
 #### Image 1: Crowded Cafe at 11 pm
-This screenshot captures the occupancy of a cafe at 11 am, displaying a total of 3,164 visitors. The visualization highlights the distribution of visitors along path A within a museum, where the size of the line correlates with the average number of people per room. Notably, the line is denser at the beginning of the museum's path and gradually diminishes towards its end, indicating a higher influx of visitors entering the museum than exiting.  
+This screenshot captures the occupancy in the Muesuem Cafe at 11 am, displaying an avaerage of 3,164 visitors per hour which was the most along Path A. The visualization highlights the distribution of visitors along path A and Path E within the Museum, where the size of the line correlates with the average number of people per room. Notably, the line is denser at the beginning of the museum's path and gradually diminishes towards its end, indicating a higher influx of visitors entering the museum than exiting.  
 
 <img src="11.png" width="500" />  
 
-#### Image 2:  3pm
 
-Both Path A and Path E exhibit a significant concentration of visitors in the middle of the muesuem at 3 pm. Along Path E, the Marc Lennox expo registers an average of over 2,000 visitors at this time. Additionally, there is a notable gathering of visitors near the museum's exit.  
+#### Image 2: Popular Marc Lennox expo
+Both Path A and Path E exhibit a significant concentration of visitors in the middle of the muesuem at 3 PM. Along Path E, the Marc Lennox expo registers an average of over 2,000 visitors at this time. Additionally, there is a notable gathering of visitors near the museum's exit.  
 
 <img src="15.png" width="500" />  
 
-#### Image 3:  6pm
-At 6pm the animation shows a lower number of average of people in the mueusuem than previous hours. The highest concentration of visitors is close to the exit and middle area of the musuem.  
+
+#### Image 3: Evening Visitor Trends in the Museum
+At 6 PM, the animation reveals a lower average number of people in the museum compared to earlier hours. Despite the overall decline in visitor numbers, the highest concentration of visitors remains near the museum's exit and in the central area, suggesting these locations are popular gathering points. This trend could indicate that visitors are wrapping up their tours and heading towards the exit as closing time approaches, while still spending significant time in the central exhibits.
 
 <img src="18.png" width="500" />  
+
 
 ### Key Insights
 The variation in line thickness suggests a dynamic flow of visitors, with greater congestion observed near the museum's entrance and cafe section during the opening hours of operation. To optimize visitor experience, the museum could consider implementing staggered entry times, designated entry points, or additional signage to distribute visitor flow more evenly throughout the day.  
 
 
 ### Conclusion
-
-Key Insight: The variation in line thickness suggests a dynamic flow of visitors, with greater congestion observed near the museum's entrance and cafe section during the opening hours of operation. To optimize visitor experience, the museum could consider implementing staggered entry times, designated entry points, or additional signage to distribute visitor flow more evenly throughout the day.  
 
 The data highlights a pronounced clustering of visitors around the Marc Lennox expo and near the museum exit at 3 pm, suggesting potential areas for enhanced visitor management and flow optimization strategies
 
