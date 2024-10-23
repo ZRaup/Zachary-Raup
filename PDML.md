@@ -392,7 +392,8 @@ for name, model in models.items():
 
 ![download](https://github.com/user-attachments/assets/79518b99-28d1-4e79-9323-b11b389fc042)
 
-The ROC curves and AUC values provide additional insights into the models' ability to differentiate between diabetic and non-diabetic patients. **KNN (AUC: 0.83)** and **SVM (AUC: 0.82)** outperformed the other models, demonstrating strong capabilities in balancing true positives and false positives, which aligns with their higher test set accuracy and precision scores. Both models are particularly effective at maintaining a low false positive rate while accurately identifying diabetic cases, making them reliable choices for this classification task.
+#### ROC Curve and AUC Analysis
+The ROC curves and AUC values provide additional insights into the models' ability to differentiate between diabetic and non-diabetic patients. **KNN (AUC: 0.83)** and **SVM (AUC: 0.82)** outperformed the other models, demonstrating strong capabilities in balancing true positives and false positives, which aligns with their higher test set accuracy and precision scores. Both models are particularly effective at maintaining a low false positive rate while accurately identifying diabetic cases, making them reliable choices for this classification task.  
 
 **Logistic Regression and Random Forest (both AUC: 0.81)** also performed well but slightly lagged behind KNN and SVM. However, **Decision Tree (AUC: 0.62)** struggled the most, indicating weaker performance in distinguishing between the two classes. This lower AUC suggests that the Decision Tree model is more likely to misclassify diabetic patients, further reinforcing its underperformance compared to the other models. Overall, **KNN and SVM emerge as the most robust models**, but all models could benefit from further tuning to improve recall for diabetic patients.
 
