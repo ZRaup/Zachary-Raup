@@ -67,9 +67,6 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
  &nbsp;   
 
 
-### [Project 1:](notebook.ipynb)    
-## [Predicting Diabetes Using Maching Learning](notebook.ipynb)  
-
 ---
 ---  
 
