@@ -284,8 +284,9 @@ for name, model in models.items():
 ```
 ```python
 Logistic Regression Test Set Accuracy: 0.7403
+```
 ![download](https://github.com/user-attachments/assets/1c221450-9c94-4cf8-8c35-ba804d97119d)
-
+```python
 Logistic Regression Classification Report:
               precision    recall  f1-score   support
 
@@ -298,7 +299,9 @@ weighted avg       0.73      0.74      0.72       154
 
 
 KNN Test Set Accuracy: 0.7597
+```
 ![download](https://github.com/user-attachments/assets/7b610677-f917-4711-9ecf-6c80aabd7ad4)
+```python
 KNN Classification Report:
               precision    recall  f1-score   support
 
@@ -310,7 +313,9 @@ KNN Classification Report:
 weighted avg       0.76      0.76      0.74       154
 
 Decision Tree Test Set Accuracy: 0.6753
+```
 ![download](https://github.com/user-attachments/assets/aec4942c-5d77-4882-83ac-9d55a88c0e67)
+```python
 Decision Tree Classification Report:
               precision    recall  f1-score   support
 
@@ -322,7 +327,9 @@ Decision Tree Classification Report:
 weighted avg       0.67      0.68      0.67       154
 
 Random Forest Test Set Accuracy: 0.7208
+```
 ![download](https://github.com/user-attachments/assets/01ffcefd-4202-448c-afcc-39d2b8fdd912)
+```python
 Random Forest Classification Report:
               precision    recall  f1-score   support
 
@@ -334,7 +341,9 @@ Random Forest Classification Report:
 weighted avg       0.71      0.72      0.71       154
 
 SVM Test Set Accuracy: 0.7468
+```
 ![download](https://github.com/user-attachments/assets/f0fd140f-8c32-4ded-a7c6-e667be87f730)
+```python
 SVM Classification Report:
               precision    recall  f1-score   support
 
