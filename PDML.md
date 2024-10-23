@@ -46,7 +46,7 @@ print(diabetes_df.head())
 1            1       85         66       29  ...  26.6  0.351   31         0
 2            8      183         64        0  ...  23.3  0.672   32         1
 3            1       89         66       23  ...  28.1  0.167   21         0
-4            0      137         40       35  ...  43.1  2.288   33  
+4            0      137         40       35  ...  43.1  2.288   33         1
 ```
 
 ### Data Preprocessing: Split and Scale Data
@@ -70,6 +70,50 @@ scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 ```
+
+### Feature Importance using Random Forest
+In this section, a Random Forest classifier is trained to rank the features based on their importance towards classifying the target variable. The Random Forest model evaluates each feature's contribution by considering how much each one improves the accuracy of the model when used in tree splits. By identifying the top-ranked features, we can focus on the most informative variables, potentially simplifying the model, improving interpretability, and maintaining or enhancing performance. This step also helps identify redundant or irrelevant features, reducing the risk of overfitting and unnecessary complexity in the model.
+
+```python
+# Import RandomForestClassifier for feature importance
+from sklearn.ensemble import RandomForestClassifier
+import matplotlib.pyplot as plt
+
+# Initialize and fit Random Forest on the scaled training data
+rf = RandomForestClassifier(random_state=21)
+rf.fit(X_train_scaled, y_train)
+
+# Extract feature importances from the Random Forest model
+importances = rf.feature_importances_
+
+# Use the original feature names (before scaling)
+feature_names = diabetes_df.columns[:-1]  
+
+# Visualize feature importance using a bar chart
+plt.figure(figsize=(10, 6))
+pd.Series(importances, index=feature_names).sort_values().plot(kind='barh', color='lightgreen')
+plt.title('Random Forest Feature Importance')
+plt.xlabel('Importance Score')
+plt.show()
+
+# Select the most important features based on Random Forest importance scores
+important_features = feature_names[importances > 0.1]  
+print(f"Selected Important Features: {important_features}")
+
+# Get the indices of important features
+important_feature_indices = [list(feature_names).index(feat) for feat in important_features]
+
+# Redefine X with the important features only (for NumPy arrays)
+X_train_imp = X_train[:, important_feature_indices]
+X_test_imp = X_test[:, important_feature_indices]
+```
+
+![image](https://github.com/user-attachments/assets/4ff9d292-1f7c-4704-9462-d6c3d50eb9cd)
+```python
+Selected Important Features: Index(['glucose', 'bmi', 'dpf', 'age'], dtype='object')
+```
+
+
 
 
 
