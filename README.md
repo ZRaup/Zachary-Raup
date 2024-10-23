@@ -24,12 +24,12 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 ## [Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 
 #### Project Overview
-This research project focuses on 
+This project explores the effectiveness of five machine learning models—Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, and Support Vector Machine (SVM)—in predicting diabetes status using clinical data. By employing cross-validation and assessing key metrics such as accuracy, precision, recall, and F1 score, the analysis highlights the importance of selecting a model that balances these metrics for reliable healthcare applications. A model with high accuracy and recall is crucial for effectively identifying diabetic patients, thereby minimizing the risks associated with missed diagnoses. 
 
-###### Skills Applied: Machine Learning, Supervised Learning, Python (scikit-learn, pandas, and matplotlib),and Jupyter Notebook  
+###### Skills Applied: Machine Learning, Supervised Learning, Python (scikit-learn), Cross-Validation, Hyperparameter Tuning and more 
 
 #### Image 1: Classification Model Comparison
-##### Light 
+##### This boxplot illustrates the cross-validation accuracy of five classification models—Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, and Support Vector Machine (SVM). Each box represents the distribution of accuracy scores obtained through 5-fold cross-validation, highlighting the performance stability and variability of each model. The results emphasize the importance of model selection in achieving high accuracy for diabetes classification, crucial for effective healthcare decision-making.
 
 ![download](https://github.com/user-attachments/assets/450f536c-551c-4354-b4ae-4a256ad92a4a)
 
@@ -90,7 +90,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Project 1: Predicting Diabetes Using Machine Learning](PDML.md)  
+[Project 1: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 [Project 2: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
 [Project 3: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
 [Project 4: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
