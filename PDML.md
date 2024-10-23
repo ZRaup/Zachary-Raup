@@ -26,6 +26,7 @@ The dataset used is sourced from [DataCamp](https://app.datacamp.com) and was a 
 ### Load the Cleaned Diabetes Dataset
 This section imports necessary Python libraries for data manipulation and visualization. It loads the cleaned diabetes dataset into a Pandas DataFrame, providing a structured view of the data, which is essential for subsequent processing.
 
+```python
 # Importing libraries for data manipulation and visualization
 import pandas as pd
 import numpy as np
@@ -37,6 +38,7 @@ diabetes_df = pd.read_csv('datasets/diabetes_clean.csv')
 
 # Preview the diabetes dataset
 print(diabetes_df.head())
+```
 
 
    pregnancies  glucose  diastolic  triceps  ...   bmi    dpf  age  diabetes
@@ -49,3 +51,29 @@ print(diabetes_df.head())
 
 ### Data Preprocessing: Split and Scale Data
 Assign the feature variables (X) and target variable (y) and randomly split the dataset into training (80%) and testing (20%) sets with train_test_split from sklearn. The stratification ensures that the class distribution of the target variable (diabetes/no diabetes) is maintained, which is critical for balanced model evaluation. This section also applies standard scaling to the data. Scaling ensures that all feature values are normalized and on the same scale, which assists models like KNN and SVM that are sensitive to differences in feature magnitudes.
+
+
+```python
+# Import train_test_split and StandardScaler from sklearn
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+# Assign features and target 
+X = diabetes_df.drop("diabetes", axis=1).values      
+y = diabetes_df["diabetes"].values   
+
+# Split the data into training and testing sets (80% train, 20% test)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=21, stratify=y)
+
+# Scale the data
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+```
+
+
+
+
+
+
+
