@@ -233,8 +233,7 @@ Decision Tree Cross-Validation Mean Accuracy: 0.7085
 Random Forest Cross-Validation Mean Accuracy: 0.7459
 SVM Cross-Validation Mean Accuracy: 0.7655
 ```
-
-![download](https://github.com/user-attachments/assets/0d1dfae1-5457-4c14-9c9a-ff9e926aaae7)
+<img src="mod_comp.png" width="500" />
 
 #### Analysis of the Training Model Comparison 
 The **Logistic Regression** model stands out as the **most effective classifier** in this case, balancing accuracy with stability. For classifying whether a patient has diabetes, this model would likely generalize the best to unseen data. While **SVM and KNN** also **performed well**, they displayed slightly more variability. The Decision Tree and Random Forest models, while useful in some scenarios, did not perform as well for this specific dataset, showing lower accuracy and more significant variability. Therefore, based on the cross-validation results, Logistic Regression should be considered the preferred model for this task.
