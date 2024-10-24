@@ -19,7 +19,7 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 
 ---
 
-#### Cerifications 
+#### Certifications 
 - Data Scientist Associate
 - Data Analyst Associate
 - Python Data Associate
