@@ -17,12 +17,13 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 
 &nbsp;  
 
+---
 
-### Cerifications 
-- Data Scientist Associate (DataCamp)
-- Data Analyst Associate (DataCamp)
-- Python Data Associate (DataCamp)
-- SQL Associate (DataCamp)
+#### Cerifications 
+- Data Scientist Associate
+- Data Analyst Associate
+- Python Data Associate
+- SQL Associate
 
 ---  
 
