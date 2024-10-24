@@ -17,6 +17,13 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 
 &nbsp;  
 
+
+### Cerifications 
+- Data Scientist Associate (DataCamp)
+- Data Analyst Associate (DataCamp)
+- Python Data Associate (DataCamp)
+- SQL Associate (DataCamp)
+
 ---  
 
 ##### Below is a select list of data and coding projects that I have completed. Use project title links to view more information about each project.  
