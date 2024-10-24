@@ -107,8 +107,8 @@ important_feature_indices = [list(feature_names).index(feat) for feat in importa
 X_train_imp = X_train[:, important_feature_indices]
 X_test_imp = X_test[:, important_feature_indices]
 ```
+<img src="feat_imp.png" width="500" />
 
-![image](https://github.com/user-attachments/assets/4ff9d292-1f7c-4704-9462-d6c3d50eb9cd)
 ```python
 Selected Important Features: Index(['glucose', 'bmi', 'dpf', 'age'], dtype='object')
 ```
@@ -165,7 +165,8 @@ Best KNN Model:
 Best score: 0.7948
 Best parameters: {'knn__n_neighbors': 18}
 ```
-![download](https://github.com/user-attachments/assets/abb3a839-25fb-4121-bc3c-a43fd7f59da9)
+<img src="hyper_opt.png" width="500" />
+
 
 #### Analysis of Hyperparameter Tuning
 The GridSearchCV process identified that the optimal value for the n_neighbors parameter in the K-Nearest Neighbors (KNN) model is 18, which yielded the highest mean cross-validation accuracy score of 0.79. This optimal number of neighbors enhances the balance between bias and variance, ensuring that the model generalizes well to unseen data. Going forward, the KNN models will be trained and tested using this optimal value of n_neighbors = 18, maximizing performance by utilizing the best configuration found during the grid search.  
@@ -281,7 +282,7 @@ for name, model in models.items():
     print(f"{name} Classification Report:")
     print(classification_report(y_test, y_pred))
 ```
-![download](https://github.com/user-attachments/assets/1c221450-9c94-4cf8-8c35-ba804d97119d)
+<img src="log_cm.png" width="500" />
 ```python
 Logistic Regression Test Set Accuracy: 0.7403
 Logistic Regression Classification Report:
@@ -296,7 +297,7 @@ weighted avg       0.73      0.74      0.72       154
 
 
 ```
-![download](https://github.com/user-attachments/assets/7b610677-f917-4711-9ecf-6c80aabd7ad4)
+<img src="knn_cm.png" width="500" />
 ```python
 KNN Test Set Accuracy: 0.7597
 KNN Classification Report:
@@ -310,7 +311,7 @@ KNN Classification Report:
 weighted avg       0.76      0.76      0.74       154
 
 ```
-![download](https://github.com/user-attachments/assets/aec4942c-5d77-4882-83ac-9d55a88c0e67)
+<img src="dt_cm.png" width="500" />
 ```python
 Decision Tree Test Set Accuracy: 0.6753
 Decision Tree Classification Report:
@@ -324,7 +325,7 @@ Decision Tree Classification Report:
 weighted avg       0.67      0.68      0.67       154
 
 ```
-![download](https://github.com/user-attachments/assets/01ffcefd-4202-448c-afcc-39d2b8fdd912)
+<img src="rf_cm.png" width="500" />
 ```python
 Random Forest Test Set Accuracy: 0.7208
 Random Forest Classification Report:
@@ -338,7 +339,7 @@ Random Forest Classification Report:
 weighted avg       0.71      0.72      0.71       154
 
 ```
-![download](https://github.com/user-attachments/assets/f0fd140f-8c32-4ded-a7c6-e667be87f730)
+<img src="svm_cm.png" width="500" />
 ```python
 SVM Test Set Accuracy: 0.7468
 SVM Classification Report:
@@ -381,15 +382,15 @@ for name, model in models.items():
     plt.legend()
     plt.show()
 ```
-![download](https://github.com/user-attachments/assets/6b0b8da6-dd9a-4e17-af4f-371e8a89c19f)
+<img src="log_roc.png" width="500" />
 
-![download](https://github.com/user-attachments/assets/41af8f45-f8d8-44bc-ace8-07788f7ff468)
+<img src="knn_roc.png" width="500" />
 
-![download](https://github.com/user-attachments/assets/96faaaf0-1f1a-4b54-88f0-53ce0e339373)
+<img src="dt_roc.png" width="500" />
 
-![download](https://github.com/user-attachments/assets/574b6e4a-788a-4f3f-9ab6-880940cb85c2)
+<img src="rf_roc.png" width="500" />
 
-![download](https://github.com/user-attachments/assets/79518b99-28d1-4e79-9323-b11b389fc042)
+<img src="svm_roc.png" width="500" />
 
 #### ROC Curve and AUC Analysis
 The ROC curves and AUC values provide additional insights into the models' ability to differentiate between diabetic and non-diabetic patients. **KNN (AUC: 0.83)** and **SVM (AUC: 0.82)** outperformed the other models, demonstrating strong capabilities in balancing true positives and false positives, which aligns with their higher test set accuracy and precision scores. Both models are particularly effective at maintaining a low false positive rate while accurately identifying diabetic cases, making them reliable choices for this classification task.  
