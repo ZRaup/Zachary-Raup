@@ -7,7 +7,9 @@
 <a href = "https://www.linkedin.com/in/zachary-raup-6280a3265"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 ### About Me
-Welcome to my data analyst portfolio. I graduated Summa Cum Laude from Kutztown University with a bachelor's degree in Physics, driven by an insatiable curiosity and a passion for data-driven exploration. Throughout my academic journey, I specialized in data analysis and modeling, particularly in the realms of exoplanets and binary stars. This experience not only deepened my understanding of complex datasets but also honed my skills in extracting meaningful insights.
+Welcome to my data science portfolio! I graduated Summa Cum Laude from Kutztown University with a bachelor’s degree in Physics, driven by an insatiable curiosity and a passion for data-driven exploration. Throughout my academic journey, I specialized in data analysis and modeling, particularly in the realms of exoplanets and binary stars. This experience not only deepened my understanding of complex datasets but also honed my skills in extracting meaningful insights.
+
+I hold certifications as a Data Science Associate and Data Analyst Associate from DataCamp, along with specialized certifications in Python and SQL. My coursework has also included advanced machine learning topics, equipping me with a solid foundation in both theoretical concepts and practical applications.
 
 Professionally, I have developed robust capabilities in Python for data analysis, leveraging techniques such as exploratory data analysis, data cleaning, and statistical modeling. I am proficient in SQL querying, adept at managing and extracting insights from large datasets to support data-driven decision-making. Additionally, I possess advanced skills in data visualization using Tableau and Power BI, creating insightful visualizations that effectively communicate findings and support strategic initiatives.
 
