@@ -6,25 +6,26 @@ This project demonstrates how to classify whether a patient has diabetes using v
 
 The models applied in this project include Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, and Support Vector Machine (SVM). To enhance model performance, techniques such as scaling, Random Forest feature importance analysis, and hyperparameter optimization are utilized. The models are evaluated using cross-validation metrics and visualized through confusion matrices and ROC curves, allowing for a comprehensive assessment of their effectiveness.
 
-Ultimately, this project aims to provide insights into the best-performing models for diabetes prediction, contributing to more accurate and timely healthcare decisions. The findings may inform future research and applications in predictive analytics within the healthcare domain, potentially leading to better patient outcomes and reduced healthcare costs.
+Ultimately, this project aims to provide insights into the best-performing models for diabetes prediction, contributing to more accurate and timely healthcare decisions. The findings may inform future research and applications in predictive analytics within the healthcare domain, potentially leading to better patient outcomes and reduced healthcare costs.  
 
 
 ### Skills demonstrated in this project:
 
-- [Data preprocessing with train_test_split and StandardScaler](#data_preprocessing_split_and_scale_data)
+- [Data preprocessing with train_test_split and StandardScaler](data_preprocessing_split_and_scale_data)
 - [Feature importance using Random Forest](#feature_importance_using_random_forest)
 - [Hyperparameter Optimization with KNN and GridSearch](#hyperparameter_optimization_for_knn_with_gridsearch)
 - [Model comparison (Logistic Regression, KNN, Decision Tree, Random Forest, SVM)](#compare_multiple_models)
 - [Model evaluation using precision, recall, accuracy, and cross-validation metrics](#evaluate_models_on_test_set)
-- [ROC Curves](#roc_curves)
+- [ROC Curves](#roc_curves)  
 
 
 ### About the Data:
-The dataset used is sourced from [DataCamp](https://app.datacamp.com) and was a practice dataset from the [Supervised Learning with scikit-learn course]([datacamp.com/learn/courses/supervised-learning-with-scikit-learn](https://app.datacamp.com/learn/courses/supervised-learning-with-scikit-learn)). It is a cleaned version of the diabetes dataset with no missing data, and the target variable, diabetes, is a binary column where 1 indicates that the patient has diabetes and 0 indicates that they do not. The "dpf" column refers to Diabetes Pedigree Function. This column provides a measure of the likelihood of diabetes based on a person's genetic history (family history) and the interaction of genetics with other risk factors. This cleaned dataset version allows this project to focus on model training, evaluation, and interpretation without worrying about data preprocessing issues like missing values.
+The dataset used is sourced from [DataCamp](https://app.datacamp.com) and was a practice dataset from the [Supervised Learning with scikit-learn course]([datacamp.com/learn/courses/supervised-learning-with-scikit-learn](https://app.datacamp.com/learn/courses/supervised-learning-with-scikit-learn)). It is a cleaned version of the diabetes dataset with no missing data, and the target variable, diabetes, is a binary column where 1 indicates that the patient has diabetes and 0 indicates that they do not. The "dpf" column refers to Diabetes Pedigree Function. This column provides a measure of the likelihood of diabetes based on a person's genetic history (family history) and the interaction of genetics with other risk factors. This cleaned dataset version allows this project to focus on model training, evaluation, and interpretation without worrying about data preprocessing issues like missing values.  
 
 
 ### Load the Cleaned Diabetes Dataset
-This section imports necessary Python libraries for data manipulation and visualization. It loads the cleaned diabetes dataset into a Pandas DataFrame, providing a structured view of the data, which is essential for subsequent processing.
+This section imports necessary Python libraries for data manipulation and visualization. It loads the cleaned diabetes dataset into a Pandas DataFrame, providing a structured view of the data, which is essential for subsequent processing.  
+
 
 ```python
 # Importing libraries for data manipulation and visualization
@@ -47,10 +48,10 @@ print(diabetes_df.head())
 2            8      183         64        0  ...  23.3  0.672   32         1
 3            1       89         66       23  ...  28.1  0.167   21         0
 4            0      137         40       35  ...  43.1  2.288   33         1
-```
+```  
 
 ### Data Preprocessing: Split and Scale Data
-Assign the feature variables (X) and target variable (y) and randomly split the dataset into training (80%) and testing (20%) sets with train_test_split from sklearn. The stratification ensures that the class distribution of the target variable (diabetes/no diabetes) is maintained, which is critical for balanced model evaluation. This section also applies standard scaling to the data. Scaling ensures that all feature values are normalized and on the same scale, which assists models like KNN and SVM that are sensitive to differences in feature magnitudes.
+Assign the feature variables (X) and target variable (y) and randomly split the dataset into training (80%) and testing (20%) sets with train_test_split from sklearn. The stratification ensures that the class distribution of the target variable (diabetes/no diabetes) is maintained, which is critical for balanced model evaluation. This section also applies standard scaling to the data. Scaling ensures that all feature values are normalized and on the same scale, which assists models like KNN and SVM that are sensitive to differences in feature magnitudes.  
 
 
 ```python
@@ -69,10 +70,11 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
-```
+```  
 
 ### Feature Importance using Random Forest
-In this section, a Random Forest classifier is trained to rank the features based on their importance towards classifying the target variable. The Random Forest model evaluates each feature's contribution by considering how much each one improves the accuracy of the model when used in tree splits. By identifying the top-ranked features, we can focus on the most informative variables, potentially simplifying the model, improving interpretability, and maintaining or enhancing performance. This step also helps identify redundant or irrelevant features, reducing the risk of overfitting and unnecessary complexity in the model.
+In this section, a Random Forest classifier is trained to rank the features based on their importance towards classifying the target variable. The Random Forest model evaluates each feature's contribution by considering how much each one improves the accuracy of the model when used in tree splits. By identifying the top-ranked features, we can focus on the most informative variables, potentially simplifying the model, improving interpretability, and maintaining or enhancing performance. This step also helps identify redundant or irrelevant features, reducing the risk of overfitting and unnecessary complexity in the model.  
+
 
 ```python
 # Import RandomForestClassifier for feature importance
@@ -111,15 +113,17 @@ X_test_imp = X_test[:, important_feature_indices]
 
 ```python
 Selected Important Features: Index(['glucose', 'bmi', 'dpf', 'age'], dtype='object')
-```
+```  
 
 #### Insights from Random Forest Feature Importance
 The Random Forest model's feature importance analysis revealed that 'glucose' is the most significant predictor of diabetes, with a score of 0.26, as shown in the accompanying bar chart. The next most important features are 'bmi' (0.17), 'dpf' (0.14), and 'age' (0.13), with a notable drop in importance beyond these variables. To maintain the model's predictive accuracy while simplifying it, a threshold is set, retaining only features with an importance score greater than 0.1. This ensures that the model remains interpretable and efficient by focusing on the most impactful variables, while discarding those with lower predictive power.  
 
+
 ### Hyperparameter Optimization for KNN with GridSearch
 Next, optimize the K-Nearest Neighbors (KNN) model by selecting the best value for the n_neighbors hyperparameter. The n_neighbors parameter controls how many neighboring data points are considered when making a prediction, directly impacting the model's decision boundary. Smaller values of n_neighbors make the model more sensitive to local variations, while larger values provide smoother, more generalized predictions.
 
-To find the optimal value, GridSearch is used from sklearn, which is a systematic approach that evaluates a range of possible n_neighbors values to identify the one that maximizes model accuracy. GridSearch works by performing an exhaustive search over the predefined hyperparameter space, selecting the configuration that yields the best performance based on cross-validation results. This process ensures that the KNN model generalizes well to unseen data, reducing the risk of overfitting and making the model more reliable and robust for predicting diabetes.
+To find the optimal value, GridSearch is used from sklearn, which is a systematic approach that evaluates a range of possible n_neighbors values to identify the one that maximizes model accuracy. GridSearch works by performing an exhaustive search over the predefined hyperparameter space, selecting the configuration that yields the best performance based on cross-validation results. This process ensures that the KNN model generalizes well to unseen data, reducing the risk of overfitting and making the model more reliable and robust for predicting diabetes.  
+
 
 ```python
 # Import KNeighborsClassifier, Pipeline, and GridSearchCV for hyperparameter tuning
@@ -166,7 +170,7 @@ Best KNN Model:
 Best score: 0.7948
 Best parameters: {'knn__n_neighbors': 18}
 ```
-<img src="hyper_opt.png" width="500" />
+<img src="hyper_opt.png" width="500" />  
 
 
 #### Analysis of Hyperparameter Tuning
@@ -185,7 +189,8 @@ In this section, we compare the performance of five different classification mod
 
 - **Support Vector Machine (SVM):** SVM finds the optimal hyperplane that separates different classes in the feature space. It maximizes the margin between the classes, making it effective in high-dimensional spaces.
 
-To evaluate these models, cross-validation is used to obtain a robust measure of accuracy.
+To evaluate these models, cross-validation is used to obtain a robust measure of accuracy.  
+
 
 ```python
 # Import classifiers and cross-validation tools
@@ -236,10 +241,11 @@ Decision Tree Cross-Validation Mean Accuracy: 0.7085
 Random Forest Cross-Validation Mean Accuracy: 0.7459
 SVM Cross-Validation Mean Accuracy: 0.7655
 ```
+
 <img src="mod_comp.png" width="500" />
 
 #### Analysis of the Training Model Comparison 
-The **Logistic Regression** model stands out as the **most effective classifier** in this case, balancing accuracy with stability. For classifying whether a patient has diabetes, this model would likely generalize the best to unseen data. While **SVM and KNN** also **performed well**, they displayed slightly more variability. The Decision Tree and Random Forest models, while useful in some scenarios, did not perform as well for this specific dataset, showing lower accuracy and more significant variability. Therefore, based on the cross-validation results, Logistic Regression should be considered the preferred model for this task.
+The **Logistic Regression** model stands out as the **most effective classifier** in this case, balancing accuracy with stability. For classifying whether a patient has diabetes, this model would likely generalize the best to unseen data. While **SVM and KNN** also **performed well**, they displayed slightly more variability. The Decision Tree and Random Forest models, while useful in some scenarios, did not perform as well for this specific dataset, showing lower accuracy and more significant variability. Therefore, based on the cross-validation results, Logistic Regression should be considered the preferred model for this task.  
 
 
 ### Evaluate Models on Test Set
@@ -362,10 +368,10 @@ SVM Classification Report:
     accuracy                           0.75       154
    macro avg       0.75      0.67      0.68       154
 weighted avg       0.75      0.75      0.72       154
-```
+
+```  
 
 #### Analysis of Model Preformance on Test Data
-
 Best Model: **KNN** achieved the **highest accuracy (75.97%) on the test set,** making it the best-performing model overall. However, the **SVM model** offered the **highest precision** for identifying diabetic patients (class 1), which could make it more suitable depending on whether precision or recall is prioritized in the application. While KNN showed a balanced performance, SVM was better at correctly identifying diabetic patients, although both models still had limitations.
 
 Room for Improvement: A critical challenge observed across all models is the **low recall** for diabetic patients (class 1), meaning they missed a significant number of actual diabetic cases. In a healthcare setting, this poses serious risks, as failing to correctly identify diabetic patients can lead to inadequate care and treatment. Logistic Regression and Random Forest also performed competitively but faced similar issues with recall, while Decision Tree had the weakest performance overall.
@@ -393,7 +399,8 @@ for name, model in models.items():
     plt.legend()
     plt.show()
 
-```
+```  
+
 
 <img src="log_roc.png" width="500" />
 
@@ -403,12 +410,13 @@ for name, model in models.items():
 
 <img src="rf_roc.png" width="500" />
 
-<img src="svm_roc.png" width="500" />
+<img src="svm_roc.png" width="500" />  
+
 
 #### ROC Curve and AUC Analysis
-The ROC curves and AUC values provide additional insights into the models' ability to differentiate between diabetic and non-diabetic patients. **KNN (AUC: 0.83)** and **SVM (AUC: 0.82)** outperformed the other models, demonstrating strong capabilities in balancing true positives and false positives, which aligns with their higher test set accuracy and precision scores. Both models are particularly effective at maintaining a low false positive rate while accurately identifying diabetic cases, making them reliable choices for this classification task.  
+The ROC curves and AUC values provide additional insights into the models' ability to differentiate between diabetic and non-diabetic patients. **KNN (AUC: 0.83)** and **SVM (AUC: 0.82)** outperformed the other models, demonstrating strong capabilities in balancing true positives and false positives, which aligns with their higher test set accuracy and precision scores. Both models are particularly effective at maintaining a low false positive rate while accurately identifying diabetic cases, making them reliable choices for this classification task   
 
-**Logistic Regression and Random Forest (both AUC: 0.81)** also performed well but slightly lagged behind KNN and SVM. However, **Decision Tree (AUC: 0.62)** struggled the most, indicating weaker performance in distinguishing between the two classes. This lower AUC suggests that the Decision Tree model is more likely to misclassify diabetic patients, further reinforcing its underperformance compared to the other models. Overall, **KNN and SVM emerge as the most robust models**, but all models could benefit from further tuning to improve recall for diabetic patients.
+**Logistic Regression and Random Forest (both AUC: 0.81)** also performed well but slightly lagged behind KNN and SVM. However, **Decision Tree (AUC: 0.62)** struggled the most, indicating weaker performance in distinguishing between the two classes. This lower AUC suggests that the Decision Tree model is more likely to misclassify diabetic patients, further reinforcing its underperformance compared to the other models. Overall, **KNN and SVM emerge as the most robust models**, but all models could benefit from further tuning to improve recall for diabetic patients.  
 
 
 ## Key Findings and Conclusion:
@@ -422,7 +430,8 @@ While KNN and SVM excel in precision, **none of the models exhibited high recall
 
 The use of GridSearchCV to optimize the KNN model resulted in improved performance with the selected hyperparameter settings, demonstrating the significant impact of hyperparameter tuning on model accuracy.
 
-In summary, the findings emphasize the need for careful model selection tailored to specific healthcare goals—be it accuracy, precision, or recall. By aligning the chosen model with these objectives and focusing on effective feature selection, proper scaling, and meticulous hyperparameter tuning, healthcare providers can enhance their decision-making processes. This approach ultimately contributes to better patient outcomes and more efficient resource management, paving the way for future research and applications in predictive analytics within the healthcare domain.
+In summary, the findings emphasize the need for careful model selection tailored to specific healthcare goals—be it accuracy, precision, or recall. By aligning the chosen model with these objectives and focusing on effective feature selection, proper scaling, and meticulous hyperparameter tuning, healthcare providers can enhance their decision-making processes. This approach ultimately contributes to better patient outcomes and more efficient resource management, paving the way for future research and applications in predictive analytics within the healthcare domain.  
+
 
 
 #### Helpful Project Links
@@ -433,7 +442,7 @@ In summary, the findings emphasize the need for careful model selection tailored
 [GridSearchCV Documentation (scikit-learn.org)](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)  
 [Tuning the Hyper-Parameters Documentation (scikit-learn.org)](https://scikit-learn.org/stable/modules/grid_search.html)  
 [Cross-validation Documentation (scikit-learn.org)](https://scikit-learn.org/stable/modules/cross_validation.html)  
-[ROC Curve Documentaion (scikit-learn.org)](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html)
+[ROC Curve Documentaion (scikit-learn.org)](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html)  
 
 
 ###### Portfolio Links
