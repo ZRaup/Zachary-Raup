@@ -412,7 +412,7 @@ The use of GridSearchCV to optimize the KNN model resulted in improved performan
 In summary, the findings emphasize the need for careful model selection tailored to specific healthcare goals—be it accuracy, precision, or recall. By aligning the chosen model with these objectives and focusing on effective feature selection, proper scaling, and meticulous hyperparameter tuning, healthcare providers can enhance their decision-making processes. This approach ultimately contributes to better patient outcomes and more efficient resource management, paving the way for future research and applications in predictive analytics within the healthcare domain.
 
 
-#### Helpful Links
+#### Helpful Project Links
 [DataCamp Website](https://datacamp.com)  
 [Supervisoed Learning with scikit-learn DataCamp Coure](https://app.datacamp.com/learn/courses/supervised-learning-with-scikit-learn)  
 [scikit-learn Supervised Learning Documentation (scikit-learn.org)](https://scikit-learn.org/stable/supervised_learning.html)  
@@ -421,3 +421,14 @@ In summary, the findings emphasize the need for careful model selection tailored
 [Tuning the Hyper-Parameters Documentation (scikit-learn.org)](https://scikit-learn.org/stable/modules/grid_search.html)  
 [Cross-validation Documentation (scikit-learn.org)](https://scikit-learn.org/stable/modules/cross_validation.html)  
 [ROC Curve Documentaion (scikit-learn.org)](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html)
+
+
+###### Portfolio Links
+[Zachary's Portfolio](README.md)  
+[Project 1: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
+[Project 2: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+[Project 3: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
+[Project 4: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md) 
+
+
+
