@@ -30,9 +30,7 @@ This project explores the effectiveness of five machine learning models—Logist
 
 #### Image 1: Classification Model Comparison
 ##### This boxplot illustrates the cross-validation accuracy of five classification models—Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, and Support Vector Machine (SVM). Each box represents the distribution of accuracy scores obtained through 5-fold cross-validation, highlighting the performance stability and variability of each model. The results emphasize the importance of model selection in achieving high accuracy for diabetes classification, crucial for effective healthcare decision-making.
-
-![download](https://github.com/user-attachments/assets/450f536c-551c-4354-b4ae-4a256ad92a4a)
-
+<img src="mod_comp.png" width="500" />
 
 
 ### [Project 2:](TOI4153_port.md)    
