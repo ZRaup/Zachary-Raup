@@ -160,6 +160,7 @@ plt.ylabel("Mean Cross-Validation Accuracy")
 plt.grid(True)
 plt.show()
 ```
+
 ```python
 Best KNN Model:
 Best score: 0.7948
@@ -227,6 +228,7 @@ plt.title("Model Comparison (Cross-Validation Accuracy)")
 plt.ylabel("Accuracy")
 plt.show()
 ```
+
 ```python
 Logistic Regression Cross-Validation Mean Accuracy: 0.7833
 KNN Cross-Validation Mean Accuracy: 0.7557
@@ -282,7 +284,9 @@ for name, model in models.items():
     print(f"{name} Classification Report:")
     print(classification_report(y_test, y_pred))
 ```
+
 <img src="log_cm.png" width="500" />
+
 ```python
 Logistic Regression Test Set Accuracy: 0.7403
 Logistic Regression Classification Report:
@@ -295,9 +299,10 @@ Logistic Regression Classification Report:
    macro avg       0.73      0.67      0.68       154
 weighted avg       0.73      0.74      0.72       154
 
-
 ```
+
 <img src="knn_cm.png" width="500" />
+
 ```python
 KNN Test Set Accuracy: 0.7597
 KNN Classification Report:
@@ -311,7 +316,9 @@ KNN Classification Report:
 weighted avg       0.76      0.76      0.74       154
 
 ```
+
 <img src="dt_cm.png" width="500" />
+
 ```python
 Decision Tree Test Set Accuracy: 0.6753
 Decision Tree Classification Report:
@@ -325,7 +332,9 @@ Decision Tree Classification Report:
 weighted avg       0.67      0.68      0.67       154
 
 ```
+
 <img src="rf_cm.png" width="500" />
+
 ```python
 Random Forest Test Set Accuracy: 0.7208
 Random Forest Classification Report:
@@ -339,7 +348,9 @@ Random Forest Classification Report:
 weighted avg       0.71      0.72      0.71       154
 
 ```
+
 <img src="svm_cm.png" width="500" />
+
 ```python
 SVM Test Set Accuracy: 0.7468
 SVM Classification Report:
@@ -381,7 +392,9 @@ for name, model in models.items():
     plt.ylabel('True Positive Rate')
     plt.legend()
     plt.show()
+
 ```
+
 <img src="log_roc.png" width="500" />
 
 <img src="knn_roc.png" width="500" />
