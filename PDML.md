@@ -11,12 +11,12 @@ Ultimately, this project aims to provide insights into the best-performing model
 
 ### Skills demonstrated in this project:
 
-- [Data preprocessing with train_test_split and StandardScaler](#data_preprocessing_split_and_scale_data)
-- [Feature importance using Random Forest](#feature_importance_using_random_forest)
-- [Hyperparameter Optimization with KNN and GridSearch](#hyperparameter_optimization_for_knn_with_gridsearch)
-- [Model comparison (Logistic Regression, KNN, Decision Tree, Random Forest, SVM)](#compare_multiple_models)
-- [Model evaluation using precision, recall, accuracy, and cross-validation metrics](#evaluate_models_on_test_set)
-- [ROC Curves](#roc_curves)  
+- [Data preprocessing with train_test_split and StandardScaler](#data-preprocessing-split-and-scale-data)
+- [Feature Importance using RandomForest](#feature-importance-using-random-forest)
+- [Hyperparameter Optimization with KNN and GridSearch](#hyperparameter-optimization-for-knn-with-gridsearch)
+- [Model comparison (Logistic Regression, KNN, Decision Tree, Random Forest, SVM)](#compare-multiple-models)
+- [Model evaluation using precision, recall, accuracy, and cross-validation metrics](#evaluate-models-on-test-set)
+- [ROC Curves](#roc-curves)  
 
 
 ### About the Data:
