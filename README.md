@@ -23,7 +23,7 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 - [Data Scientist Associate](DataScienceCert.pdf)
 - [Data Analyst Associate](DataAnalystCertificate.pdf)
 - [Python Data Associate](PythonDataAssociateCert.pdf)
-- [SQL Associate]()SQL_cert.pdf
+- [SQL Associate](SQL_cert.pdf)
 
 ---  
 
