@@ -95,11 +95,6 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 ---  
 
 
-<div style="display: flex; justify-content: space-between;">
-
-<!-- Left Column -->
-<div style="width: 48%;">
-
 ###### Portfolio Links
 - [Zachary's Portfolio](README.md)  
 - [Project 1: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
@@ -107,27 +102,4 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 - [Project 3: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
 - [Project 4: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)
 
-</div>
 
-<!-- Right Column -->
-<div style="width: 48%;">
-
-###### Courses Completed
-- Introduction to SQL  
-- Intermediate SQL  
-- Joining Data in SQL  
-- Supervised Learning with scikit-learn  
-- Understanding Machine Learning  
-- Exploratory Data Analysis in Python  
-- Data Visualization in Power BI  
-- Introduction to Git  
-- Introduction to Regression with statsmodels in Python  
-- Intermediate Importing Data in Python  
-- Preprocessing for Machine Learning in Python  
-- Data Visualization in Tableau  
-- Machine Learning for Business  
-- Developing Python Packages
-
-</div>
-
-</div>
