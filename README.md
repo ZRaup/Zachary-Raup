@@ -95,7 +95,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 ---  
 
 
-###### Portfolio Links
+###### Portfolio Links  
 - [Zachary's Portfolio](README.md)  
 - [Project 1: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 - [Project 2: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
