@@ -94,13 +94,12 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 ---
 ---  
 
+###### Portfolio Links
+[Zachary's Portfolio](README.md)  
+[Project 1: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
+[Project 2: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+[Project 3: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
+[Project 4: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md) 
 
-###### Portfolio Links  
-
-- [Zachary's Portfolio](README.md)  
-- [Project 1: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
-- [Project 2: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
-- [Project 3: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
-- [Project 4: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)
 
 
