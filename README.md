@@ -95,7 +95,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 ---  
 
 
-<div style="display: flex; justify-content: space-between;">
+<div style="width: 45%; word-wrap: break-word;">
 
 <!-- Left Column -->
 <div style="width: 48%;">
