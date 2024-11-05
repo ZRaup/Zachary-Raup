@@ -98,7 +98,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 <div style="display: flex; justify-content: space-between;">
 
 <!-- Left Column -->
-<div style="width: 40%;">
+<div style="width: 48%;">
  
 ###### Portfolio Links
 - [Zachary's Portfolio](README.md)  
@@ -110,7 +110,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 </div>  
 
 <!-- Right Column -->
-<div style="width: 4%;">
+<div style="width: 48%;">
  
 ###### Courses Completed
 - Introduction to SQL  
