@@ -96,8 +96,8 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 
 
-<!-- Left column (Portfolio Links) -->
-<div style="width: 45%;">
+<!-- Left Column -->
+<div style="width: 48%;">
 ###### Portfolio Links
 - [Zachary's Portfolio](README.md)  
 - [Project 1: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
