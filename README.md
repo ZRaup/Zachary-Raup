@@ -96,8 +96,6 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 
 
-% <div style="display: flex; justify-content: space-between;">
-
 <!-- Left column (Portfolio Links) -->
 <div style="width: 45%;">
 ###### Portfolio Links
