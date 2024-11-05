@@ -1,6 +1,6 @@
-### Data Science Courses Completed
+## Data Science Courses Completed
 
-##### DataCamp
+#### DataCamp
 - Introduction to SQL  
 - Intermediate SQL  
 - Joining Data in SQL  
@@ -16,8 +16,8 @@
 - Machine Learning for Business  
 - Developing Python Packages  
 
-##### Duke University through Coursera
+#### Duke University through Coursera
 - Managing Big Data with MySQL
 
-##### Kaggle
+#### Kaggle
 - Python
