@@ -1,13 +1,13 @@
 ## Data Science Courses Completed
 
 #### DataCamp
-- Introduction to SQL  
-- Intermediate SQL  
+- [Introduction to SQL](intr_sql_cert.pdf)
+- [Intermediate SQL](interSQL_cert.pdf)
 - Joining Data in SQL  
 - Supervised Learning with scikit-learn  
 - Understanding Machine Learning  
-- Exploratory Data Analysis in Python  
-- Data Visualization in Power BI  
+- [Exploratory Data Analysis in Python](ex_da_an_cert.pdf)  
+- [Data Visualization in Power BI](po_bi_cert.pdf)  
 - Introduction to Git  
 - Introduction to Regression with statsmodels in Python  
 - Intermediate Importing Data in Python  
@@ -17,10 +17,10 @@
 - Developing Python Packages  
 
 #### Duke University through Coursera
-- Managing Big Data with MySQL
+- [Managing Big Data with MySQL](MySQL_cert.pdf)
 
 #### Kaggle
-- Python
+- [Python](Python_certificate.png)
 
 ---
 ---  
