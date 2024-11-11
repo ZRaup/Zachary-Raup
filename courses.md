@@ -3,18 +3,18 @@
 #### DataCamp
 - [Introduction to SQL](intr_sql_cert.pdf)
 - [Intermediate SQL](interSQL_cert.pdf)
-- Joining Data in SQL  
-- Supervised Learning with scikit-learn  
-- Understanding Machine Learning  
+- [Joining Data in SQL](join_cert.pdf)  
+- [Supervised Learning with scikit-learn](sup_sci_cert.pdf)  
+- [Understanding Machine Learning](underML_cert.pdf)  
 - [Exploratory Data Analysis in Python](ex_da_an_cert.pdf)  
 - [Data Visualization in Power BI](po_bi_cert.pdf)  
-- Introduction to Git  
-- Introduction to Regression with statsmodels in Python  
-- Intermediate Importing Data in Python  
-- Preprocessing for Machine Learning in Python  
-- Data Visualization in Tableau  
-- Machine Learning for Business  
-- Developing Python Packages  
+- [Introduction to Git  ](int_git_cert.pdf)
+- [Introduction to Regression with statsmodels in Python](regr_stat_cert.pdf)  
+- [Intermediate Importing Data in Python](inter_import_cert.pdf)  
+- [Preprocessing for Machine Learning in Python](pre_pyth_cert.pdf)  
+- [Data Visualization in Tableau](tabl_cert.pdf)  
+- [Machine Learning for Business](MLbusi_cert.pdf)  
+- [Developing Python Packages](pyth_pack_cert.pdf)  
 
 #### Duke University through Coursera
 - [Managing Big Data with MySQL](MySQL_cert.pdf)
