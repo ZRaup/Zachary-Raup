@@ -41,7 +41,7 @@ Accurate weekly sales predictions are essential for retail businesses to manage 
 ###### Skills Applied: Machine Learning, Python (scikit-learn), Regression Modeling, Data Cleaning, Feature Engineering and more 
 
 #### Image 1: Regression Model Results
-##### Performance metrics of various regression models, ranked by RMSE. The Random Forest Regression model achieved the best results with the lowest RMSE (107,795.56) and highest R² (0.9636), indicating superior predictive accuracy. Other models, such as Decision Tree and Boosted Tree Regression, also performed well, while linear and neural network models demonstrated lower effectiveness.
+##### Performance metrics of various regression models, ranked by RMSE. The Random Forest Regression model achieved the best results with the lowest RMSE (107,130.99) and highest R² (0.9636), indicating superior predictive accuracy. Other models, such as Decision Tree and Boosted Tree Regression, also performed well, while linear and neural network models demonstrated lower effectiveness.
 <img src="reg_res.png" width="500" />
 
 
