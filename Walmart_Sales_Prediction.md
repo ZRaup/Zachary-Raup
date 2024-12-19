@@ -727,9 +727,9 @@ The best model has an average percentage error of 11.15%.
 
 ### Results and Discussion
 
-The **Random Forest Regression** model performed the best, with an **RMSE** of **107,795.56** and an **R²** of **0.9631**, explaining **96.31%** of the variance in weekly sales. Its average percentage error was **11.22%**, indicating reliable predictions.
+The **Random Forest Regression** model performed the best, with an **RMSE** of **107,130.99** and an **R²** of **0.9636**, explaining **96.36%** of the variance in weekly sales. Its average percentage error was **11.15%**, indicating reliable predictions.
 
-Other models like **Decision Tree** and **Boosted Tree Regression** performed well but had higher RMSE values. In contrast, linear models like **Ridge** and **Lasso Regression** had significantly lower performance, with both R² scores coming out to **0.1457**.
+Other models like **Decision Tree** and **Boosted Tree Regression** performed well but had higher RMSE values. In contrast, linear models like **Ridge** and **Lasso Regression** had significantly lower performance, with both R² scores coming out to **0.1458**.
 
 These results suggest that non-linear models, especially **Random Forest**, are most effective for predicting weekly sales, highlighting their ability to capture complex data relationships. Future work could focus on further model optimization and fine-tuning.
 
@@ -737,7 +737,7 @@ These results suggest that non-linear models, especially **Random Forest**, are 
 ### Conclusion
 In analyzing the relationship between store features and weekly sales, we observed an interesting trend: lower-numbered stores seem to perform better than higher-numbered stores. This could be attributed to various factors, such as the age of the store or its recency in entering the market. However, no strong correlations were found between weekly sales and other features, suggesting that additional factors or more complex interactions may be influencing sales trends.
 
-Among the evaluated models, **Random Forest Regression** outperformed others in terms of predictive accuracy. It achieved the lowest RMSE (107,795.56) and the **highest R² score (0.0.9631),** indicating a strong fit to the data. The model’s average percentage error was 11.22%, which is relatively good given the variability in weekly sales data.
+Among the evaluated models, **Random Forest Regression** outperformed others in terms of predictive accuracy. It achieved the lowest RMSE (107,130.99) and the **highest R² score (0.9636),** indicating a strong fit to the data. The model’s average percentage error was 11.15%, which is relatively good given the variability in weekly sales data.
 
 #### Next Steps and Future Improvements:
 While Random Forest Regression emerged as the best model, there are still opportunities for further refinement.
