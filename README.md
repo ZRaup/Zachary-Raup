@@ -46,12 +46,6 @@ Accurate weekly sales predictions are essential for retail businesses to manage 
 
 
 
-
-
-
-
-
-
 ### [Project 2:](PDML.md)    
 ## [Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 
@@ -66,7 +60,7 @@ This project explores the effectiveness of five machine learning models—Logist
 
 
 ### [Project 3:](TOI4153_port.md)    
-## [Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+## [Utilizing MCMC to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
 
 #### Project Overview
 This research project focuses on modeling the transit of exoplanets across stars using the Python package 'batman'. The objective was to accurately predict changes in stellar brightness during these transits, validated against photometry data from the CR Chambliss Astronomical Observatory (CRCAO). Methodologically, a physics-based model was developed and evaluated using a log likelihood function to fit observational data. The Markov Chain Monte Carlo (MCMC) algorithm, facilitated by 'emcee', enabled exploration of parameter uncertainties such as planet radius and transit timing. Visualizations created with matplotlib included light curves, histograms of parameter distributions, and a corner plot illustrating parameter correlations. Presenting findings at the 241st AAS meeting highlighted contributions to understanding exoplanet transit dynamics, crucial for advancing knowledge of planetary systems beyond our solar system.
