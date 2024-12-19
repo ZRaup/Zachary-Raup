@@ -67,7 +67,7 @@ df = pd.read_csv(data_path)
 # Preview dataset
 print(df.head(10))
 ```
-```python
+
 /kaggle/input/walmart-dataset/Walmart.csv
    Store        Date  Weekly_Sales  Holiday_Flag  Temperature  Fuel_Price  \
 0      1  05-02-2010    1643690.90             0        42.31       2.572   
@@ -92,7 +92,7 @@ print(df.head(10))
 7  211.018042         8.106  
 8  210.820450         7.808  
 9  210.622857         7.808  
-```
+
 
 ### Understanding the Dataset
 The following code provides an overview of the dataset, displaying its shape (number of rows and columns) along with detailed information about the columns and their data types.
