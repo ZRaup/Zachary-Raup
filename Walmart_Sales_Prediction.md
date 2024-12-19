@@ -14,7 +14,7 @@ The goal of this project is to predict weekly sales for retail stores using stor
 - [Data Cleaning](#data-cleaning)
 - [Feature Engineering](#feature-engineering)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Building the Regression Models)](#building-the-regression-models)
+- [Building the Regression Models](#building-the-regression-models)
 - [Model Evaluation](#model-evaluation)
 
 ### Data Overview
