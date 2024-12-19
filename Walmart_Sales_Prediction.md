@@ -1,4 +1,4 @@
-# Regression Modeling: Walmart Sales Prediction
+# Regression Modeling | Walmart Sales Prediction
 By: Zachary Raup
 
 
