@@ -33,7 +33,7 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 
 
 ### [Project 1:](Walmart_Sales_Prediction.md)    
-## [Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
+## [Walmart Sales Prediction | Regression Modeling](Walmart_Sales_Prediction.md)  
 
 #### Project Overview
 Accurate weekly sales predictions are essential for retail businesses to manage inventory, forecast demand, and optimize profitability. This project explores the use of machine learning techniques to predict weekly sales for Walmart stores based on historical data spanning 2010 to 2012. Various regression models, including Random Forest, Boosted Trees, and Ridge Regression, were applied and compared to identify the most reliable approach for capturing complex data relationships and improving predictive accuracy.
