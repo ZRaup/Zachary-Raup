@@ -69,7 +69,7 @@ print(df.head(10))
 ```
 ```python
 /kaggle/input/walmart-dataset/Walmart.csv
-   Store        Date  Weekly_Sales  Holiday_Flag  Temperature  Fuel_Price  \
+   Store        Date  Weekly_Sales  Holiday_Flag  Temperature  Fuel_Price 
 0      1  05-02-2010    1643690.90             0        42.31       2.572   
 1      1  12-02-2010    1641957.44             1        38.51       2.548   
 2      1  19-02-2010    1611968.17             0        39.93       2.514   
@@ -136,7 +136,7 @@ df.describe()
 ```
 ```python
 Summary Statistics:
-             Store  Weekly_Sales  Holiday_Flag  Temperature   Fuel_Price  \
+             Store  Weekly_Sales  Holiday_Flag  Temperature   Fuel_Price 
 count  6435.000000  6.435000e+03   6435.000000  6435.000000  6435.000000   
 mean     23.000000  1.046965e+06      0.069930    60.663782     3.358607   
 std      12.988182  5.643666e+05      0.255049    18.444933     0.459020   
@@ -386,7 +386,7 @@ df.hist(figsize=(20, 15))
 plt.suptitle('Feature Distributions', fontsize=20)
 plt.show()
 ```
-[feature_dist.png](feature_dist.png)
+<img src="feat_dist.png" width="500" />  
 
  **Observations**:
  - Weekly sales are right-skewed with some weeks exceeding $2M.
@@ -405,7 +405,7 @@ plt.title('Weekly Sales Trend')
 plt.show()
 ```
 
-[weekly_sales_trend](weekly_sales_trend.pmg)
+<img src="week_sale_trend.png" width="500" />  
 
 **Observations**:
  - Peaks in sales occur in November and December, suggesting seasonality.
@@ -429,7 +429,7 @@ plt.show()
 
 print(pivot_table)
 ```
-[monthly_sales_trend.png](monthly_sales_trend.png)
+<img src="month_sales.png" width="500" /> 
 
 ```python
 Year           2010          2011          2012
@@ -482,7 +482,7 @@ plt.xticks(rotation=25, fontsize=10)  # Rotate x-axis labels for readability
 plt.show()
 
 ```
-[avg_sales_store.png](avg_sales_store.png)
+<img src="avg_sales_store.png" width="500" /> 
 
 **Observation**:
 - The highest average weekly sales are observed in stores such as Store 4 and Store 20, while the lowest are seen in stores like Store 33
@@ -514,7 +514,7 @@ ax.set_title('Comparison of Holiday and Non-Holiday Weekly Sales')
 # Show the plot
 plt.show()
 ```
-[hol_sales.png](hol_sales.png)
+<img src="holiday_sales.png" width="500" /> 
 
 **Observation**:
 - Both holiday and non-holiday weekly sales have a similar spread (range and interquartile range).
@@ -545,7 +545,7 @@ heatmap.set_title('Correlation Heatmap', fontdict={'fontsize': 14}, pad=12)
 plt.show()
 
 ```
-[corr_heatmap.png](corr_heatmap.png)
+<img src="corr_heatmap.png" width="500" /> 
 
 **Observation**:
 - No strong correlation exists between Weekly Sales and other features.
