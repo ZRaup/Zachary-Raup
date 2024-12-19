@@ -62,14 +62,15 @@ Additionally, insights into visitor flow patterns can help in optimizing the mus
 Overall, this project demonstrates the power of advanced data visualization techniques in transforming raw data into actionable insights. By applying these techniques, museums can continually refine and enhance their operations, ultimately leading to increased visitor engagement, satisfaction, and retention. This project not only showcases proficiency in using Tableau for data visualization but also highlights the practical application of these skills in a real-world setting, providing valuable tools for effective museum management.  
 
 ---
----
+---  
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Project 1: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
-[Project 2: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
-[Project 3: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
-[Project 4: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md) 
+[Project 1: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md) 
+[Project 2: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
+[Project 3: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+[Project 4: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
+[Project 5: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md) 
 
 
 
