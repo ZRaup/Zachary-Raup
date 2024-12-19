@@ -30,7 +30,29 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 ##### Below is a select list of data and coding projects that I have completed. Use project title links to view more information about each project.  
 &nbsp;  
 
-### [Project 1:](PDML.md)    
+
+
+### [Project 1:](Walmart_Sales_Prediction.md)    
+## [Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
+
+#### Project Overview
+Accurate weekly sales predictions are essential for retail businesses to manage inventory, forecast demand, and optimize profitability. This project explores the use of machine learning techniques to predict weekly sales for Walmart stores based on historical data spanning 2010 to 2012. Various regression models, including Random Forest, Boosted Trees, and Ridge Regression, were applied and compared to identify the most reliable approach for capturing complex data relationships and improving predictive accuracy.
+
+###### Skills Applied: Machine Learning, Python (scikit-learn), Regression Modeling, Data Cleaning, Feature Engineering and more 
+
+#### Image 1: Classification Model Comparison
+##### This boxplot illustrates the cross-validation accuracy of five classification models—Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, and Support Vector Machine (SVM). Each box represents the distribution of accuracy scores obtained through 5-fold cross-validation, highlighting the performance stability and variability of each model. The results emphasize the importance of model selection in achieving high accuracy for diabetes classification, crucial for effective healthcare decision-making.
+<img src="mod_comp.png" width="500" />
+
+
+
+
+
+
+
+
+
+### [Project 2:](PDML.md)    
 ## [Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 
 #### Project Overview
@@ -38,12 +60,12 @@ This project explores the effectiveness of five machine learning models—Logist
 
 ###### Skills Applied: Machine Learning, Supervised Learning, Python (scikit-learn), Cross-Validation, Hyperparameter Tuning and more 
 
-#### Image 1: Classification Model Comparison
+#### Image 2: Classification Model Comparison
 ##### This boxplot illustrates the cross-validation accuracy of five classification models—Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, and Support Vector Machine (SVM). Each box represents the distribution of accuracy scores obtained through 5-fold cross-validation, highlighting the performance stability and variability of each model. The results emphasize the importance of model selection in achieving high accuracy for diabetes classification, crucial for effective healthcare decision-making.
 <img src="mod_comp.png" width="500" />
 
 
-### [Project 2:](TOI4153_port.md)    
+### [Project 3:](TOI4153_port.md)    
 ## [Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
 
 #### Project Overview
@@ -51,7 +73,7 @@ This research project focuses on modeling the transit of exoplanets across stars
 
 ###### Skills Applied: Python (pandas, matplotlib, numpy, emcee, & batman), Jupyter Notebook, and Excel  
 
-#### Image 2: TOI-4153 modeled lightcurve
+#### Image 3: TOI-4153 modeled lightcurve
 ##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739) database.
 
  <img src="lightkurve.png" width="500" />
@@ -60,7 +82,7 @@ This research project focuses on modeling the transit of exoplanets across stars
  &nbsp;   
    
 
-### [Project 3:](MySQL_port.md)   
+### [Project 4:](MySQL_port.md)   
 ## [Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
 
 #### Project Overview
@@ -68,14 +90,14 @@ The goal of this project is to utilize MySQL queries to perform analysis of tren
 
 ###### Skills Applied: MySQL, Writing Queries, Data Cleaning, and Big Data  
 
-#### Image 3: Top States by Number of Dognition Users
+#### Image 4: Top States by Number of Dognition Users
 ##### This MySQL query analyzes geographical user trends within the Dognition dataset, resulting in a table that lists the top 5 states with the highest number of Dognition users.
 
  <img src="state_users.png" width="720" />
 
  &nbsp;   
 
-### [Project 4:](MuesTabl.md)  
+### [Project 5:](MuesTabl.md)  
 ## [Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 
 #### Project Overview
@@ -83,7 +105,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 ###### Skills Applied: Tableau, Data Visualization
 
-#### Image 4: Common Musuem Visitor Paths
+#### Image 5: Common Musuem Visitor Paths
 ##### The following three screenshots highlight two popular paths that museum visitors walk at 11 AM, 3 PM, and 6 PM. These images illustrate how the average number of people in each area changes throughout the day, providing insights into visitor flow and behavior
 
 <img src="anim.png" width="700" />
