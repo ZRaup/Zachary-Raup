@@ -1,4 +1,4 @@
-# Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet
+# Utilizing MCMC to Explore the Parameter Space of an Exoplanet
 ###### By: Zachary Raup
 ###### Research Advisor: Dr. Phillip Reed
 ---
