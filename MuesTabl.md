@@ -66,7 +66,7 @@ Overall, this project demonstrates the power of advanced data visualization tech
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Project 1: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md) 
+[Project 1: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
 [Project 2: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 [Project 3: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
 [Project 4: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
