@@ -300,13 +300,13 @@ Dognition can refine its test optimization strategies to enhance the testing exp
 
 
 ---
----
-
+---  
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Project 1: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
-[Project 2: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
-[Project 3: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
-[Project 4: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md) 
+[Project 1: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
+[Project 2: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
+[Project 3: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+[Project 4: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
+[Project 5: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md) 
 
