@@ -1,9 +1,9 @@
 ## Data Science Courses Completed
 
 #### DataCamp
-- [Understanding Machine Learning](underML_cert.pdf)
-- [Supervised Learning with scikit-learn](sup_sci_cert.pdf)
 - [Unsupervised Learning in Python](unsupervised_learning_cert.pdf)
+- [Supervised Learning with scikit-learn](sup_sci_cert.pdf)
+- [Understanding Machine Learning](underML_cert.pdf)
 - [Machine Learning for Business](MLbusi_cert.pdf)  
 - [Preprocessing for Machine Learning in Python](pre_pyth_cert.pdf)  
 - [Introduction to Regression with statsmodels in Python](regr_stat_cert.pdf)
