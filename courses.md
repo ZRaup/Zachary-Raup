@@ -10,6 +10,7 @@
 - [Exploratory Data Analysis in Python](ex_da_an_cert.pdf)  
 - [Intermediate Importing Data in Python](inter_import_cert.pdf)  
 - [Developing Python Packages](pyth_pack_cert.pdf)
+- [AWS Concepts](aws_conc_cert.pdf)
 - [Introduction to Git  ](intr_git_cert.pdf) 
 - [Introduction to SQL](intr_sql_cert.pdf)
 - [Intermediate SQL](interSQL_cert.pdf)
