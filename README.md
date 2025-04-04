@@ -2,7 +2,7 @@
 
 # Zachary Raup
 ---
-[Zachary's Resume (pdf):](Resume_Raup_Z.pdf)  
+[Zachary's Resume (pdf)](Resume_Raup_Z.pdf)  
 [Data Science Courses Completed](courses.md)  
 <a href = "https://www.linkedin.com/in/zachary-raup-6280a3265"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
