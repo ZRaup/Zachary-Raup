@@ -11,7 +11,7 @@ Welcome to my data science portfolio! I graduated Summa Cum Laude from Kutztown 
 
 I hold certifications as a Data Science Associate and Data Analyst Associate from DataCamp, along with specialized certifications in Python and SQL. My coursework has also included advanced machine learning topics, equipping me with a solid foundation in both theoretical concepts and practical applications.
 
-Professionally, I have developed robust capabilities in Python for data analysis, leveraging techniques such as exploratory data analysis, data cleaning, and statistical modeling. I am proficient in SQL querying, adept at managing and extracting insights from large datasets to support data-driven decision-making. Additionally, I possess advanced skills in data visualization using Tableau and Power BI, creating insightful visualizations that effectively communicate findings and support strategic initiatives.
+Professionally, I have developed robust capabilities in Python for data science, leveraging techniques such as exploratory data analysis, data cleaning, and statistical modeling. I am proficient in SQL querying, adept at managing and extracting insights from large datasets to support data-driven decision-making. Additionally, I possess advanced skills in data visualization using Tableau and Power BI, creating insightful visualizations that effectively communicate findings and support strategic initiatives.
 
 I am dedicated to applying my expertise in Python, SQL, and data visualization tools to solve challenging problems and contribute meaningfully to data-driven projects. I thrive in collaborative environments and am committed to continuous learning and professional growth in the dynamic field of data science.
 
