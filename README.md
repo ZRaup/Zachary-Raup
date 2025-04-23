@@ -27,11 +27,24 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 
 ---  
 
-##### Below is a select list of data and coding projects that I have completed. Use project title links to view more information about each project.  
+##### Below is a list of data and coding projects that I have completed. Use project title links to view more information about each project.  
 &nbsp;  
 
 
-[Spotify Project](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-with-machine-learning)  
+## [Spotify Project](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-with-machine-learning)  
+
+#### Project Overview
+Accurate weekly sales predictions are essential for retail businesses to manage inventory, forecast demand, and optimize profitability. This project explores the use of machine learning techniques to predict weekly sales for Walmart stores based on historical data spanning 2010 to 2012. Various regression models, including Random Forest, Boosted Trees, and Ridge Regression, were applied and compared to identify the most reliable approach for capturing complex data relationships and improving predictive accuracy.
+
+###### Skills Applied: Machine Learning, Python (scikit-learn), Regression Modeling, Data Cleaning, Feature Engineering and more 
+
+#### Image 1: t-SNE Visualization
+##### Performance metrics of various regression models, ranked by RMSE. The Random Forest Regression model achieved the best results with the lowest RMSE (107,130.99) and highest R² (0.9636), indicating superior predictive accuracy. Other models, such as Decision Tree and Boosted Tree Regression, also performed well, while linear and neural network models demonstrated lower effectiveness.
+<img src="reg_res.png" width="500" />
+
+
+
+
 
 
 ### [Project 1:](Walmart_Sales_Prediction.md)    
