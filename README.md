@@ -41,8 +41,7 @@ This project explores the use of unsupervised learning and dimensionality reduct
 #### Image 1: t-SNE Projection of Spotify Tracks Based on Audio Features
 ##### This visualization displays a two-dimensional t-SNE projection of over 6,000 songs from Spotify, where each point represents a song and is colored by its cosine similarity to "Blinding Lights" by The Weeknd. Audio features were normalized and reduced using Non-negative Matrix Factorization (NMF) before applying t-SNE. Shapes indicate song relevance: circles for general tracks, a diamond for the reference song, and squares for the top 10 most similar tracks. The color gradient highlights how closely a song matches the reference based on key musical characteristics.
 
-<img src="tSNE_blinding.png" width="700" />  
-
+<img src="tSNE_blinding.png" width="1000" height="500" />
 
  &nbsp;   
 
