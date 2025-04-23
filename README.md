@@ -31,7 +31,7 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 &nbsp;  
 
 
-## [Spotify Project]([https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning-a])  
+## [Discovering Similar Songs using Machine Learning and Spotify]([https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning-a])  
 
 #### Project Overview
 This project explores the use of unsupervised learning and dimensionality reduction techniques to analyze and visualize the similarity between songs based on audio characteristics available from Spotify. By applying preprocessing, feature engineering, and advanced techniques like Non-negative Matrix Factorization (NMF) and t-distributed Stochastic Neighbor Embedding (t-SNE), I created an interactive, interpretable map of songs, with a focus on comparing all tracks to "Blinding Lights" by The Weeknd.
@@ -40,9 +40,11 @@ This project explores the use of unsupervised learning and dimensionality reduct
 
 #### Image 1: t-SNE Projection of Spotify Tracks Based on Audio Features
 ##### This visualization displays a two-dimensional t-SNE projection of over 6,000 songs from Spotify, where each point represents a song and is colored by its cosine similarity to "Blinding Lights" by The Weeknd. Audio features were normalized and reduced using Non-negative Matrix Factorization (NMF) before applying t-SNE. Shapes indicate song relevance: circles for general tracks, a diamond for the reference song, and squares for the top 10 most similar tracks. The color gradient highlights how closely a song matches the reference based on key musical characteristics.
-<img src="tSNE_blinding.png" width="500" />
+
+<img src="tSNE_blinding.png" width="500" />  
 
 
+ &nbsp;   
 
 ## [Walmart Sales Prediction | Regression Modeling](Walmart_Sales_Prediction.md)  
 
@@ -53,9 +55,11 @@ Accurate weekly sales predictions are essential for retail businesses to manage 
 
 #### Image 1: Regression Model Results
 ##### Performance metrics of various regression models, ranked by RMSE. The Random Forest Regression model achieved the best results with the lowest RMSE (107,130.99) and highest R² (0.9636), indicating superior predictive accuracy. Other models, such as Decision Tree and Boosted Tree Regression, also performed well, while linear and neural network models demonstrated lower effectiveness.
-<img src="reg_res.png" width="500" />
+
+<img src="reg_res.png" width="700" />  
 
 
+ &nbsp;   
 
 ## [Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 
@@ -66,8 +70,11 @@ This project explores the effectiveness of five machine learning models—Logist
 
 #### Image 2: Classification Model Comparison
 ##### This boxplot illustrates the cross-validation accuracy of five classification models—Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, and Support Vector Machine (SVM). Each box represents the distribution of accuracy scores obtained through 5-fold cross-validation, highlighting the performance stability and variability of each model. The results emphasize the importance of model selection in achieving high accuracy for diabetes classification, crucial for effective healthcare decision-making.
-<img src="mod_comp.png" width="500" />
 
+<img src="mod_comp.png" width="400" />  
+
+
+ &nbsp;   
 
 ## [Utilizing MCMC to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
 
@@ -79,7 +86,7 @@ This research project focuses on modeling the transit of exoplanets across stars
 #### Image 3: TOI-4153 modeled lightcurve
 ##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739) database.
 
- <img src="lightkurve.png" width="500" />
+ <img src="lightkurve.png" width="500" />  
  
 
  &nbsp;   
@@ -95,10 +102,12 @@ The goal of this project is to utilize MySQL queries to perform analysis of tren
 #### Image 4: Top States by Number of Dognition Users
 ##### This MySQL query analyzes geographical user trends within the Dognition dataset, resulting in a table that lists the top 5 states with the highest number of Dognition users.
 
- <img src="state_users.png" width="720" />
+ <img src="state_users.png" width="720" />  
+
+
 
  &nbsp;   
-
+ 
 ## [Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 
 #### Project Overview
@@ -109,7 +118,8 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 #### Image 5: Common Musuem Visitor Paths
 ##### The following three screenshots highlight two popular paths that museum visitors walk at 11 AM, 3 PM, and 6 PM. These images illustrate how the average number of people in each area changes throughout the day, providing insights into visitor flow and behavior
 
-<img src="anim.png" width="700" />
+<img src="anim.png" width="700" />  
+
 
  &nbsp;   
 
@@ -119,11 +129,12 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Project 1: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
-[Project 2: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
-[Project 3: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
-[Project 4: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
-[Project 5: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
+[Discovering Similar Songs using Machine Learning and Spotify]([https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning-a])  
+[Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
+[Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
+[Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+[Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
+[Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 
 
 
