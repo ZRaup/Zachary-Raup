@@ -42,6 +42,18 @@ This project explores the use of unsupervised learning and dimensionality reduct
 
 <img src="tSNE_blinding.png" width="900" height="450" />
 
+🎵 Top 10 Similar Songs to: Blinding Lights - The Weekend
+Blinding Lights (with ROSALÍA) — Remix - The Weekend, ROSALÍA (Similarity: 0.9988)
+I am not a woman, I'm a god — Halsey (Similarity: 0.9971)
+Feels Great (feat. Fetty Wap & CVBZ) — Cheat Codes, Fetty Wap, CVBZ (Similarity: 0.9951)
+Enough Is Enough — Post Malone (Similarity: 0.9939)
+MI FAI IMPAZZIRE — BLANCO, Sfera Ebbasta (Similarity: 0.9936)
+Last Day Alive — The Chainsmokers, Florida Georgia Line (Similarity: 0.9933)
+POP/STARS — K/DA, Madison Beer, (G)I-DLE, Jaira Burns, League of Legends (Similarity: 0.9931)
+Love It If We Made It — The 1975 (Similarity: 0.9929)
+When I’m Alone — Post Malone (Similarity: 0.9928)
+Together — Sia (Similarity: 0.9928)
+
  &nbsp;   
 
 ## [Walmart Sales Prediction | Regression Modeling](Walmart_Sales_Prediction.md)  
