@@ -457,6 +457,6 @@ In summary, the findings emphasize the need for careful model selection tailored
 [Project 3: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 [Project 4: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
 [Project 5: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
-[Project 6: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
+[Project 6: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)   
 
 
