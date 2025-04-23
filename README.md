@@ -30,7 +30,7 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 ##### Below is a list of data and coding projects that I have completed. Use project title links to view more information about each project.  
 &nbsp;  
 
-## [Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning-a)  
+## [Discovering Similar Songs Using Machine Learning | Unsupervised Learning with Spotify Data](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning-a)  
 
 #### Project Overview
 This project explores the use of unsupervised learning and dimensionality reduction techniques to analyze and visualize the similarity between songs based on audio characteristics available from Spotify. By applying preprocessing, feature engineering, and advanced techniques like Non-negative Matrix Factorization (NMF) and t-distributed Stochastic Neighbor Embedding (t-SNE), I created an interactive, interpretable map of songs, with a focus on comparing all tracks to "Blinding Lights" by The Weeknd.
