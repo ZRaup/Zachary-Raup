@@ -30,7 +30,6 @@ I thrive in collaborative environments, enjoy solving challenging problems, and 
 ##### Below is a list of data and coding projects that I have completed. Use project title links to view more information about each project.  
 &nbsp;  
 
-https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning
 ### [Project 1](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning)  
 ## [Discovering Similar Songs Using Machine Learning | Unsupervised Learning with Spotify Data](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning)  
 
