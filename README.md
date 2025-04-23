@@ -30,9 +30,9 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 ##### Below is a list of data and coding projects that I have completed. Use project title links to view more information about each project.  
 &nbsp;  
 
-
-### [Project 1](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning-a)  
-## [Discovering Similar Songs Using Machine Learning | Unsupervised Learning with Spotify Data](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning-a)  
+https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning
+### [Project 1](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning)  
+## [Discovering Similar Songs Using Machine Learning | Unsupervised Learning with Spotify Data](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning)  
 
 #### Project Overview
 This project explores the use of unsupervised learning and dimensionality reduction techniques to analyze and visualize the similarity between songs based on audio characteristics available from Spotify. By applying preprocessing, feature engineering, and advanced techniques like Non-negative Matrix Factorization (NMF) and t-distributed Stochastic Neighbor Embedding (t-SNE), I created an interactive, interpretable map of songs, with a focus on comparing all tracks to "Blinding Lights" by The Weeknd.
@@ -145,12 +145,12 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Discovering Similar Songs using Machine Learning and Spotify]([https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning-a])  
-[Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
-[Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
-[Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
-[Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
-[Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
+[Project 1: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning)  
+[Project 2: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
+[Project 3: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
+[Project 4: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+[Project 5: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
+[Project 6: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 
 
 
