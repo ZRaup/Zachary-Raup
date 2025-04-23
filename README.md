@@ -7,7 +7,7 @@
 <a href = "https://www.linkedin.com/in/zachary-raup-6280a3265"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 ### About Me
-Welcome to my data science portfolio! I’m Zachary Raup, a dedicated and curious data scientist with a strong foundation in physics and a passion for uncovering insights through data. I graduated **Summa Cum** Laude from Kutztown University with a bachelor’s degree in Physics, where I specialized in data analysis and modeling—particularly in the fields of **exoplanets** and **binary star systems**. My research experience sharpened my analytical thinking and deepened my ability to work with complex, real-world datasets.
+Welcome to my data science portfolio! I’m Zachary Raup, a dedicated and curious data scientist with a strong foundation in physics and a passion for uncovering insights through data. I graduated **Summa Cum Laude** from Kutztown University with a bachelor’s degree in Physics, where I specialized in data analysis and modeling—particularly in the fields of **exoplanets** and **binary star systems**. My research experience sharpened my analytical thinking and deepened my ability to work with complex, real-world datasets.
 
 To build upon this foundation, I pursued professional development through DataCamp, earning certifications as a **Data Scientist Associate, Data Analyst Associate**, and receiving credentials in **Python** and **SQL**. I’ve also completed coursework in **machine learning, data preprocessing**, and **visualization**, equipping me with both the theoretical knowledge and hands-on skills needed to drive data-driven solutions.
 
