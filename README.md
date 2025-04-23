@@ -54,7 +54,7 @@ Accurate weekly sales predictions are essential for retail businesses to manage 
 #### Image 2: Avg Sales by Stores and Regression Model Results
 ##### Performance metrics of various regression models, ranked by RMSE. The Random Forest Regression model achieved the best results with the lowest RMSE (107,130.99) and highest R² (0.9636), indicating superior predictive accuracy. Other models, such as Decision Tree and Boosted Tree Regression, also performed well, while linear and neural network models demonstrated lower effectiveness.
 
-<img src="avg_sales_store.png" width="300" />  <img src="reg_res.png" width="400" />  
+<img src="avg_sales_store.png" width="350" />  <img src="reg_res.png" width="470" />  
 
 
  &nbsp;   
