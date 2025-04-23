@@ -30,6 +30,8 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 ##### Below is a list of data and coding projects that I have completed. Use project title links to view more information about each project.  
 &nbsp;  
 
+
+### [Project 1](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning-a)  
 ## [Discovering Similar Songs Using Machine Learning | Unsupervised Learning with Spotify Data](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning-a)  
 
 #### Project Overview
@@ -56,6 +58,7 @@ This project explores the use of unsupervised learning and dimensionality reduct
 
  &nbsp;   
 
+### [Project 2](Walmart_Sales_Prediction.md) 
 ## [Walmart Sales Prediction | Regression Modeling](Walmart_Sales_Prediction.md)  
 
 #### Project Overview
@@ -71,6 +74,7 @@ Accurate weekly sales predictions are essential for retail businesses to manage 
 
  &nbsp;   
 
+### [Project 3](PDML.md)  
 ## [Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 
 #### Project Overview
@@ -86,6 +90,7 @@ This project explores the effectiveness of five machine learning models—Logist
 
  &nbsp;   
 
+### [Project 4](TOI4153_port.md) 
 ## [Utilizing MCMC to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
 
 #### Project Overview
@@ -101,7 +106,7 @@ This research project focuses on modeling the transit of exoplanets across stars
 
  &nbsp;   
    
-
+### [Project 5](MySQL_port.md) 
 ## [Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
 
 #### Project Overview
@@ -117,7 +122,8 @@ The goal of this project is to utilize MySQL queries to perform analysis of tren
 
 
  &nbsp;   
- 
+
+### [Project 6](MuesTabl.md) 
 ## [Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 
 #### Project Overview
