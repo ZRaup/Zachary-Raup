@@ -31,6 +31,8 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 &nbsp;  
 
 
+[Spotify Project](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-with-machine-learning)  
+
 
 ### [Project 1:](Walmart_Sales_Prediction.md)    
 ## [Walmart Sales Prediction | Regression Modeling](Walmart_Sales_Prediction.md)  
