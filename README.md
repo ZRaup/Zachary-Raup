@@ -1,10 +1,10 @@
 ![](self158.png)
 
 # Zachary Raup
----
-[Zachary's Resume (pdf)](Res_Raup_Z.pdf)  
-[Data Science Courses Completed](courses.md)  
+--- 
 <a href = "https://www.linkedin.com/in/zachary-raup-6280a3265"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+[Zachary's Resume (pdf)](Res_Raup_Z.pdf)  
+[Data Science Courses Completed](courses.md) 
 
 ### About Me
 Welcome to my data science portfolio! I’m Zachary Raup, a dedicated and curious data scientist with a strong foundation in physics and a passion for uncovering insights through data. I graduated **Summa Cum Laude** from Kutztown University with a bachelor’s degree in Physics, where I specialized in data analysis and modeling—particularly in the fields of **exoplanets** and **binary star systems**. My research experience sharpened my analytical thinking and deepened my ability to work with complex, real-world datasets.
