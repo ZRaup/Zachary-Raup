@@ -34,20 +34,16 @@ I am dedicated to applying my expertise in Python, SQL, and data visualization t
 ## [Spotify Project](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-with-machine-learning)  
 
 #### Project Overview
-Accurate weekly sales predictions are essential for retail businesses to manage inventory, forecast demand, and optimize profitability. This project explores the use of machine learning techniques to predict weekly sales for Walmart stores based on historical data spanning 2010 to 2012. Various regression models, including Random Forest, Boosted Trees, and Ridge Regression, were applied and compared to identify the most reliable approach for capturing complex data relationships and improving predictive accuracy.
+This project explores the use of unsupervised learning and dimensionality reduction techniques to analyze and visualize the similarity between songs based on audio characteristics available from Spotify. By applying preprocessing, feature engineering, and advanced techniques like Non-negative Matrix Factorization (NMF) and t-distributed Stochastic Neighbor Embedding (t-SNE), I created an interactive, interpretable map of songs, with a focus on comparing all tracks to "Blinding Lights" by The Weeknd.
 
-###### Skills Applied: Machine Learning, Python (scikit-learn), Regression Modeling, Data Cleaning, Feature Engineering and more 
+###### Skills Applied: Unsupervised Machine Learning, Python (scikit-learn), Cosine Similarity, NMF, t-SNE and more 
 
-#### Image 1: t-SNE Visualization
-##### Performance metrics of various regression models, ranked by RMSE. The Random Forest Regression model achieved the best results with the lowest RMSE (107,130.99) and highest R² (0.9636), indicating superior predictive accuracy. Other models, such as Decision Tree and Boosted Tree Regression, also performed well, while linear and neural network models demonstrated lower effectiveness.
-<img src="reg_res.png" width="500" />
-
-
+#### Image 1: t-SNE Projection of Spotify Tracks Based on Audio Features
+##### This visualization displays a two-dimensional t-SNE projection of over 6,000 songs from Spotify, where each point represents a song and is colored by its cosine similarity to "Blinding Lights" by The Weeknd. Audio features were normalized and reduced using Non-negative Matrix Factorization (NMF) before applying t-SNE. Shapes indicate song relevance: circles for general tracks, a diamond for the reference song, and squares for the top 10 most similar tracks. The color gradient highlights how closely a song matches the reference based on key musical characteristics.
+<img src="tSNE_blinding.png" width="500" />
 
 
 
-
-### [Project 1:](Walmart_Sales_Prediction.md)    
 ## [Walmart Sales Prediction | Regression Modeling](Walmart_Sales_Prediction.md)  
 
 #### Project Overview
@@ -61,7 +57,6 @@ Accurate weekly sales predictions are essential for retail businesses to manage 
 
 
 
-### [Project 2:](PDML.md)    
 ## [Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 
 #### Project Overview
@@ -74,7 +69,6 @@ This project explores the effectiveness of five machine learning models—Logist
 <img src="mod_comp.png" width="500" />
 
 
-### [Project 3:](TOI4153_port.md)    
 ## [Utilizing MCMC to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
 
 #### Project Overview
@@ -91,7 +85,6 @@ This research project focuses on modeling the transit of exoplanets across stars
  &nbsp;   
    
 
-### [Project 4:](MySQL_port.md)   
 ## [Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
 
 #### Project Overview
@@ -106,7 +99,6 @@ The goal of this project is to utilize MySQL queries to perform analysis of tren
 
  &nbsp;   
 
-### [Project 5:](MuesTabl.md)  
 ## [Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 
 #### Project Overview
