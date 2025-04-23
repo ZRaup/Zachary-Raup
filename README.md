@@ -38,7 +38,7 @@ This project explores the use of unsupervised learning and dimensionality reduct
 
 ###### Skills Applied: Unsupervised Machine Learning, Python (scikit-learn), Cosine Similarity, NMF, t-SNE and more 
 
-#### Image 1: t-SNE Projection of Spotify Tracks Based on Audio Features
+#### Image 1: t-SNE Projection of Spotify Tracks Based on Audio Features + Top 10 Song Recommendations
 ##### This visualization displays a two-dimensional t-SNE projection of over 6,000 songs from Spotify, where each point represents a song and is colored by its cosine similarity to "Blinding Lights" by The Weeknd. Audio features were normalized and reduced using Non-negative Matrix Factorization (NMF) before applying t-SNE. Shapes indicate song relevance: circles for general tracks, a diamond for the reference song, and squares for the top 10 most similar tracks. The color gradient highlights how closely a song matches the reference based on key musical characteristics.
 ##### This curated list reveals tracks that reflect Blinding Lights’ blend of synth-pop, electronic beats, and emotional tone. From genre-bending hits by K/DA and BLANCO to chart-toppers by Post Malone and Sia, the recommendations showcase the model’s strength in identifying sonic similarity beyond surface-level genre classifications. These insights demonstrate the value of machine learning for personalized music discovery and highlight how audio features can effectively map musical taste.
 
