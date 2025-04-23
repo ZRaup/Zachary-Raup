@@ -51,10 +51,10 @@ Accurate weekly sales predictions are essential for retail businesses to manage 
 
 ###### Skills Applied: Machine Learning, Python (scikit-learn), Regression Modeling, Data Cleaning, Feature Engineering and more 
 
-#### Image 1: Regression Model Results
+#### Image 2: Regression Model Results
 ##### Performance metrics of various regression models, ranked by RMSE. The Random Forest Regression model achieved the best results with the lowest RMSE (107,130.99) and highest R² (0.9636), indicating superior predictive accuracy. Other models, such as Decision Tree and Boosted Tree Regression, also performed well, while linear and neural network models demonstrated lower effectiveness.
 
-<img src="avg_sales_store.png" width="500" />  <img src="reg_res.png" width="400" />  
+<img src="avg_sales_store.png" width="400" />  <img src="reg_res.png" width="400" />  
 
 
  &nbsp;   
@@ -66,7 +66,7 @@ This project explores the effectiveness of five machine learning models—Logist
 
 ###### Skills Applied: Machine Learning, Supervised Learning, Python (scikit-learn), Cross-Validation, Hyperparameter Tuning and more 
 
-#### Image 2: Classification Model Comparison
+#### Image 3: Classification Model Comparison
 ##### This boxplot illustrates the cross-validation accuracy of five classification models—Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, and Support Vector Machine (SVM). Each box represents the distribution of accuracy scores obtained through 5-fold cross-validation, highlighting the performance stability and variability of each model. The results emphasize the importance of model selection in achieving high accuracy for diabetes classification, crucial for effective healthcare decision-making.
 
 <img src="mod_comp.png" width="500" />  
@@ -81,7 +81,7 @@ This research project focuses on modeling the transit of exoplanets across stars
 
 ###### Skills Applied: Python (pandas, matplotlib, numpy, emcee, & batman), Jupyter Notebook, and Excel  
 
-#### Image 3: TOI-4153 modeled lightcurve
+#### Image 4: TOI-4153 modeled lightcurve
 ##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739) database.
 
  <img src="lightkurve.png" width="500" />  
@@ -97,7 +97,7 @@ The goal of this project is to utilize MySQL queries to perform analysis of tren
 
 ###### Skills Applied: MySQL, Writing Queries, Data Cleaning, and Big Data  
 
-#### Image 4: Top States by Number of Dognition Users
+#### Image 5: Top States by Number of Dognition Users
 ##### This MySQL query analyzes geographical user trends within the Dognition dataset, resulting in a table that lists the top 5 states with the highest number of Dognition users.
 
  <img src="state_users.png" width="720" />  
@@ -113,7 +113,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 ###### Skills Applied: Tableau, Data Visualization
 
-#### Image 5: Common Musuem Visitor Paths
+#### Image 6: Common Musuem Visitor Paths
 ##### The following three screenshots highlight two popular paths that museum visitors walk at 11 AM, 3 PM, and 6 PM. These images illustrate how the average number of people in each area changes throughout the day, providing insights into visitor flow and behavior
 
 <img src="anim.png" width="700" />  
