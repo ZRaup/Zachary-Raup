@@ -41,7 +41,7 @@ This project explores the use of unsupervised learning and dimensionality reduct
 #### Image 1: t-SNE Projection of Spotify Tracks Based on Audio Features
 ##### This visualization displays a two-dimensional t-SNE projection of over 6,000 songs from Spotify, where each point represents a song and is colored by its cosine similarity to "Blinding Lights" by The Weeknd. Audio features were normalized and reduced using Non-negative Matrix Factorization (NMF) before applying t-SNE. Shapes indicate song relevance: circles for general tracks, a diamond for the reference song, and squares for the top 10 most similar tracks. The color gradient highlights how closely a song matches the reference based on key musical characteristics.
 
-<img src="tSNE_blinding.png" width="500" />  
+<img src="tSNE_blinding.png" width="700" />  
 
 
  &nbsp;   
@@ -56,7 +56,7 @@ Accurate weekly sales predictions are essential for retail businesses to manage 
 #### Image 1: Regression Model Results
 ##### Performance metrics of various regression models, ranked by RMSE. The Random Forest Regression model achieved the best results with the lowest RMSE (107,130.99) and highest R² (0.9636), indicating superior predictive accuracy. Other models, such as Decision Tree and Boosted Tree Regression, also performed well, while linear and neural network models demonstrated lower effectiveness.
 
-<img src="reg_res.png" width="700" />  
+<img src="reg_res.png" width="400" />  
 
 
  &nbsp;   
@@ -71,7 +71,7 @@ This project explores the effectiveness of five machine learning models—Logist
 #### Image 2: Classification Model Comparison
 ##### This boxplot illustrates the cross-validation accuracy of five classification models—Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, and Support Vector Machine (SVM). Each box represents the distribution of accuracy scores obtained through 5-fold cross-validation, highlighting the performance stability and variability of each model. The results emphasize the importance of model selection in achieving high accuracy for diabetes classification, crucial for effective healthcare decision-making.
 
-<img src="mod_comp.png" width="400" />  
+<img src="mod_comp.png" width="500" />  
 
 
  &nbsp;   
