@@ -145,7 +145,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Project 1: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning)  
+[Project 1: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
 [Project 2: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
 [Project 3: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 [Project 4: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
