@@ -40,9 +40,10 @@ This project leverages unsupervised learning and dimensionality reduction to exp
 
 #### Image 1: t-SNE Projection of Spotify Tracks Based on Audio Features + Top 10 Song Recommendations
 ##### The visualization below presents a 2D t-SNE projection of the song dataset. Each point represents a song and is colored by its cosine similarity to “Blinding Lights”. The feature space was first reduced using NMF to extract latent musical themes, then embedded into 2D using t-SNE for interpretability.
-##### This approach revealed a diverse yet coherent cluster of recommendations that share “Blinding Lights’” signature qualities — synth-pop energy, electronic instrumentation, and emotional resonance. Notable results include genre-bending tracks by K/DA, BLANCO, and chart-toppers from Sia and Post Malone.
 
 <img src="tSNE_blinding.png" width="900" height="450" />
+
+##### This approach revealed a diverse yet coherent cluster of recommendations that share “Blinding Lights’” signature qualities — synth-pop energy, electronic instrumentation, and emotional resonance. Notable results include genre-bending tracks by K/DA, BLANCO, and chart-toppers from Sia and Post Malone.
 
 🎵 Top 10 Similar Songs to: Blinding Lights - The Weekend
 - Blinding Lights (with ROSALÍA) — Remix - The Weekend, ROSALÍA (Similarity: 0.9988)
