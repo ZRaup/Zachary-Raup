@@ -34,13 +34,13 @@ I thrive in collaborative environments, enjoy solving challenging problems, and 
 ## [Discovering Similar Songs Using Machine Learning | Unsupervised Learning with Spotify Data](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
 
 #### Project Overview
-This project explores the use of unsupervised learning and dimensionality reduction techniques to analyze and visualize the similarity between songs based on audio characteristics available from Spotify. By applying preprocessing, feature engineering, and advanced techniques like Non-negative Matrix Factorization (NMF) and t-distributed Stochastic Neighbor Embedding (t-SNE), I created an interactive, interpretable map of songs, with a focus on comparing all tracks to "Blinding Lights" by The Weeknd.
+This project leverages unsupervised learning and dimensionality reduction to explore musical similarity using Spotify audio features. By applying techniques such as Non-negative Matrix Factorization (NMF) and t-distributed Stochastic Neighbor Embedding (t-SNE), I created an interpretable map of over 6,000 songs to visualize and compare their sonic characteristics — with a special focus on finding tracks most similar to “Blinding Lights” by The Weeknd.
 
-###### Skills Applied: Unsupervised Machine Learning, Python (scikit-learn), Cosine Similarity, NMF, t-SNE and more 
+###### Skills Applied: Unsupervised Machine Learning, NMF, t-SNE, Cosine Similarity, Python (scikit-learn) and more 
 
 #### Image 1: t-SNE Projection of Spotify Tracks Based on Audio Features + Top 10 Song Recommendations
-##### This visualization displays a two-dimensional t-SNE projection of over 6,000 songs from Spotify, where each point represents a song and is colored by its cosine similarity to "Blinding Lights" by The Weeknd. Audio features were normalized and reduced using Non-negative Matrix Factorization (NMF) before applying t-SNE. Shapes indicate song relevance: circles for general tracks, a diamond for the reference song, and squares for the top 10 most similar tracks. The color gradient highlights how closely a song matches the reference based on key musical characteristics.
-##### This curated list reveals tracks that reflect Blinding Lights’ blend of synth-pop, electronic beats, and emotional tone. From genre-bending hits by K/DA and BLANCO to chart-toppers by Post Malone and Sia, the recommendations showcase the model’s strength in identifying sonic similarity beyond surface-level genre classifications. These insights demonstrate the value of machine learning for personalized music discovery and highlight how audio features can effectively map musical taste.
+##### The visualization below presents a 2D t-SNE projection of the song dataset. Each point represents a song and is colored by its cosine similarity to “Blinding Lights”. The feature space was first reduced using NMF to extract latent musical themes, then embedded into 2D using t-SNE for interpretability.
+##### This approach revealed a diverse yet coherent cluster of recommendations that share “Blinding Lights’” signature qualities — synth-pop energy, electronic instrumentation, and emotional resonance. Notable results include genre-bending tracks by K/DA, BLANCO, and chart-toppers from Sia and Post Malone.
 
 <img src="tSNE_blinding.png" width="900" height="450" />
 
