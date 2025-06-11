@@ -38,13 +38,12 @@ This project applies unsupervised machine learning techniques to uncover pattern
 
 ###### Skills Applied: Unsupervised Learning, NMF, t-SNE, Cosine Similarity, Data Preprocessing, Python (scikit-learn, NumPy, pandas)
 
-#### Image 1: t-SNE Projection of Spotify Tracks Based on Audio Features + Top 10 Song Recommendations
-##### The visualization below presents a 2D t-SNE projection of the song dataset. Each point represents a song and is colored by its cosine similarity to “Blinding Lights”. The feature space was first reduced using NMF to extract latent musical themes, then embedded into 2D using t-SNE for interpretability.
+#### Image 1: This 2D visualization presents a t-SNE projection of the song dataset, with each point representing a track. Colors indicate cosine similarity to “Blinding Lights” by The Weeknd—green represents higher similarity, red represents lower. Before applying t-SNE, the feature space was reduced using NMF to extract latent musical themes. The 10 most similar songs are marked with square outlines, clearly highlighting clusters of tracks that share sonic traits. This approach visually demonstrates how audio features can be leveraged to identify stylistic similarity between songs.
 
-<img src="tSNE_blinding.png" width="900" height="450" />
+<img src="tSNE_Blinding_Lights.png" width="900" height="500" />
 
-#### Image 1: t-SNE Projection of Spotify Songs Colored by Similarity to “Blinding Lights”
-##### This 2D visualization presents a t-SNE projection of the song dataset, with each point representing a track. Colors indicate cosine similarity to “Blinding Lights” by The Weeknd—green represents higher similarity, red represents lower. Before applying t-SNE, the feature space was reduced using NMF to extract latent musical themes. The 10 most similar songs are marked with square outlines, clearly highlighting clusters of tracks that share sonic traits. This approach visually demonstrates how audio features can be leveraged to identify stylistic similarity between songs.
+#### Table 1: Top 10 Most Similar Songs to “Blinding Lights””
+##### The table below lists the 10 songs most similar to “Blinding Lights”, based on cosine similarity of audio features. These tracks span multiple genres and artists, yet share core musical qualities such as synth-driven production, emotional tone, and modern pop energy. The diversity of artists—from Post Malone to K/DA—illustrates the reach of “Blinding Lights’” sonic profile.
 
  **Top 10 Similar Songs to: Blinding Lights - The Weekend**
 - Blinding Lights (with ROSALÍA) — Remix - The Weekend, ROSALÍA (Similarity: 0.9988)
