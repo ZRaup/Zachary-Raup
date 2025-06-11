@@ -34,18 +34,19 @@ I thrive in collaborative environments, enjoy solving challenging problems, and 
 ## [Discovering Similar Songs Using Machine Learning | Unsupervised Learning with Spotify Data](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
 
 #### Project Overview
-This project leverages unsupervised learning and dimensionality reduction to explore musical similarity using Spotify audio features. By applying techniques such as Non-negative Matrix Factorization (NMF) and t-distributed Stochastic Neighbor Embedding (t-SNE), I created an interpretable map of over 6,000 songs to visualize and compare their sonic characteristics — with a special focus on finding tracks most similar to “Blinding Lights” by The Weeknd.
+This project applies unsupervised machine learning techniques to uncover patterns in Spotify audio data and recommend musically similar songs. By using Non-negative Matrix Factorization (NMF) for dimensionality reduction and t-distributed Stochastic Neighbor Embedding (t-SNE) for visualization, the feature space of over 6,000 tracks was mapped into an interpretable 2D projection. Cosine similarity was then used to identify songs most similar to “Blinding Lights” by The Weekend. The final result is an insightful visual and analytical exploration of musical relationships based on audio characteristics..
 
-###### Skills Applied: Unsupervised Machine Learning, NMF, t-SNE, Cosine Similarity, Python (scikit-learn) and more 
+###### Skills Applied: Unsupervised Learning, NMF, t-SNE, Cosine Similarity, Data Preprocessing, Python (scikit-learn, NumPy, pandas)
 
 #### Image 1: t-SNE Projection of Spotify Tracks Based on Audio Features + Top 10 Song Recommendations
 ##### The visualization below presents a 2D t-SNE projection of the song dataset. Each point represents a song and is colored by its cosine similarity to “Blinding Lights”. The feature space was first reduced using NMF to extract latent musical themes, then embedded into 2D using t-SNE for interpretability.
 
 <img src="tSNE_blinding.png" width="900" height="450" />
 
-##### This approach revealed a diverse yet coherent cluster of recommendations that share “Blinding Lights’” signature qualities — synth-pop energy, electronic instrumentation, and emotional resonance. Notable results include genre-bending tracks by K/DA, BLANCO, and chart-toppers from Sia and Post Malone.
+#### Image 1: t-SNE Projection of Spotify Songs Colored by Similarity to “Blinding Lights”
+##### This 2D visualization presents a t-SNE projection of the song dataset, with each point representing a track. Colors indicate cosine similarity to “Blinding Lights” by The Weeknd—green represents higher similarity, red represents lower. Before applying t-SNE, the feature space was reduced using NMF to extract latent musical themes. The 10 most similar songs are marked with square outlines, clearly highlighting clusters of tracks that share sonic traits. This approach visually demonstrates how audio features can be leveraged to identify stylistic similarity between songs.
 
-🎵 Top 10 Similar Songs to: Blinding Lights - The Weekend
+ **Top 10 Similar Songs to: Blinding Lights - The Weekend**
 - Blinding Lights (with ROSALÍA) — Remix - The Weekend, ROSALÍA (Similarity: 0.9988)
 - I am not a woman, I'm a god — Halsey (Similarity: 0.9971)
 - Feels Great (feat. Fetty Wap & CVBZ) — Cheat Codes, Fetty Wap, CVBZ (Similarity: 0.9951)
