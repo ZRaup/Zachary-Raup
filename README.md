@@ -31,8 +31,8 @@ I thrive in collaborative environments, enjoy solving challenging problems, and 
 &nbsp;  
 
 
-### [Project 1](Walmart_Sales_Prediction.md) 
-## [Chest X-Ray Pneumonia Detection with Deep Learning](Walmart_Sales_Prediction.md)  
+### [Project 1](deep-learning-chest-x-ray-pneumonia-detection.ipynb) 
+## [Chest X-Ray Pneumonia Detection with Deep Learning](deep-learning-chest-x-ray-pneumonia-detection.ipynb)  
 
 #### Project Overview
 Developed a deep learning pipeline to classify chest X-rays as Normal or Pneumonia using an ensemble of pretrained CNNs (ResNet18, DenseNet121, EfficientNet-B0). Achieved a 91.2% test accuracy and an F1-score of 0.9332, with all models demonstrating high pneumonia recall, minimizing false negatives.
@@ -46,7 +46,7 @@ This project showcases how deep learning and explainable AI can support radiolog
 
 ###### Skills Applied: PyTorch, Convolutional Neural Networks (CNN), Computer Vision, Deep Learning, Medical Imaging, Scikit-Learn and more
 
-#### Image 2: Average Weekly Sales by Store and Regression Model Performance
+#### Figure 1: Average Weekly Sales by Store and Regression Model Performance
 ##### The first chart visualizes the average weekly sales across all stores, revealing that stores like Store 4 and Store 20 consistently outperform others in sales volume, while stores such as Store 33 report the lowest averages. The second chart ranks the performance of various regression models based on RMSE. Random Forest Regression stands out with the lowest RMSE (107,130.99) and highest R² score (0.9636), demonstrating strong predictive accuracy. Decision Tree and Boosted Tree models also show solid performance, whereas linear and neural network models lag behind, highlighting the effectiveness of ensemble methods for this task.
 
 <img src="avg_sales_store.png" width="350" />  <img src="reg_res.png" width="470" />  
@@ -64,7 +64,7 @@ This project applies unsupervised machine learning techniques to uncover pattern
 
 ###### Skills Applied: Unsupervised Learning, NMF, t-SNE, Cosine Similarity, Data Preprocessing, Python (scikit-learn, NumPy, pandas)
 
-#### Image 1: This 2D visualization presents a t-SNE projection of the song dataset, with each point representing a track. Colors indicate cosine similarity to “Blinding Lights” by The Weeknd—green represents higher similarity, red represents lower. The 10 most similar songs are marked with square outlines, clearly highlighting clusters of tracks that share sonic traits. This approach visually demonstrates how audio features can be leveraged to identify stylistic similarity between songs.
+#### Figure 1: This 2D visualization presents a t-SNE projection of the song dataset, with each point representing a track. Colors indicate cosine similarity to “Blinding Lights” by The Weeknd—green represents higher similarity, red represents lower. The 10 most similar songs are marked with square outlines, clearly highlighting clusters of tracks that share sonic traits. This approach visually demonstrates how audio features can be leveraged to identify stylistic similarity between songs.
 
 <img src="tSNE_Blinding_Lights.png" width="900" height="500" />
 
@@ -93,7 +93,7 @@ Accurate weekly sales predictions are essential for retail businesses to manage 
 
 ###### Skills Applied: Machine Learning, Python (scikit-learn), Regression Modeling, Data Cleaning, Feature Engineering and more 
 
-#### Image 2: Average Weekly Sales by Store and Regression Model Performance
+#### Figure 2: Average Weekly Sales by Store and Regression Model Performance
 ##### The first chart visualizes the average weekly sales across all stores, revealing that stores like Store 4 and Store 20 consistently outperform others in sales volume, while stores such as Store 33 report the lowest averages. The second chart ranks the performance of various regression models based on RMSE. Random Forest Regression stands out with the lowest RMSE (107,130.99) and highest R² score (0.9636), demonstrating strong predictive accuracy. Decision Tree and Boosted Tree models also show solid performance, whereas linear and neural network models lag behind, highlighting the effectiveness of ensemble methods for this task.
 
 <img src="avg_sales_store.png" width="350" />  <img src="reg_res.png" width="470" />  
@@ -109,7 +109,7 @@ This project explores the effectiveness of five machine learning models—Logist
 
 ###### Skills Applied: Machine Learning, Supervised Learning, Python (scikit-learn), Cross-Validation, Hyperparameter Tuning and more 
 
-#### Image 3: Classification Model Comparison
+#### Figure 3: Classification Model Comparison
 ##### This boxplot illustrates the cross-validation accuracy of five classification models—Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, and Support Vector Machine (SVM). Each box represents the distribution of accuracy scores obtained through 5-fold cross-validation, highlighting the performance stability and variability of each model. The results emphasize the importance of model selection in achieving high accuracy for diabetes classification, crucial for effective healthcare decision-making.
 
 <img src="mod_comp.png" width="500" />  
@@ -125,7 +125,7 @@ This research project focuses on modeling the transit of exoplanets across stars
 
 ###### Skills Applied: Python (pandas, matplotlib, numpy, emcee, & batman), Jupyter Notebook, and Excel  
 
-#### Image 4: TOI-4153 modeled lightcurve
+#### Figure 4: TOI-4153 modeled lightcurve
 ##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739) database.
 
  <img src="lightkurve.png" width="500" />  
@@ -141,7 +141,7 @@ The goal of this project is to utilize MySQL queries to perform analysis of tren
 
 ###### Skills Applied: MySQL, Writing Queries, Data Cleaning, and Big Data  
 
-#### Image 5: Top States by Number of Dognition Users
+#### Figure 5: Top States by Number of Dognition Users
 ##### This MySQL query analyzes geographical user trends within the Dognition dataset, resulting in a table that lists the top 5 states with the highest number of Dognition users.
 
  <img src="state_users.png" width="720" />  
@@ -158,7 +158,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 ###### Skills Applied: Tableau, Data Visualization
 
-#### Image 6: Common Musuem Visitor Paths
+#### Figure 6: Common Musuem Visitor Paths
 ##### The following three screenshots highlight two popular paths that museum visitors walk at 11 AM, 3 PM, and 6 PM. These images illustrate how the average number of people in each area changes throughout the day, providing insights into visitor flow and behavior
 
 <img src="anim.png" width="700" />  
