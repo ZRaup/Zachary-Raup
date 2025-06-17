@@ -7,13 +7,13 @@
 [Data Science Courses Completed](courses.md) 
 
 ### About Me
-Welcome to my data science portfolio! I’m Zachary Raup, a dedicated and curious data scientist with a strong foundation in physics and a passion for uncovering insights through data. I graduated **Summa Cum Laude** from Kutztown University with a bachelor’s degree in Physics, where I specialized in data analysis and modeling—particularly in the fields of **exoplanets** and **binary star systems**. My research experience sharpened my analytical thinking and deepened my ability to work with complex, real-world datasets.
+Welcome to my data science portfolio! I'm **Zachary Raup**, a data scientist with a strong foundation in physics and a passion for uncovering insights from complex datasets. I graduated Summa Cum Laude from Kutztown University with a B.S. in Physics, where I focused on data modeling in astrophysical systems—particularly exoplanets and binary stars. This research experience trained me to approach problems analytically, work with real-world uncertainty, and extract meaning from noisy data.
 
-To build upon this foundation, I pursued professional development through DataCamp, earning certifications as a **Data Scientist Associate, Data Analyst Associate**, and receiving credentials in **Python** and **SQL**. I’ve also completed coursework in **machine learning, data preprocessing**, and **visualization**, equipping me with both the theoretical knowledge and hands-on skills needed to drive data-driven solutions.
+To strengthen my data science skillset, I earned certifications from **DataCamp** in Data Science, Data Analysis, **Python**, and **SQL**, and completed coursework in **machine learning, data preprocessing**, and **visualization**. I apply these skills using Python (pandas, scikit-learn, matplotlib, numpy) and SQL, with additional proficiency in **Tableau** and **Power BI** for data storytelling.
 
-In my work, I use Python for data exploration, feature engineering, statistical modeling, and machine learning, with libraries such as *pandas, scikit-learn, matplotlib*, and *numpy*. I'm also proficient in SQL, where I manage, query, and analyze large datasets efficiently to support decision-making. My visualization skills extend to tools like **Tableau** and **Power BI**, where I create compelling dashboards and storytelling visuals to communicate insights clearly and effectively.
+My work focuses on building interpretable, performance-driven models to support real-world decision-making. I enjoy collaborating across disciplines, turning messy data into actionable insight, and constantly learning new techniques to grow as a scientist and developer.
 
-I thrive in collaborative environments, enjoy solving challenging problems, and am committed to continuous learning in the fast-evolving world of data science. Whether I'm optimizing a machine learning model, developing a visualization, or diving into raw data, my goal is always to make a meaningful impact through data.
+Thanks for visiting—feel free to explore my projects!
 
 &nbsp;  
 
