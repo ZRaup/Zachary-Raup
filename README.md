@@ -99,9 +99,14 @@ Accurate weekly sales predictions are essential for retail businesses to manage 
 ###### Skills Applied: Machine Learning, Python (scikit-learn), Regression Modeling, Data Cleaning, Feature Engineering and more 
 
 #### Figure 4: Average Weekly Sales by Store and Regression Model Performance
-##### The first chart visualizes the average weekly sales across all stores, revealing that stores like Store 4 and Store 20 consistently outperform others in sales volume, while stores such as Store 33 report the lowest averages. The second chart ranks the performance of various regression models based on RMSE. Random Forest Regression stands out with the lowest RMSE (107,130.99) and highest R² score (0.9636), demonstrating strong predictive accuracy. Decision Tree and Boosted Tree models also show solid performance, whereas linear and neural network models lag behind, highlighting the effectiveness of ensemble methods for this task.
+##### The plot visualizes the average weekly sales across all stores, revealing that stores like Store 4 and Store 20 consistently outperform others in sales volume, while stores such as Store 33 report the lowest averages.
 
-<img src="avg_sales_store.png" width="350" />  <img src="reg_res.png" width="470" />  
+<img src="avg_sales_store.png" width="350" /> 
+
+#### Table 2: Regression Model Performance
+##### The table ranks the performance of various regression models based on RMSE. Random Forest Regression stands out with the lowest RMSE (107,130.99) and highest R² score (0.9636), demonstrating strong predictive accuracy. Decision Tree and Boosted Tree models also show solid performance, whereas linear and neural network models lag behind, highlighting the effectiveness of ensemble methods for this task.
+
+<img src="reg_res.png" width="470" />  
 
 
  &nbsp;   
