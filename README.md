@@ -30,6 +30,32 @@ I thrive in collaborative environments, enjoy solving challenging problems, and 
 ##### Below is a list of data and coding projects that I have completed. Use project title links to view more information about each project.  
 &nbsp;  
 
+
+### [Project 1](Walmart_Sales_Prediction.md) 
+## [Chest X-Ray Pneumonia Detection with Deep Learning](Walmart_Sales_Prediction.md)  
+
+#### Project Overview
+Developed a deep learning pipeline to classify chest X-rays as Normal or Pneumonia using an ensemble of pretrained CNNs (ResNet18, DenseNet121, EfficientNet-B0). Achieved a 91.2% test accuracy and an F1-score of 0.9332, with all models demonstrating high pneumonia recall, minimizing false negatives.
+
+*Key components*:
+- Implemented 3-fold stratified cross-validation and early stopping to ensure robust model performance
+- Applied class-weighted loss functions to address class imbalance during training
+- Integrated Grad-CAM visualizations to highlight key diagnostic regions and enhance interpretability for clinical use
+
+This project showcases how deep learning and explainable AI can support radiologists by improving diagnostic accuracy and transparency in medical imaging.
+
+###### Skills Applied: PyTorch, Convolutional Neural Networks (CNN), Computer Vision, Deep Learning, Medical Imaging, Scikit-Learn and more
+
+#### Image 2: Average Weekly Sales by Store and Regression Model Performance
+##### The first chart visualizes the average weekly sales across all stores, revealing that stores like Store 4 and Store 20 consistently outperform others in sales volume, while stores such as Store 33 report the lowest averages. The second chart ranks the performance of various regression models based on RMSE. Random Forest Regression stands out with the lowest RMSE (107,130.99) and highest R² score (0.9636), demonstrating strong predictive accuracy. Decision Tree and Boosted Tree models also show solid performance, whereas linear and neural network models lag behind, highlighting the effectiveness of ensemble methods for this task.
+
+<img src="avg_sales_store.png" width="350" />  <img src="reg_res.png" width="470" />  
+
+
+ &nbsp;   
+
+
+
 ### [Project 1](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)    
 ## [Discovering Similar Songs Using Machine Learning | Unsupervised Learning with Spotify Data](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
 
