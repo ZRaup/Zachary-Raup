@@ -130,7 +130,7 @@ This research project focuses on modeling the transit of exoplanets across stars
 
 ###### Skills Applied: Python (pandas, matplotlib, numpy, emcee, & batman), Jupyter Notebook, and Excel  
 
-#### Figure 6: TOI-4153 modeled lightcurve
+#### Figure 6: TOI-4153 Modeled Lightcurve
 ##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739) database.
 
  <img src="lightkurve.png" width="500" />  
@@ -178,12 +178,12 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
 [Project 1: Chest X-Ray Pneumonia Detection with Deep Learning](deep-learning-chest-x-ray-pneumonia-detection.ipynb)  
-[Project 1: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
-[Project 2: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
-[Project 3: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
-[Project 4: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
-[Project 5: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
-[Project 6: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
+[Project 2: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
+[Project 3: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
+[Project 4: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
+[Project 5: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+[Project 6: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
+[Project 7: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 
 
 
