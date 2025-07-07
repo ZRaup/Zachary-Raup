@@ -31,8 +31,8 @@ Thanks for visiting—feel free to explore my projects!
 &nbsp;  
 
 
-### [Project 1](predictive-maintenance-in-manufacturing.ipynb)
-## [Predictive Maintenance in Manufacturing | Machine Failure Classification with XGBoost](predictive-maintenance-in-manufacturing.ipynb)  
+### [Project 1](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)
+## [Predictive Maintenance in Manufacturing | Machine Failure Classification with XGBoost](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
 
 #### Project Overview
 Developed a machine learning pipeline to detect machine failures in a manufacturing environment using sensor data. Feature engineering and class rebalancing were applied to improve signal extraction and model fairness. Compared Logistic Regression, Random Forest, and XGBoost, with the latter achieving **98.6% accuracy** and perfect AUC on the test set.
@@ -60,8 +60,8 @@ This project demonstrates how domain knowledge, feature construction, and ensemb
 &nbsp;  
 
 
-### [Project 2](deep-learning-chest-x-ray-pneumonia-detection.ipynb) 
-## [Chest X-Ray Pneumonia Detection with Deep Learning](deep-learning-chest-x-ray-pneumonia-detection.ipynb)  
+### [Project 2](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection) 
+## [Chest X-Ray Pneumonia Detection with Deep Learning](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection) 
 
 #### Project Overview
 Developed a deep learning pipeline to classify chest X-rays as Normal or Pneumonia using an ensemble of pretrained CNNs (ResNet18, DenseNet121, EfficientNet-B0). Achieved a 91.2% test accuracy and an F1-score of 0.9332, with all models demonstrating high pneumonia recall, minimizing false negatives.
@@ -211,8 +211,8 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Project 1: Predictive Maintenance in Manufacturing](predictive-maintenance-in-manufacturing.ipynb)  
-[Project 2: Chest X-Ray Pneumonia Detection with Deep Learning](deep-learning-chest-x-ray-pneumonia-detection.ipynb)  
+[Project 1: Predictive Maintenance in Manufacturing](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
+[Project 2: Chest X-Ray Pneumonia Detection with Deep Learning]((https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection)
 [Project 3: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
 [Project 4: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
 [Project 5: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
