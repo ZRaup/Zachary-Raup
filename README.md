@@ -50,18 +50,14 @@ This project demonstrates how domain knowledge, feature construction, and ensemb
 #### Figure 1: Confusion Matrix — XGBoost Model
 ##### This confusion matrix shows the performance of the XGBoost model in detecting machine failures. It achieved 98.6% accuracy, with only 55 total misclassifications out of 3,865 samples. The model demonstrates excellent precision and recall, making it highly effective for predictive maintenance tasks in manufacturing.
 
-<img src="conf_matrix_xgb.png" width="400" />
+<img src="ConfusionMatrix_XGBoost.png" width="400" />
 
 #### Figure 2: SHAP Summary Plot — Feature Impact on Predictions
 ##### SHAP summary plot showing how each feature influences the model’s predictions. Tool_wear_[min], Power_[W], and Rotational_speed_[rpm] are among the most influential inputs. This visualization aids in validating model behavior and supports communication with non-technical stakeholders.
 
-<img src="shap_summary.png" width="500" />
+<img src="SHAP.png" width="500" />
 
 &nbsp;  
-
-
-
-
 
 
 ### [Project 2](deep-learning-chest-x-ray-pneumonia-detection.ipynb) 
@@ -79,12 +75,12 @@ This project showcases how deep learning and explainable AI can support radiolog
 
 ###### Skills Applied: PyTorch, Convolutional Neural Networks (CNN), Computer Vision, Deep Learning, Medical Imaging, Scikit-Learn and more
 
-#### Figure 1: Grad-CAM Heatmap: Interpretable Pneumonia Detection from Chest X-Ray
+#### Figure 3: Grad-CAM Heatmap: Interpretable Pneumonia Detection from Chest X-Ray
 ##### Grad-CAM visualization for a test chest X-ray correctly classified as Pneumonia by the ResNet18 model. The highlighted activation regions (in red and yellow) suggest the model focuses on areas of increased radiographic opacity within the central and lower lung fields—features often indicative of pulmonary infection. This supports the model's decision-making process and provides interpretability in a clinical context.
 
 <img src="GradCam.png" width="350" />  
 
-#### Figure 2: Confusion Matrix: ResNet18 Model on Chest X-Ray Test Set
+#### Figure 4: Confusion Matrix: ResNet18 Model on Chest X-Ray Test Set
 ##### Confusion matrix for the ResNet18 model (fold 0) evaluated on the test set. The model correctly identified 384 of 390 Pneumonia cases (high sensitivity) and 185 of 234 Normal cases, resulting in 6 false negatives and 49 false positives. This performance highlights the model’s strong bias toward minimizing missed Pneumonia diagnoses, a clinically preferred trade-off in high-stakes triage settings.
 
 <img src="confus_matr.png" width="470" />  
@@ -101,7 +97,7 @@ This project applies unsupervised machine learning techniques to uncover pattern
 
 ###### Skills Applied: Unsupervised Learning, NMF, t-SNE, Cosine Similarity, Data Preprocessing, Python (scikit-learn, NumPy, pandas)
 
-#### Figure 3: Interactive Projection of Songs Colored by Similarity to Blinding Lights - The Weekend
+#### Figure 5: Interactive Projection of Songs Colored by Similarity to Blinding Lights - The Weekend
 ##### This 2D visualization presents a t-SNE projection of the song dataset, with each point representing a track. Colors indicate cosine similarity to “Blinding Lights” by The Weeknd—green represents higher similarity, red represents lower. The 10 most similar songs are marked with square outlines, clearly highlighting clusters of tracks that share sonic traits. This approach visually demonstrates how audio features can be leveraged to identify stylistic similarity between songs.
 
 <img src="tSNE_Blinding_Lights.png" width="900" height="500" />
@@ -131,7 +127,7 @@ Accurate weekly sales predictions are essential for retail businesses to manage 
 
 ###### Skills Applied: Machine Learning, Python (scikit-learn), Regression Modeling, Data Cleaning, Feature Engineering and more 
 
-#### Figure 4: Average Weekly Sales by Store and Regression Model Performance
+#### Figure 6: Average Weekly Sales by Store and Regression Model Performance
 ##### The plot visualizes the average weekly sales across all stores, revealing that stores like Store 4 and Store 20 consistently outperform others in sales volume, while stores such as Store 33 report the lowest averages.
 
 <img src="avg_sales_store.png" width="350" /> 
@@ -152,7 +148,7 @@ This project explores the effectiveness of five machine learning models—Logist
 
 ###### Skills Applied: Machine Learning, Supervised Learning, Python (scikit-learn), Cross-Validation, Hyperparameter Tuning and more 
 
-#### Figure 5: Classification Model Comparison
+#### Figure 7: Classification Model Comparison
 ##### This boxplot illustrates the cross-validation accuracy of five classification models—Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, and Support Vector Machine (SVM). Each box represents the distribution of accuracy scores obtained through 5-fold cross-validation, highlighting the performance stability and variability of each model. The results emphasize the importance of model selection in achieving high accuracy for diabetes classification, crucial for effective healthcare decision-making.
 
 <img src="mod_comp.png" width="500" />  
@@ -168,7 +164,7 @@ This research project focuses on modeling the transit of exoplanets across stars
 
 ###### Skills Applied: Python (pandas, matplotlib, numpy, emcee, & batman), Jupyter Notebook, and Excel  
 
-#### Figure 6: TOI-4153 Modeled Lightcurve
+#### Figure 8: TOI-4153 Modeled Lightcurve
 ##### Light curve of TOI-4153 data (CRCAO) taken in a Blue (B) and Infrared (I) filter. The model is built using the Python transit modeler package 'batman'. The parameters of the model were determined using the Markov Chain Monte Carlo algorithm and known parameters taken from the [ExoFOP](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739) database.
 
  <img src="lightkurve.png" width="500" />  
@@ -184,7 +180,7 @@ The goal of this project is to utilize MySQL queries to perform analysis of tren
 
 ###### Skills Applied: MySQL, Writing Queries, Data Cleaning, and Big Data  
 
-#### Figure 7: Top States by Number of Dognition Users
+#### Figure 9: Top States by Number of Dognition Users
 ##### This MySQL query analyzes geographical user trends within the Dognition dataset, resulting in a table that lists the top 5 states with the highest number of Dognition users.
 
  <img src="state_users.png" width="720" />  
@@ -201,7 +197,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 ###### Skills Applied: Tableau, Data Visualization
 
-#### Figure 8: Common Musuem Visitor Paths
+#### Figure 10: Common Musuem Visitor Paths
 ##### The following three screenshots highlight two popular paths that museum visitors walk at 11 AM, 3 PM, and 6 PM. These images illustrate how the average number of people in each area changes throughout the day, providing insights into visitor flow and behavior
 
 <img src="anim.png" width="700" />  
@@ -215,13 +211,14 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Project 1: Chest X-Ray Pneumonia Detection with Deep Learning](deep-learning-chest-x-ray-pneumonia-detection.ipynb)  
-[Project 2: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
-[Project 3: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
-[Project 4: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
-[Project 5: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
-[Project 6: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
-[Project 7: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
+[Project 1: Predictive Maintenance in Manufacturing](predictive-maintenance-in-manufacturing.ipynb)  
+[Project 2: Chest X-Ray Pneumonia Detection with Deep Learning](deep-learning-chest-x-ray-pneumonia-detection.ipynb)  
+[Project 3: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
+[Project 4: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
+[Project 5: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
+[Project 6: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+[Project 7: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
+[Project 8: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 
 
 
