@@ -45,7 +45,7 @@ Developed a machine learning pipeline to detect machine failures in a manufactur
 
 This project demonstrates how domain knowledge, feature construction, and ensemble methods can work together to create a reliable and explainable predictive maintenance solution.
 
-###### Skills Applied: Machine Learning, Feature Engineering, SMOTE, SHAP, Ensemble Modeling, Python (scikit-learn, XGBoost, imbalanced-learn)
+###### Skills Applied: Machine Learning, Feature Engineering, SMOTE, SHAP, Ensemble Modeling, Supervised Learning, Python (scikit-learn, XGBoost, imbalanced-learn)
 
 #### Figure 1: Confusion Matrix — XGBoost Model
 ##### This confusion matrix shows the performance of the XGBoost model in detecting machine failures. It achieved 98.6% accuracy, with only 55 total misclassifications out of 3,865 samples. The model demonstrates excellent precision and recall, making it highly effective for predictive maintenance tasks in manufacturing.
