@@ -31,7 +31,40 @@ Thanks for visiting—feel free to explore my projects!
 &nbsp;  
 
 
-### [Project 1](deep-learning-chest-x-ray-pneumonia-detection.ipynb) 
+### [Project 1](predictive-maintenance-in-manufacturing.ipynb)
+## [Predictive Maintenance in Manufacturing | Machine Failure Classification with XGBoost](predictive-maintenance-in-manufacturing.ipynb)  
+
+#### Project Overview
+Developed a machine learning pipeline to detect machine failures in a manufacturing environment using sensor data. Feature engineering and class rebalancing were applied to improve signal extraction and model fairness. Compared Logistic Regression, Random Forest, and XGBoost, with the latter achieving **98.6% accuracy** and perfect AUC on the test set.
+
+*Key components*:
+- Created engineered features including `Power`, `Temp_Delta`, `Speed_Torque_Ratio`, and `Wear_per_Torque`
+- Applied SMOTE to correct class imbalance (only 339 failure cases among 10,000+ observations)
+- Used SHAP for global and local model interpretability
+- Achieved a strong balance of precision and recall, reducing false positives and false negatives
+
+This project demonstrates how domain knowledge, feature construction, and ensemble methods can work together to create a reliable and explainable predictive maintenance solution.
+
+###### Skills Applied: Machine Learning, Feature Engineering, SMOTE, SHAP, Ensemble Modeling, Python (scikit-learn, XGBoost, imbalanced-learn)
+
+#### Figure 1: Confusion Matrix — XGBoost Model
+##### This confusion matrix shows the performance of the XGBoost model in detecting machine failures. It achieved 98.6% accuracy, with only 55 total misclassifications out of 3,865 samples. The model demonstrates excellent precision and recall, making it highly effective for predictive maintenance tasks in manufacturing.
+
+<img src="conf_matrix_xgb.png" width="400" />
+
+#### Figure 2: SHAP Summary Plot — Feature Impact on Predictions
+##### SHAP summary plot showing how each feature influences the model’s predictions. Tool_wear_[min], Power_[W], and Rotational_speed_[rpm] are among the most influential inputs. This visualization aids in validating model behavior and supports communication with non-technical stakeholders.
+
+<img src="shap_summary.png" width="500" />
+
+&nbsp;  
+
+
+
+
+
+
+### [Project 2](deep-learning-chest-x-ray-pneumonia-detection.ipynb) 
 ## [Chest X-Ray Pneumonia Detection with Deep Learning](deep-learning-chest-x-ray-pneumonia-detection.ipynb)  
 
 #### Project Overview
@@ -60,7 +93,7 @@ This project showcases how deep learning and explainable AI can support radiolog
 
 
 
-### [Project 2](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)    
+### [Project 3](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)    
 ## [Discovering Similar Songs Using Machine Learning | Unsupervised Learning with Spotify Data](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
 
 #### Project Overview
@@ -90,7 +123,7 @@ This project applies unsupervised machine learning techniques to uncover pattern
 
  &nbsp;   
 
-### [Project 3](Walmart_Sales_Prediction.md) 
+### [Project 4](Walmart_Sales_Prediction.md) 
 ## [Walmart Sales Prediction | Regression Modeling](Walmart_Sales_Prediction.md)  
 
 #### Project Overview
@@ -111,7 +144,7 @@ Accurate weekly sales predictions are essential for retail businesses to manage 
 
  &nbsp;   
 
-### [Project 4](PDML.md)  
+### [Project 5](PDML.md)  
 ## [Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 
 #### Project Overview
@@ -127,7 +160,7 @@ This project explores the effectiveness of five machine learning models—Logist
 
  &nbsp;   
 
-### [Project 5](TOI4153_port.md) 
+### [Project 6](TOI4153_port.md) 
 ## [Utilizing MCMC to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
 
 #### Project Overview
@@ -143,7 +176,7 @@ This research project focuses on modeling the transit of exoplanets across stars
 
  &nbsp;   
    
-### [Project 6](MySQL_port.md) 
+### [Project 7](MySQL_port.md) 
 ## [Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
 
 #### Project Overview
@@ -160,7 +193,7 @@ The goal of this project is to utilize MySQL queries to perform analysis of tren
 
  &nbsp;   
 
-### [Project 7](MuesTabl.md) 
+### [Project 8](MuesTabl.md) 
 ## [Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 
 #### Project Overview
