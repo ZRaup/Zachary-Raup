@@ -133,19 +133,18 @@ Key goals included:
 > **Best Model**: XGBoost with RMSE ≈ **$61.4K** and R² ≈ **0.988** on the test set  
 > **Notable Insight**: Holiday weeks and store-specific trends were the strongest predictors of weekly sales variability
 
-##### **Skills Applied:**  
-Python (pandas, scikit-learn, xgboost, lightgbm), Regression Modeling, Cross-Validation, Residual Analysis, EDA, Feature Engineering, Data Cleaning, Visualization
+###### **Skills Applied:** Python (pandas, scikit-learn, xgboost, lightgbm), Regression Modeling, Cross-Validation, Residual Analysis, EDA, Feature Engineering, Data Cleaning, Visualization
 
 
 #### Figure 1: Actual vs Predicted Weekly Sales – XGBoost vs LightGBM  
-This dual-panel plot compares predicted weekly sales to actual values for the two best-performing models. **XGBoost** (left) shows a strong fit with tightly clustered points near the diagonal, indicating accurate forecasts and low bias. **LightGBM** (right) also performs well but with slightly more spread, particularly at higher sales values.
+##### This dual-panel plot compares predicted weekly sales to actual values for the two best-performing models. **XGBoost** (left) shows a strong fit with tightly clustered points near the diagonal, indicating accurate forecasts and low bias. **LightGBM** (right) also performs well but with slightly more spread, particularly at higher sales values.
 
 <img src="actual_vs_pred.png" width="470" />
 
 
 
 #### Figure 2: Feature Importance – XGBoost vs LightGBM  
-This figure compares the top 10 features driving predictions in both models. XGBoost heavily prioritizes the **Store** variable, revealing strong store-specific effects. LightGBM distributes importance more evenly across predictors such as **Temperature**, **Fuel_Temp_Interaction**, and **Economic_Stress**, suggesting broader generalizability.
+##### This figure compares the top 10 features driving predictions in both models. XGBoost heavily prioritizes the **Store** variable, revealing strong store-specific effects. LightGBM distributes importance more evenly across predictors such as **Temperature**, **Fuel_Temp_Interaction**, and **Economic_Stress**, suggesting broader generalizability.
 
 <img src="feature_importance_comparison.png" width="470" />
 
