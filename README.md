@@ -212,7 +212,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
 [Project 1: Predictive Maintenance in Manufacturing](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
-[Project 2: Chest X-Ray Pneumonia Detection with Deep Learning](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection)
+[Project 2: Chest X-Ray Pneumonia Detection with Deep Learning](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection)  
 [Project 3: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
 [Project 4: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
 [Project 5: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
