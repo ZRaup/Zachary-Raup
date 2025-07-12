@@ -119,8 +119,8 @@ This project applies unsupervised machine learning techniques to uncover pattern
 
  &nbsp;   
 
-### [Project 4](Walmart_Sales_Prediction.md) 
-## [Walmart Sales Prediction | Regression Modeling](Walmart_Sales_Prediction.md)  
+### [Project 4]([Walmart_Sales_Prediction.md](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting) 
+## [Walmart Sales Prediction | Regression Modeling](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting)
 
 #### Project Overview
 Accurate weekly sales predictions are essential for retail businesses to manage inventory, forecast demand, and optimize profitability. This project explores the use of machine learning techniques to predict weekly sales for Walmart stores based on historical data spanning 2010 to 2012. Various regression models, including Random Forest, Boosted Trees, and Ridge Regression, were applied and compared to identify the most reliable approach for capturing complex data relationships and improving predictive accuracy.
@@ -212,7 +212,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
 [Project 1: Predictive Maintenance in Manufacturing](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
-[Project 2: Chest X-Ray Pneumonia Detection with Deep Learning]((https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection)
+[Project 2: Chest X-Ray Pneumonia Detection with Deep Learning](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection)
 [Project 3: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
 [Project 4: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
 [Project 5: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
