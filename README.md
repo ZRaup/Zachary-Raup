@@ -119,7 +119,7 @@ This project applies unsupervised machine learning techniques to uncover pattern
 
  &nbsp;   
 
-### [Project 4]([Walmart_Sales_Prediction.md](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting) 
+### [Project 4](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting) 
 ## [Walmart Sales Prediction | Regression Modeling](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting)
 
 #### Project Overview
