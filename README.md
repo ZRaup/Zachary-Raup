@@ -120,7 +120,7 @@ This project applies unsupervised machine learning techniques to uncover pattern
  &nbsp;   
 
 ### [Project 4](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting) 
-## [Walmart Weekly Sales Forecasting | Regression Modeling](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting)
+## [Forecasting Retail Sales with Machine Learning | Regression Modeling](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting)
 
 #### Project Overview
 Accurate weekly sales predictions are crucial for large-scale retailers like Walmart to optimize **inventory management**, **labor allocation**, and **supply chain planning**. This project uses historical sales data (2010–2012) to build a machine learning pipeline that predicts weekly sales using a blend of **store-level**, **temporal**, and **economic features**. After thorough **EDA**, feature engineering, and model tuning, five regression algorithms were evaluated, with **XGBoost and LightGBM** demonstrating top performance.
