@@ -120,22 +120,35 @@ This project applies unsupervised machine learning techniques to uncover pattern
  &nbsp;   
 
 ### [Project 4](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting) 
-## [Walmart Sales Prediction | Regression Modeling](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting)
+## [Walmart Weekly Sales Forecasting | Regression Modeling](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting)
 
-#### Project Overview
-Accurate weekly sales predictions are essential for retail businesses to manage inventory, forecast demand, and optimize profitability. This project explores the use of machine learning techniques to predict weekly sales for Walmart stores based on historical data spanning 2010 to 2012. Various regression models, including Random Forest, Boosted Trees, and Ridge Regression, were applied and compared to identify the most reliable approach for capturing complex data relationships and improving predictive accuracy.
+#### 📝 Project Overview
+Accurate weekly sales predictions are crucial for large-scale retailers like Walmart to optimize **inventory management**, **labor allocation**, and **supply chain planning**. This project uses historical sales data (2010–2012) to build a machine learning pipeline that predicts weekly sales using a blend of **store-level**, **temporal**, and **economic features**. After thorough **EDA**, feature engineering, and model tuning, five regression algorithms were evaluated, with **XGBoost and LightGBM** demonstrating top performance.
 
-###### Skills Applied: Machine Learning, Python (scikit-learn), Regression Modeling, Data Cleaning, Feature Engineering and more 
+Key goals included:
+- Comparing **linear vs. non-linear models** (Ridge, Decision Tree, Random Forest, XGBoost, LightGBM),
+- Enhancing model **generalizability** through 5-fold **cross-validation**,
+- Improving **interpretability** via residual diagnostics and **feature importance visualization**.
 
-#### Figure 6: Average Weekly Sales by Store and Regression Model Performance
-##### The plot visualizes the average weekly sales across all stores, revealing that stores like Store 4 and Store 20 consistently outperform others in sales volume, while stores such as Store 33 report the lowest averages.
+> ✅ **Best Model**: XGBoost with RMSE ≈ **$61.4K** and R² ≈ **0.988** on the test set  
+> 🔎 **Notable Insight**: Holiday weeks and store-specific trends were the strongest predictors of weekly sales variability
 
-<img src="avg_sales_store.png" width="350" /> 
+##### **Skills Applied:**  
+Python (pandas, scikit-learn, xgboost, lightgbm), Regression Modeling, Cross-Validation, Residual Analysis, EDA, Feature Engineering, Data Cleaning, Visualization
 
-#### Table 2: Regression Model Performance
-##### The table ranks the performance of various regression models based on RMSE. Random Forest Regression stands out with the lowest RMSE (107,130.99) and highest R² score (0.9636), demonstrating strong predictive accuracy. Decision Tree and Boosted Tree models also show solid performance, whereas linear and neural network models lag behind, highlighting the effectiveness of ensemble methods for this task.
 
-<img src="reg_res.png" width="470" />  
+#### 📊 Figure 1: Actual vs Predicted Weekly Sales – XGBoost vs LightGBM  
+This dual-panel plot compares predicted weekly sales to actual values for the two best-performing models. **XGBoost** (left) shows a strong fit with tightly clustered points near the diagonal, indicating accurate forecasts and low bias. **LightGBM** (right) also performs well but with slightly more spread, particularly at higher sales values.
+
+<img src="actual_vs_pred.png" width="470" />
+
+
+
+#### 📊 Figure 2: Feature Importance – XGBoost vs LightGBM  
+This figure compares the top 10 features driving predictions in both models. XGBoost heavily prioritizes the **Store** variable, revealing strong store-specific effects. LightGBM distributes importance more evenly across predictors such as **Temperature**, **Fuel_Temp_Interaction**, and **Economic_Stress**, suggesting broader generalizability.
+
+<img src="feature_importance_comparison.png" width="470" />
+
 
 
  &nbsp;   
