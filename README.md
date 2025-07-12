@@ -122,7 +122,7 @@ This project applies unsupervised machine learning techniques to uncover pattern
 ### [Project 4](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting) 
 ## [Walmart Weekly Sales Forecasting | Regression Modeling](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting)
 
-#### 📝 Project Overview
+#### Project Overview
 Accurate weekly sales predictions are crucial for large-scale retailers like Walmart to optimize **inventory management**, **labor allocation**, and **supply chain planning**. This project uses historical sales data (2010–2012) to build a machine learning pipeline that predicts weekly sales using a blend of **store-level**, **temporal**, and **economic features**. After thorough **EDA**, feature engineering, and model tuning, five regression algorithms were evaluated, with **XGBoost and LightGBM** demonstrating top performance.
 
 Key goals included:
@@ -130,21 +130,21 @@ Key goals included:
 - Enhancing model **generalizability** through 5-fold **cross-validation**,
 - Improving **interpretability** via residual diagnostics and **feature importance visualization**.
 
-> ✅ **Best Model**: XGBoost with RMSE ≈ **$61.4K** and R² ≈ **0.988** on the test set  
-> 🔎 **Notable Insight**: Holiday weeks and store-specific trends were the strongest predictors of weekly sales variability
+> **Best Model**: XGBoost with RMSE ≈ **$61.4K** and R² ≈ **0.988** on the test set  
+> **Notable Insight**: Holiday weeks and store-specific trends were the strongest predictors of weekly sales variability
 
 ##### **Skills Applied:**  
 Python (pandas, scikit-learn, xgboost, lightgbm), Regression Modeling, Cross-Validation, Residual Analysis, EDA, Feature Engineering, Data Cleaning, Visualization
 
 
-#### 📊 Figure 1: Actual vs Predicted Weekly Sales – XGBoost vs LightGBM  
+#### Figure 1: Actual vs Predicted Weekly Sales – XGBoost vs LightGBM  
 This dual-panel plot compares predicted weekly sales to actual values for the two best-performing models. **XGBoost** (left) shows a strong fit with tightly clustered points near the diagonal, indicating accurate forecasts and low bias. **LightGBM** (right) also performs well but with slightly more spread, particularly at higher sales values.
 
 <img src="actual_vs_pred.png" width="470" />
 
 
 
-#### 📊 Figure 2: Feature Importance – XGBoost vs LightGBM  
+#### Figure 2: Feature Importance – XGBoost vs LightGBM  
 This figure compares the top 10 features driving predictions in both models. XGBoost heavily prioritizes the **Store** variable, revealing strong store-specific effects. LightGBM distributes importance more evenly across predictors such as **Temperature**, **Fuel_Temp_Interaction**, and **Economic_Stress**, suggesting broader generalizability.
 
 <img src="feature_importance_comparison.png" width="470" />
