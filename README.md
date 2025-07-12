@@ -139,7 +139,7 @@ Key goals included:
 #### Figure 1: Actual vs Predicted Weekly Sales – XGBoost vs LightGBM  
 ##### This dual-panel plot compares predicted weekly sales to actual values for the two best-performing models. **XGBoost** (left) shows a strong fit with tightly clustered points near the diagonal, indicating accurate forecasts and low bias. **LightGBM** (right) also performs well but with slightly more spread, particularly at higher sales values.
 
-<img src="actual_vs_pred.png" width="470" />
+<img src="wal_actual_vs_pred.png" width="470" />
 
 
 
