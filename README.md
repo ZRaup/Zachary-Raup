@@ -146,7 +146,7 @@ Key goals included:
 #### Figure 2: Feature Importance – XGBoost vs LightGBM  
 ##### This figure compares the top 10 features driving predictions in both models. XGBoost heavily prioritizes the **Store** variable, revealing strong store-specific effects. LightGBM distributes importance more evenly across predictors such as **Temperature**, **Fuel_Temp_Interaction**, and **Economic_Stress**, suggesting broader generalizability.
 
-<img src="feature_importance_comparison.png" width="470" />
+<img src="feat_import_comp.png" width="470" />
 
 
 
