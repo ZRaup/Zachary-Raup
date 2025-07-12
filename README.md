@@ -119,8 +119,8 @@ This project applies unsupervised machine learning techniques to uncover pattern
 
  &nbsp;   
 
-### [Project 4](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting) 
-## [Forecasting Retail Sales with Machine Learning | Regression Modeling](https://www.kaggle.com/code/zacharyraup/walmart-weekly-sales-forecasting)
+### [Project 4](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning) 
+## [Forecasting Retail Sales with Machine Learning | Regression Modeling](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning)
 
 #### Project Overview
 Accurate weekly sales predictions are crucial for large-scale retailers like Walmart to optimize **inventory management**, **labor allocation**, and **supply chain planning**. This project uses historical sales data (2010–2012) to build a machine learning pipeline that predicts weekly sales using a blend of **store-level**, **temporal**, and **economic features**. After thorough **EDA**, feature engineering, and model tuning, five regression algorithms were evaluated, with **XGBoost and LightGBM** demonstrating top performance.
@@ -226,7 +226,7 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 [Project 1: Predictive Maintenance in Manufacturing](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
 [Project 2: Chest X-Ray Pneumonia Detection with Deep Learning](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection)  
 [Project 3: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
-[Project 4: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
+[Project 4: Forecasting Retail Sales with Machine Learning | Regression Modeling](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning)  
 [Project 5: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 [Project 6: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
 [Project 7: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
