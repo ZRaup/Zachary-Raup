@@ -60,31 +60,35 @@ This project showcases how deep learning and explainable AI can support radiolog
 
 &nbsp;  
 
-### [Project 2](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)
-## [Predictive Maintenance in Manufacturing | Machine Failure Classification with XGBoost](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
+
+### [Project 4](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning) 
+## [Forecasting Retail Sales with Machine Learning | Regression Modeling](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning)
 
 #### Project Overview
-Developed a machine learning pipeline to detect machine failures in a manufacturing environment using sensor data. Feature engineering and class rebalancing were applied to improve signal extraction and model fairness. Compared Logistic Regression, Random Forest, and XGBoost, with the latter achieving **98.6% accuracy** and perfect AUC on the test set.
+Accurate weekly sales predictions are crucial for large-scale retailers like Walmart to optimize **inventory management**, **labor allocation**, and **supply chain planning**. This project uses historical sales data (2010–2012) to build a machine learning pipeline that predicts weekly sales using a blend of **store-level**, **temporal**, and **economic features**. After thorough **EDA**, feature engineering, and model tuning, five regression algorithms were evaluated, with **XGBoost and LightGBM** demonstrating top performance.
 
-*Key components*:
-- Created engineered features including `Power`, `Temp_Delta`, `Speed_Torque_Ratio`, and `Wear_per_Torque`
-- Applied SMOTE to correct class imbalance (only 339 failure cases among 10,000+ observations)
-- Used SHAP for global and local model interpretability
-- Achieved a strong balance of precision and recall, reducing false positives and false negatives
+Key goals included:
+- Comparing **linear vs. non-linear models** (Ridge, Decision Tree, Random Forest, XGBoost, LightGBM),
+- Enhancing model **generalizability** through 5-fold **cross-validation**,
+- Improving **interpretability** via residual diagnostics and **feature importance visualization**.
 
-This project demonstrates how domain knowledge, feature construction, and ensemble methods can work together to create a reliable and explainable predictive maintenance solution.
+> **Best Model**: XGBoost with RMSE ≈ **$61.4K** and R² ≈ **0.988** on the test set  
+> **Notable Insight**: Holiday weeks and store-specific trends were the strongest predictors of weekly sales variability
 
-###### Skills Applied: Machine Learning, Feature Engineering, SMOTE, SHAP, Ensemble Modeling, Supervised Learning, Python (scikit-learn, XGBoost, imbalanced-learn)
+###### **Skills Applied:** Python (pandas, scikit-learn, xgboost, lightgbm), Regression Modeling, Cross-Validation, Residual Analysis, EDA, Feature Engineering, Data Cleaning, Visualization
 
-#### Figure 1: Confusion Matrix — XGBoost Model
-##### This confusion matrix shows the performance of the XGBoost model in detecting machine failures. It achieved 98.6% accuracy, with only 55 total misclassifications out of 3,865 samples. The model demonstrates excellent precision and recall, making it highly effective for predictive maintenance tasks in manufacturing.
 
-<img src="ConfusionMatrix_XGBoost.png" width="400" />
+#### Figure 1: Actual vs Predicted Weekly Sales – XGBoost vs LightGBM  
+##### This dual-panel plot compares predicted weekly sales to actual values for the two best-performing models. **XGBoost** (left) shows a strong fit with tightly clustered points near the diagonal, indicating accurate forecasts and low bias. **LightGBM** (right) also performs well but with slightly more spread, particularly at higher sales values.
 
-#### Figure 2: SHAP Summary Plot — Feature Impact on Predictions
-##### SHAP summary plot showing how each feature influences the model’s predictions. Tool_wear_[min], Power_[W], and Rotational_speed_[rpm] are among the most influential inputs. This visualization aids in validating model behavior and supports communication with non-technical stakeholders.
+<img src="wal_actual_vs_pred.png" width="470" />
 
-<img src="SHAP.png" width="500" />
+
+
+#### Figure 2: Feature Importance – XGBoost vs LightGBM  
+##### This figure compares the top 10 features driving predictions in both models. XGBoost heavily prioritizes the **Store** variable, revealing strong store-specific effects. LightGBM distributes importance more evenly across predictors such as **Temperature**, **Fuel_Temp_Interaction**, and **Economic_Stress**, suggesting broader generalizability.
+
+<img src="feat_import_comp.png" width="470" />
 
 
  &nbsp;   
@@ -121,41 +125,39 @@ This project applies unsupervised machine learning techniques to uncover pattern
 
  &nbsp;   
 
-### [Project 4](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning) 
-## [Forecasting Retail Sales with Machine Learning | Regression Modeling](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning)
+
+### [Project 2](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)
+## [Predictive Maintenance in Manufacturing | Machine Failure Classification with XGBoost](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
 
 #### Project Overview
-Accurate weekly sales predictions are crucial for large-scale retailers like Walmart to optimize **inventory management**, **labor allocation**, and **supply chain planning**. This project uses historical sales data (2010–2012) to build a machine learning pipeline that predicts weekly sales using a blend of **store-level**, **temporal**, and **economic features**. After thorough **EDA**, feature engineering, and model tuning, five regression algorithms were evaluated, with **XGBoost and LightGBM** demonstrating top performance.
+Developed a machine learning pipeline to detect machine failures in a manufacturing environment using sensor data. Feature engineering and class rebalancing were applied to improve signal extraction and model fairness. Compared Logistic Regression, Random Forest, and XGBoost, with the latter achieving **98.6% accuracy** and perfect AUC on the test set.
 
-Key goals included:
-- Comparing **linear vs. non-linear models** (Ridge, Decision Tree, Random Forest, XGBoost, LightGBM),
-- Enhancing model **generalizability** through 5-fold **cross-validation**,
-- Improving **interpretability** via residual diagnostics and **feature importance visualization**.
+*Key components*:
+- Created engineered features including `Power`, `Temp_Delta`, `Speed_Torque_Ratio`, and `Wear_per_Torque`
+- Applied SMOTE to correct class imbalance (only 339 failure cases among 10,000+ observations)
+- Used SHAP for global and local model interpretability
+- Achieved a strong balance of precision and recall, reducing false positives and false negatives
 
-> **Best Model**: XGBoost with RMSE ≈ **$61.4K** and R² ≈ **0.988** on the test set  
-> **Notable Insight**: Holiday weeks and store-specific trends were the strongest predictors of weekly sales variability
+This project demonstrates how domain knowledge, feature construction, and ensemble methods can work together to create a reliable and explainable predictive maintenance solution.
 
-###### **Skills Applied:** Python (pandas, scikit-learn, xgboost, lightgbm), Regression Modeling, Cross-Validation, Residual Analysis, EDA, Feature Engineering, Data Cleaning, Visualization
+###### Skills Applied: Machine Learning, Feature Engineering, SMOTE, SHAP, Ensemble Modeling, Supervised Learning, Python (scikit-learn, XGBoost, imbalanced-learn)
 
+#### Figure 1: Confusion Matrix — XGBoost Model
+##### This confusion matrix shows the performance of the XGBoost model in detecting machine failures. It achieved 98.6% accuracy, with only 55 total misclassifications out of 3,865 samples. The model demonstrates excellent precision and recall, making it highly effective for predictive maintenance tasks in manufacturing.
 
-#### Figure 1: Actual vs Predicted Weekly Sales – XGBoost vs LightGBM  
-##### This dual-panel plot compares predicted weekly sales to actual values for the two best-performing models. **XGBoost** (left) shows a strong fit with tightly clustered points near the diagonal, indicating accurate forecasts and low bias. **LightGBM** (right) also performs well but with slightly more spread, particularly at higher sales values.
+<img src="ConfusionMatrix_XGBoost.png" width="400" />
 
-<img src="wal_actual_vs_pred.png" width="470" />
+#### Figure 2: SHAP Summary Plot — Feature Impact on Predictions
+##### SHAP summary plot showing how each feature influences the model’s predictions. Tool_wear_[min], Power_[W], and Rotational_speed_[rpm] are among the most influential inputs. This visualization aids in validating model behavior and supports communication with non-technical stakeholders.
 
-
-
-#### Figure 2: Feature Importance – XGBoost vs LightGBM  
-##### This figure compares the top 10 features driving predictions in both models. XGBoost heavily prioritizes the **Store** variable, revealing strong store-specific effects. LightGBM distributes importance more evenly across predictors such as **Temperature**, **Fuel_Temp_Interaction**, and **Economic_Stress**, suggesting broader generalizability.
-
-<img src="feat_import_comp.png" width="470" />
+<img src="SHAP.png" width="500" />
 
 
 
  &nbsp;   
 
-<!--  % Start Comment Out Section
-
+<!--  
+% Start Comment Out Section
 
 
 ### [Project 5](PDML.md)  
@@ -224,7 +226,8 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
  &nbsp;   
 
 
--->   % End Comment Out Section
+% End Comment Out Section
+-->   
 
 ---
 ---  
@@ -232,15 +235,19 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
 [Project 1: Chest X-Ray Pneumonia Detection with Deep Learning](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection) 
-[Project 2: Predictive Maintenance in Manufacturing](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
+[Project 2: Forecasting Retail Sales with Machine Learning | Regression Modeling](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning)  
 [Project 3: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
-[Project 4: Forecasting Retail Sales with Machine Learning | Regression Modeling](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning)  
+[Project 4: Predictive Maintenance in Manufacturing](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
+
+<!--
+
 % [Project 5: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 % [Project 6: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
 % [Project 7: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
 % [Project 8: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 
-
+% End Comment Out Section
+--> 
 
 
 
