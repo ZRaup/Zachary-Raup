@@ -31,7 +31,36 @@ Thanks for visiting—feel free to explore my projects!
 &nbsp;  
 
 
-### [Project 1](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)
+
+### [Project 1](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection) 
+## [Chest X-Ray Pneumonia Detection with Deep Learning](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection) 
+
+#### Project Overview
+Developed a deep learning pipeline to classify chest X-rays as Normal or Pneumonia using an ensemble of pretrained CNNs (ResNet18, DenseNet121, EfficientNet-B0). Achieved a 91.2% test accuracy and an F1-score of 0.9332, with all models demonstrating high pneumonia recall, minimizing false negatives.
+
+*Key components*:
+- Implemented 3-fold stratified cross-validation and early stopping to ensure robust model performance
+- Applied class-weighted loss functions to address class imbalance during training
+- Integrated Grad-CAM visualizations to highlight key diagnostic regions and enhance interpretability for clinical use
+
+This project showcases how deep learning and explainable AI can support radiologists by improving diagnostic accuracy and transparency in medical imaging.
+
+###### Skills Applied: PyTorch, Convolutional Neural Networks (CNN), Computer Vision, Deep Learning, Medical Imaging, Scikit-Learn and more
+
+#### Figure 3: Confusion Matrix: ResNet18 Model on Chest X-Ray Test Set
+##### Confusion matrix for the ResNet18 model (fold 0) evaluated on the test set. The model correctly identified 384 of 390 Pneumonia cases (high sensitivity) and 185 of 234 Normal cases, resulting in 6 false negatives and 49 false positives. This performance highlights the model’s strong bias toward minimizing missed Pneumonia diagnoses, a clinically preferred trade-off in high-stakes triage settings.
+
+<img src="confus_matr.png" width="470" />  
+
+#### Figure 4: Grad-CAM Heatmap: Interpretable Pneumonia Detection from Chest X-Ray
+##### Grad-CAM visualization for a test chest X-ray correctly classified as Pneumonia by the ResNet18 model. The highlighted activation regions (in red and yellow) suggest the model focuses on areas of increased radiographic opacity within the central and lower lung fields—features often indicative of pulmonary infection. This supports the model's decision-making process and provides interpretability in a clinical context.
+
+<img src="GradCam.png" width="350" />  
+
+
+&nbsp;  
+
+### [Project 2](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)
 ## [Predictive Maintenance in Manufacturing | Machine Failure Classification with XGBoost](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
 
 #### Project Overview
@@ -57,33 +86,6 @@ This project demonstrates how domain knowledge, feature construction, and ensemb
 
 <img src="SHAP.png" width="500" />
 
-&nbsp;  
-
-
-### [Project 2](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection) 
-## [Chest X-Ray Pneumonia Detection with Deep Learning](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection) 
-
-#### Project Overview
-Developed a deep learning pipeline to classify chest X-rays as Normal or Pneumonia using an ensemble of pretrained CNNs (ResNet18, DenseNet121, EfficientNet-B0). Achieved a 91.2% test accuracy and an F1-score of 0.9332, with all models demonstrating high pneumonia recall, minimizing false negatives.
-
-*Key components*:
-- Implemented 3-fold stratified cross-validation and early stopping to ensure robust model performance
-- Applied class-weighted loss functions to address class imbalance during training
-- Integrated Grad-CAM visualizations to highlight key diagnostic regions and enhance interpretability for clinical use
-
-This project showcases how deep learning and explainable AI can support radiologists by improving diagnostic accuracy and transparency in medical imaging.
-
-###### Skills Applied: PyTorch, Convolutional Neural Networks (CNN), Computer Vision, Deep Learning, Medical Imaging, Scikit-Learn and more
-
-#### Figure 3: Confusion Matrix: ResNet18 Model on Chest X-Ray Test Set
-##### Confusion matrix for the ResNet18 model (fold 0) evaluated on the test set. The model correctly identified 384 of 390 Pneumonia cases (high sensitivity) and 185 of 234 Normal cases, resulting in 6 false negatives and 49 false positives. This performance highlights the model’s strong bias toward minimizing missed Pneumonia diagnoses, a clinically preferred trade-off in high-stakes triage settings.
-
-<img src="confus_matr.png" width="470" />  
-
-#### Figure 4: Grad-CAM Heatmap: Interpretable Pneumonia Detection from Chest X-Ray
-##### Grad-CAM visualization for a test chest X-ray correctly classified as Pneumonia by the ResNet18 model. The highlighted activation regions (in red and yellow) suggest the model focuses on areas of increased radiographic opacity within the central and lower lung fields—features often indicative of pulmonary infection. This supports the model's decision-making process and provides interpretability in a clinical context.
-
-<img src="GradCam.png" width="350" />  
 
  &nbsp;   
 
@@ -152,6 +154,10 @@ Key goals included:
 
  &nbsp;   
 
+<!--  % Start Comment Out Section
+
+
+
 ### [Project 5](PDML.md)  
 ## [Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
 
@@ -218,19 +224,21 @@ The project was undertaken as part of the 'Data Visualization in Tableau' course
  &nbsp;   
 
 
+-->   % End Comment Out Section
+
 ---
 ---  
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Project 1: Predictive Maintenance in Manufacturing](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
-[Project 2: Chest X-Ray Pneumonia Detection with Deep Learning](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection)  
+[Project 1: Chest X-Ray Pneumonia Detection with Deep Learning](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection) 
+[Project 2: Predictive Maintenance in Manufacturing](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
 [Project 3: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
 [Project 4: Forecasting Retail Sales with Machine Learning | Regression Modeling](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning)  
-[Project 5: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
-[Project 6: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
-[Project 7: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
-[Project 8: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
+% [Project 5: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
+% [Project 6: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+% [Project 7: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
+% [Project 8: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
 
 
 
