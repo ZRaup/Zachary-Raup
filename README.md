@@ -47,12 +47,12 @@ This project showcases how deep learning and explainable AI can support radiolog
 
 ###### Skills Applied: PyTorch, Convolutional Neural Networks (CNN), Computer Vision, Deep Learning, Medical Imaging, Scikit-Learn and more
 
-#### Figure 3: Confusion Matrix: ResNet18 Model on Chest X-Ray Test Set
+#### Figure 1: Confusion Matrix: ResNet18 Model on Chest X-Ray Test Set
 ##### Confusion matrix for the ResNet18 model (fold 0) evaluated on the test set. The model correctly identified 384 of 390 Pneumonia cases (high sensitivity) and 185 of 234 Normal cases, resulting in 6 false negatives and 49 false positives. This performance highlights the model’s strong bias toward minimizing missed Pneumonia diagnoses, a clinically preferred trade-off in high-stakes triage settings.
 
 <img src="confus_matr.png" width="470" />  
 
-#### Figure 4: Grad-CAM Heatmap: Interpretable Pneumonia Detection from Chest X-Ray
+#### Figure 2: Grad-CAM Heatmap: Interpretable Pneumonia Detection from Chest X-Ray
 ##### Grad-CAM visualization for a test chest X-ray correctly classified as Pneumonia by the ResNet18 model. The highlighted activation regions (in red and yellow) suggest the model focuses on areas of increased radiographic opacity within the central and lower lung fields—features often indicative of pulmonary infection. This supports the model's decision-making process and provides interpretability in a clinical context.
 
 <img src="GradCam.png" width="350" />  
@@ -61,7 +61,7 @@ This project showcases how deep learning and explainable AI can support radiolog
 &nbsp;  
 
 
-### [Project 4](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning) 
+### [Project 2](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning) 
 ## [Forecasting Retail Sales with Machine Learning | Regression Modeling](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning)
 
 #### Project Overview
@@ -78,14 +78,14 @@ Key goals included:
 ###### **Skills Applied:** Python (pandas, scikit-learn, xgboost, lightgbm), Regression Modeling, Cross-Validation, Residual Analysis, EDA, Feature Engineering, Data Cleaning, Visualization
 
 
-#### Figure 1: Actual vs Predicted Weekly Sales – XGBoost vs LightGBM  
+#### Figure 3: Actual vs Predicted Weekly Sales – XGBoost vs LightGBM  
 ##### This dual-panel plot compares predicted weekly sales to actual values for the two best-performing models. **XGBoost** (left) shows a strong fit with tightly clustered points near the diagonal, indicating accurate forecasts and low bias. **LightGBM** (right) also performs well but with slightly more spread, particularly at higher sales values.
 
 <img src="wal_actual_vs_pred.png" width="470" />
 
 
 
-#### Figure 2: Feature Importance – XGBoost vs LightGBM  
+#### Figure 4: Feature Importance – XGBoost vs LightGBM  
 ##### This figure compares the top 10 features driving predictions in both models. XGBoost heavily prioritizes the **Store** variable, revealing strong store-specific effects. LightGBM distributes importance more evenly across predictors such as **Temperature**, **Fuel_Temp_Interaction**, and **Economic_Stress**, suggesting broader generalizability.
 
 <img src="feat_import_comp.png" width="470" />
@@ -126,7 +126,7 @@ This project applies unsupervised machine learning techniques to uncover pattern
  &nbsp;   
 
 
-### [Project 2](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)
+### [Project 4](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)
 ## [Predictive Maintenance in Manufacturing | Machine Failure Classification with XGBoost](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
 
 #### Project Overview
@@ -142,12 +142,12 @@ This project demonstrates how domain knowledge, feature construction, and ensemb
 
 ###### Skills Applied: Machine Learning, Feature Engineering, SMOTE, SHAP, Ensemble Modeling, Supervised Learning, Python (scikit-learn, XGBoost, imbalanced-learn)
 
-#### Figure 1: Confusion Matrix — XGBoost Model
+#### Figure 6: Confusion Matrix — XGBoost Model
 ##### This confusion matrix shows the performance of the XGBoost model in detecting machine failures. It achieved 98.6% accuracy, with only 55 total misclassifications out of 3,865 samples. The model demonstrates excellent precision and recall, making it highly effective for predictive maintenance tasks in manufacturing.
 
 <img src="ConfusionMatrix_XGBoost.png" width="400" />
 
-#### Figure 2: SHAP Summary Plot — Feature Impact on Predictions
+#### Figure 7: SHAP Summary Plot — Feature Impact on Predictions
 ##### SHAP summary plot showing how each feature influences the model’s predictions. Tool_wear_[min], Power_[W], and Rotational_speed_[rpm] are among the most influential inputs. This visualization aids in validating model behavior and supports communication with non-technical stakeholders.
 
 <img src="SHAP.png" width="500" />
