@@ -50,7 +50,7 @@ This project showcases how deep learning and explainable AI can support radiolog
 #### Figure 1: Confusion Matrix: ResNet18 Model on Chest X-Ray Test Set
 ##### Confusion matrix for the ResNet18 model (fold 0) evaluated on the test set. The model correctly identified 384 of 390 Pneumonia cases (high sensitivity) and 185 of 234 Normal cases, resulting in 6 false negatives and 49 false positives. This performance highlights the model’s strong bias toward minimizing missed Pneumonia diagnoses, a clinically preferred trade-off in high-stakes triage settings.
 
-<img src="confus_matr.png" width="470" />  
+<img src="confus_matr.png" width="40" />  
 
 #### Figure 2: Grad-CAM Heatmap: Interpretable Pneumonia Detection from Chest X-Ray
 ##### Grad-CAM visualization for a test chest X-ray correctly classified as Pneumonia by the ResNet18 model. The highlighted activation regions (in red and yellow) suggest the model focuses on areas of increased radiographic opacity within the central and lower lung fields—features often indicative of pulmonary infection. This supports the model's decision-making process and provides interpretability in a clinical context.
@@ -106,7 +106,7 @@ This project applies unsupervised machine learning techniques to uncover pattern
 #### Figure 5: Interactive Projection of Songs Colored by Similarity to Blinding Lights - The Weekend
 ##### This 2D visualization presents a t-SNE projection of the song dataset, with each point representing a track. Colors indicate cosine similarity to “Blinding Lights” by The Weeknd—green represents higher similarity, red represents lower. The 10 most similar songs are marked with square outlines, clearly highlighting clusters of tracks that share sonic traits. This approach visually demonstrates how audio features can be leveraged to identify stylistic similarity between songs.
 
-<img src="tSNE_Blinding_Lights.png" width="900" height="500" />
+<img src="tSNE_Blinding_Lights.png" width="720" height="450" />
 
 #### Table 1: Top 10 Most Similar Songs to “Blinding Lights””
 ##### The table below lists the 10 songs most similar to “Blinding Lights”, based on cosine similarity of audio features. These tracks span multiple genres and artists, yet share core musical qualities such as synth-driven production, emotional tone, and modern pop energy. The diversity of artists—from Post Malone to K/DA—illustrates the reach of “Blinding Lights’” sonic profile.
