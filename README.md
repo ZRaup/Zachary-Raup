@@ -47,15 +47,16 @@ This project showcases how deep learning and explainable AI can support radiolog
 
 ###### Skills Applied: PyTorch, Convolutional Neural Networks (CNN), Computer Vision, Deep Learning, Medical Imaging, Scikit-Learn and more
 
-#### Figure 1: Confusion Matrix: ResNet18 Model on Chest X-Ray Test Set
+#### Figure 1: Grad-CAM Heatmap: Interpretable Pneumonia Detection from Chest X-Ray
+##### Grad-CAM visualization for a test chest X-ray correctly classified as Pneumonia by the ResNet18 model. The highlighted activation regions (in red and yellow) suggest the model focuses on areas of increased radiographic opacity within the central and lower lung fields—features often indicative of pulmonary infection. This supports the model's decision-making process and provides interpretability in a clinical context.
+
+<img src="GradCam.png" width="400" />  
+
+
+#### Figure 2: Confusion Matrix: ResNet18 Model on Chest X-Ray Test Set
 ##### Confusion matrix for the ResNet18 model (fold 0) evaluated on the test set. The model correctly identified 384 of 390 Pneumonia cases (high sensitivity) and 185 of 234 Normal cases, resulting in 6 false negatives and 49 false positives. This performance highlights the model’s strong bias toward minimizing missed Pneumonia diagnoses, a clinically preferred trade-off in high-stakes triage settings.
 
 <img src="confus_matr.png" width="400" />  
-
-#### Figure 2: Grad-CAM Heatmap: Interpretable Pneumonia Detection from Chest X-Ray
-##### Grad-CAM visualization for a test chest X-ray correctly classified as Pneumonia by the ResNet18 model. The highlighted activation regions (in red and yellow) suggest the model focuses on areas of increased radiographic opacity within the central and lower lung fields—features often indicative of pulmonary infection. This supports the model's decision-making process and provides interpretability in a clinical context.
-
-<img src="GradCam.png" width="350" />  
 
 
 &nbsp;  
