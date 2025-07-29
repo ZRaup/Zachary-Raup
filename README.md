@@ -146,13 +146,13 @@ This project demonstrates how domain knowledge, feature construction, and ensemb
 #### Figure 6: SHAP Summary Plot — Feature Impact on Predictions
 ##### SHAP summary plot showing how each feature influences the model’s predictions. Tool_wear_[min], Power_[W], and Rotational_speed_[rpm] are among the most influential inputs. This visualization aids in validating model behavior and supports communication with non-technical stakeholders.
 
-<img src="SHAP.png" width="500" />
+<img src="SHAP.png" width="480" />
 
 
 #### Figure 7: Confusion Matrix — XGBoost Model
 ##### This confusion matrix shows the performance of the XGBoost model in detecting machine failures. It achieved 98.6% accuracy, with only 55 total misclassifications out of 3,865 samples. The model demonstrates excellent precision and recall, making it highly effective for predictive maintenance tasks in manufacturing.
 
-<img src="ConfusionMatrix_XGBoost.png" width="390" />
+<img src="ConfusionMatrix_XGBoost.png" width="410" />
 
 
 
