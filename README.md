@@ -50,7 +50,7 @@ This project showcases how deep learning and explainable AI can support radiolog
 #### Figure 1: Grad-CAM Heatmap: Interpretable Pneumonia Detection from Chest X-Ray
 ##### Grad-CAM visualization for a test chest X-ray correctly classified as Pneumonia by the ResNet18 model. The highlighted activation regions (in red and yellow) suggest the model focuses on areas of increased radiographic opacity within the central and lower lung fields—features often indicative of pulmonary infection. This supports the model's decision-making process and provides interpretability in a clinical context.
 
-<img src="GradCam.png" width="400" />  
+<img src="GradCam.png" width="385" />  
 
 
 #### Figure 2: Confusion Matrix: ResNet18 Model on Chest X-Ray Test Set
