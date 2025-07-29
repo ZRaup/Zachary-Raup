@@ -82,14 +82,14 @@ Key goals included:
 #### Figure 3: Actual vs Predicted Weekly Sales – XGBoost vs LightGBM  
 ##### This dual-panel plot compares predicted weekly sales to actual values for the two best-performing models. **XGBoost** (left) shows a strong fit with tightly clustered points near the diagonal, indicating accurate forecasts and low bias. **LightGBM** (right) also performs well but with slightly more spread, particularly at higher sales values.
 
-<img src="wal_actual_vs_pred.png" width="490" />
+<img src="wal_actual_vs_pred.png" width="500" />
 
 
 
 #### Figure 4: Feature Importance – XGBoost vs LightGBM  
 ##### This figure compares the top 10 features driving predictions in both models. XGBoost heavily prioritizes the **Store** variable, revealing strong store-specific effects. LightGBM distributes importance more evenly across predictors such as **Temperature**, **Fuel_Temp_Interaction**, and **Economic_Stress**, suggesting broader generalizability.
 
-<img src="feat_import_comp.png" width="485" />
+<img src="feat_import_comp.png" width="495" />
 
 
  &nbsp;   
@@ -107,7 +107,7 @@ This project applies unsupervised machine learning techniques to uncover pattern
 #### Figure 5: Interactive Projection of Songs Colored by Similarity to Blinding Lights - The Weekend
 ##### This 2D visualization presents a t-SNE projection of the song dataset, with each point representing a track. Colors indicate cosine similarity to “Blinding Lights” by The Weeknd—green represents higher similarity, red represents lower. The 10 most similar songs are marked with square outlines, clearly highlighting clusters of tracks that share sonic traits. This approach visually demonstrates how audio features can be leveraged to identify stylistic similarity between songs.
 
-<img src="tSNE_Blinding_Lights.png" width="720" height="450" />
+<img src="tSNE_Blinding_Lights.png" width="600" height="400" />
 
 #### Table 1: Top 10 Most Similar Songs to “Blinding Lights””
 ##### The table below lists the 10 songs most similar to “Blinding Lights”, based on cosine similarity of audio features. These tracks span multiple genres and artists, yet share core musical qualities such as synth-driven production, emotional tone, and modern pop energy. The diversity of artists—from Post Malone to K/DA—illustrates the reach of “Blinding Lights’” sonic profile.
