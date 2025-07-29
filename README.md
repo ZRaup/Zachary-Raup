@@ -82,14 +82,14 @@ Key goals included:
 #### Figure 3: Actual vs Predicted Weekly Sales – XGBoost vs LightGBM  
 ##### This dual-panel plot compares predicted weekly sales to actual values for the two best-performing models. **XGBoost** (left) shows a strong fit with tightly clustered points near the diagonal, indicating accurate forecasts and low bias. **LightGBM** (right) also performs well but with slightly more spread, particularly at higher sales values.
 
-<img src="wal_actual_vs_pred.png" width="470" />
+<img src="wal_actual_vs_pred.png" width="490" />
 
 
 
 #### Figure 4: Feature Importance – XGBoost vs LightGBM  
 ##### This figure compares the top 10 features driving predictions in both models. XGBoost heavily prioritizes the **Store** variable, revealing strong store-specific effects. LightGBM distributes importance more evenly across predictors such as **Temperature**, **Fuel_Temp_Interaction**, and **Economic_Stress**, suggesting broader generalizability.
 
-<img src="feat_import_comp.png" width="470" />
+<img src="feat_import_comp.png" width="485" />
 
 
  &nbsp;   
