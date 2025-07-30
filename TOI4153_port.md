@@ -1,3 +1,5 @@
+The following subproject was pressented at the 241st AAS (American Astronomical Society) as pasrt of the 'Follow-up Observations Toward the Confirmation of TESS Transiting Exoplanet Candidates' presentation.
+
 # Utilizing MCMC to Explore the Parameter Space of an Exoplanet
 ###### By: Zachary Raup
 ###### Research Advisor: Dr. Phillip Reed
@@ -80,7 +82,7 @@ The CRCAO data image from September 16, 2022, was taken with an infrared filter 
 
 ```
 
-#### The following is a portion of the Python code used the completion of this project
+#### Python Snippets
 
 
 ```python
