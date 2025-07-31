@@ -243,6 +243,43 @@ Through the application of the MCMC algorithm implemented in the 'emcee' Python 
 
 This study underscores the effectiveness of combining observational data with sophisticated modeling techniques to derive precise estimates of exoplanet characteristics, contributing to broader efforts in exoplanetary science and our understanding of planetary systems beyond our solar system.
 
+---
+
+
+## Resources
+
+- **CRCAO Photometry Data**  
+  Ground-based observations of TOI-4153.01 were collected on September 16, 2022, in blue and infrared filters at the  
+  [CR Chambliss Astronomical Observatory (CRCAO)](https://www.kutztown.edu/academics/colleges-and-departments/liberal-arts-and-sciences/physical-sciences/observatory.html)  
+  at Kutztown University.
+
+- **ExoFOP Database**  
+  Provided known system parameters for TOI-4153.01 (TIC 470171739), including stellar radius, mass, and prior planetary radius estimates.  
+  [Access the Exoplanet Follow-up Observing Program (ExoFOP)](https://exofop.ipac.caltech.edu/)
+
+- **TESS Transit Finder (TTF)**  
+  Used to retrieve predicted ephemeris values such as orbital period and mid-transit time for observation planning.  
+  [TESS Transit Finder Tool (by AAVSO)](https://astro.swarthmore.edu/transits.cgi)
+
+- **AstroImageJ**  
+  Software used for photometric reduction, calibration, and aperture photometry of the raw CRCAO observations.  
+  [Download AstroImageJ](https://www.astro.louisville.edu/software/astroimagej/)
+
+- **Python Libraries**  
+  Key Python packages used in this project:
+  - [`batman`](https://lkreidberg.github.io/batman/docs/html/index.html) – Transit light curve modeling
+  - [`emcee`](https://emcee.readthedocs.io/en/stable/) – MCMC sampler for parameter estimation
+  - [`corner`](https://corner.readthedocs.io/en/latest/) – Visualizing posterior distributions
+  - [`matplotlib`](https://matplotlib.org/) – Plotting light curves and analysis outputs
+  - [`numpy`](https://numpy.org/) and [`pandas`](https://pandas.pydata.org/) – Numerical computing and data handling
+
+- **Modeling Approach**  
+  - A custom log-likelihood function was defined to evaluate how well the model fits the observed photometry.
+  - MCMC sampling (via `emcee`) was used to estimate key parameters: planetary radius, mid-transit time, and impact parameter.
+  - Posterior distributions and parameter correlations were visualized using histograms and corner plots to support robust interpretation.
+
+
+
 
 ---
 ---  
