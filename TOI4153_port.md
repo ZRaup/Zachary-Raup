@@ -1,4 +1,4 @@
-The following subproject was pressented at the 241st AAS (American Astronomical Society) as pasrt of the 'Follow-up Observations Toward the Confirmation of TESS Transiting Exoplanet Candidates' presentation.
+The following analysis focuses on one part of a larger research project presented at the 241st AAS Meeting: the modeling of exoplanet TOI-4153.
 
 # Utilizing MCMC to Explore the Parameter Space of an Exoplanet
 ###### By: Zachary Raup
