@@ -250,7 +250,7 @@ This study underscores the effectiveness of combining observational data with so
 
 - **CRCAO Photometry Data**  
   Ground-based observations of TOI-4153.01 were collected on September 16, 2022, in blue and infrared filters at the  
-  [CR Chambliss Astronomical Observatory (CRCAO)](https://www.kutztown.edu/academics/colleges-and-departments/liberal-arts-and-sciences/physical-sciences/observatory.html)  
+  [CR Chambliss Astronomical Observatory (CRCAO)](https://www.kutztown.edu/about-ku/administrative-offices/observatory.html)  
   at Kutztown University.
 
 - **ExoFOP Database**  
