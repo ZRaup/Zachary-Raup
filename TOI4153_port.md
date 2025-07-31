@@ -64,7 +64,7 @@ The CRCAO data image from September 16, 2022, was taken with an infrared filter 
 
 
 
-### Exoplanet TOI-4153 Links
+### Exoplanet TOI-4153 Resources
 ##### - Known Parameters taken from ExoFOP:  [ExoFOP database](https://exofop.ipac.caltech.edu/tess/target.php?id=470171739)
 
 ##### - Web TESS Viewing (WTV) Tool: [WTV Tool](https://heasarc.gsfc.nasa.gov/cgi-bin/tess/webtess/wtv.py?Entry=470171739)
