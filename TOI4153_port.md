@@ -20,10 +20,7 @@ Visualization of the research findings is achieved through the use of the Python
 ### Presentation: 
 I had the opportunity to present the entirety of this research project at the 241st AAS (American Astronomical Society) conference meeting in Seattle, WA. The presentation included clear and informative visualizations that effectively communicated the quality of the model fit and the implications of the project's results. These visual aids highlighted quantitative insights into parameter uncertainties and validated the model against observational data from the CRCAO. The goal was to provide a robust analysis of exoplanet transit dynamics, thereby contributing to our understanding of planetary systems beyond our solar system.
 
-
-```python
-
-```
+---
 
   
 ### Key Components  
@@ -50,10 +47,7 @@ These visualizations play a crucial role in assessing the quality of the model f
 
 
 
-
-```python
-
-```
+---
 
 
 ##  Exoplanet Information
@@ -75,19 +69,12 @@ The CRCAO data image from September 16, 2022, was taken with an infrared filter 
 
 ##### - Web TESS Viewing (WTV) Tool: [WTV Tool](https://heasarc.gsfc.nasa.gov/cgi-bin/tess/webtess/wtv.py?Entry=470171739)
 
-
-
-
-```python
-
-```
+---
 
 #### Python Snippets
 
 
-```python
 
-```
 
 
 ```python
