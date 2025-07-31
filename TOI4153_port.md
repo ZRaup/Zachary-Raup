@@ -205,20 +205,20 @@ Binned CRCAO photometry data of the TOI-4153.01 transit in both blue and infrare
 <img src="lightkurve.png" width="500" />
 
 
+##### Image 3: Posterior Probability Corner Plot
+This corner plot displays the posterior probability distributions for the free parameters: planet radius, mid-transit time, and impact parameter. The plots illustrate the marginal distributions for each parameter along with the joint distributions between pairs of parameters, highlighting correlations and uncertainties derived from the MCMC analysis.  
 
-##### Image 3: Histogram of Posterior Distribution for Planet Radius
+
+<img src="cornerplot.png" width="520" />  
+
+
+
+##### Image 4: Histogram of Posterior Distribution for Planet Radius
 This histogram represents the posterior distribution of the radius of TOI-4153.01, as derived using the MCMC algorithm implemented with 'emcee'. The median radius is estimated to be 16.65 Earth Radii, closely aligning with the prior value of 16.66 Earth Radii from ExoFOP. The distribution indicates a strong convergence on the planet's radius, based on the CRCAO data and the 'batman' model.  
 
 
 <img src="hist.png" width="480" />  
 
-
-
-##### Image 4: Posterior Probability Corner Plot
-This corner plot displays the posterior probability distributions for the free parameters: planet radius, mid-transit time, and impact parameter. The plots illustrate the marginal distributions for each parameter along with the joint distributions between pairs of parameters, highlighting correlations and uncertainties derived from the MCMC analysis.  
-
-
-<img src="cornerplot.png" width="520" />  
 
 
 ##### Table 1: Parameter Table
