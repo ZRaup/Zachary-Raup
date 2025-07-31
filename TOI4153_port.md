@@ -194,9 +194,7 @@ r = sampler.get_chain(flat=True, discard= 2000)          # Discard initial steps
 ```
 
 
-```python
-
-```
+---
 
 #### Visualizing Results:
 
@@ -238,9 +236,7 @@ This table compares the modeled radius of three TOIs using CRCAO data and the ba
 
 
 
-```python
-
-```
+---
 
 ### Conclusion:
 Through the application of the MCMC algorithm implemented in the 'emcee' Python package, I analyzed CRCAO photometry data using the 'batman' transit modeler and a log-likelihood function. This comprehensive approach allowed for the estimation of the planet radius of TOI-4153.01, resulting in a median value of 16.65 Earth Radii with a standard deviation of 0.49. The MCMC analysis provided robust uncertainties and insights into the parameters, including the impact parameter and mid-transit time, further refining our understanding of the exoplanetary system hosted by TOI-4153.
