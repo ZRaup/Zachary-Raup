@@ -58,7 +58,7 @@ This project showcases how deep learning and explainable AI can support radiolog
 
 <img src="confus_matr.png" width="400" />  
 
-
+---
 &nbsp;  
 
 
@@ -91,8 +91,10 @@ Key goals included:
 
 <img src="feat_import_comp.png" width="495" />
 
+---
 
- &nbsp;   
+&nbsp;   
+&nbsp;   
 
 
 
@@ -156,7 +158,8 @@ This project demonstrates how domain knowledge, feature construction, and ensemb
 
 
 
- &nbsp;   
+&nbsp;   
+&nbsp;   
 
 
 ### [Project 5](TOI4153_port.md) 
