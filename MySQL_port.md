@@ -304,10 +304,10 @@ Dognition can refine its test optimization strategies to enhance the testing exp
 
 ###### Portfolio Links
 [Zachary's Portfolio](README.md)  
-[Project 1: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs-using-machine-learning)  
-[Project 2: Regression Modeling | Walmart Sales Prediction](Walmart_Sales_Prediction.md)  
-[Project 3: Predicting Diabetes Using Machine Learning | Comparison of Classification Models](PDML.md)  
-[Project 4: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
-[Project 5: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
-[Project 6: Interactive Animation of Museum Visitor Paths and Hourly Room Traffic in Tableau](MuesTabl.md)  
+[Project 1: Chest X-Ray Pneumonia Detection with Deep Learning](https://www.kaggle.com/code/zacharyraup/deep-learning-chest-x-ray-pneumonia-detection)  
+[Project 2: Forecasting Retail Sales with Machine Learning | Regression Modeling](https://www.kaggle.com/code/zacharyraup/forecasting-retail-sales-with-machine-learning)  
+[Project 3: Discovering Similar Songs using Machine Learning and Spotify](https://www.kaggle.com/code/zacharyraup/discovering-similar-songs)  
+[Project 4: Predictive Maintenance in Manufacturing](https://www.kaggle.com/code/zacharyraup/predictive-maintenance-in-manufacturing)  
+[Project 5: Utilizing MCMC in Python to Explore the Parameter Space of an Exoplanet Transit](TOI4153_port.md)  
+[Project 6: Insights into Dog Behavior: Analyzing Dognition Data with MySQL](MySQL_port.md)  
 
