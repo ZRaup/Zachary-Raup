@@ -40,7 +40,6 @@ To visualize the results of the exoplanet transit model, I utilized the Python p
 
 - Parameter Posterior Distributions: Histograms were employed to display the posterior distributions of each free parameter in the MCMC algorithm (such as planet radius, impact parameter, and time of mid-transit). These distributions offer insights into the uncertainties and likelihoods associated with each parameter estimation.
 
-- Corner Plot: A corner plot was used to visualize the correlations and parameter space relationships between different model parameters. This type of plot aids in understanding how changes in one parameter affect others, offering a comprehensive view of the model's complexity.
 
 These visualizations play a crucial role in assessing the quality of the model fit and effectively communicating the findings of the study. They provide both quantitative insights into parameter uncertainties and qualitative validation against observational data from the CR Chambliss Astronomical Observatory.
 
@@ -204,12 +203,6 @@ Binned CRCAO photometry data of the TOI-4153.01 transit in both blue and infrare
 
 <img src="lightkurve.png" width="500" />
 
-
-##### Image 3: Posterior Probability Corner Plot
-This corner plot displays the posterior probability distributions for the free parameters: planet radius, mid-transit time, and impact parameter. The plots illustrate the marginal distributions for each parameter along with the joint distributions between pairs of parameters, highlighting correlations and uncertainties derived from the MCMC analysis.  
-
-
-<img src="cornerplot.png" width="520" />  
 
 
 
