@@ -91,9 +91,8 @@ Key goals included:
 
 <img src="feat_import_comp.png" width="495" />
 
----
 
-&nbsp;   
+---  
 &nbsp;   
 
 
@@ -126,6 +125,7 @@ This project applies unsupervised machine learning techniques to uncover pattern
 - When I’m Alone — Post Malone (Similarity: 0.9928)
 - Together — Sia (Similarity: 0.9928)
 
+---
  &nbsp;   
 
 
@@ -158,7 +158,7 @@ This project demonstrates how domain knowledge, feature construction, and ensemb
 
 
 
-&nbsp;   
+---  
 &nbsp;   
 
 
@@ -176,7 +176,7 @@ This research project focuses on modeling the transit of exoplanets across stars
  <img src="lightkurve.png" width="500" />  
  
 
-
+---
  &nbsp;   
  
 
